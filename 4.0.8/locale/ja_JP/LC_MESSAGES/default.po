@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sendy\n"
 "POT-Creation-Date: 2020-05-05 21:13+0800\n"
-"PO-Revision-Date: 2020-05-21 18:15+0900\n"
+"PO-Revision-Date: 2020-05-21 19:56+0900\n"
 "Last-Translator: Sendy <hello@sendy.co>\n"
 "Language-Team: eSolia <rick.cogley@esolia.co.jp>\n"
 "Language: ja_JP\n"
@@ -3832,7 +3832,6 @@ msgid "All templates"
 msgstr "全テンプレート"
 
 #: includes/sidebar.php:22
-#, fuzzy
 msgid "Lists & subscribers"
 msgstr "リストと加入者"
 
@@ -3896,9 +3895,8 @@ msgstr "未設定"
 
 #: includes/subscribers/subscriber-info.php:118
 #: includes/subscribers/subscriber-info.php:363 settings.php:43
-#, fuzzy
 msgid "Sorry, unable to save. Please try again later!"
-msgstr "申し訳ありませんが、保存できません。あとでもう一度お試しください"
+msgstr "申し訳ありませんが、保存できません。あとでもう一度お試しください!"
 
 #: includes/subscribers/subscriber-info.php:329
 msgid "Notes"
