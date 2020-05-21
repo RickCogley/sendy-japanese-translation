@@ -2,16 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sendy\n"
 "POT-Creation-Date: 2020-05-05 21:13+0800\n"
-"PO-Revision-Date: 2020-05-05 21:13+0800\n"
+"PO-Revision-Date: 2020-05-21 13:08+0900\n"
 "Last-Translator: Sendy <hello@sendy.co>\n"
-"Language-Team: Sendy <hello@sendy.co>\n"
-"Language: en\n"
+"Language-Team: eSolia <rick.cogley@esolia.co.jp>\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: js/ckeditor\n"
 "X-Poedit-SearchPathExcluded-1: js/highcharts\n"
@@ -24,14 +26,14 @@ msgstr ""
 #: subscribe.php:24 template-preview.php:21 unsubscribe-success.php:22
 #: unsubscribe.php:24 verification-status.php:23 w.php:21
 msgid "Can't connect to database"
-msgstr ""
+msgstr "データベースに接続できない"
 
 #: api/_connect.php:21 campaigns-rss.php:22 confirm.php:24 l.php:20
 #: payment.php:21 r.php:21 reconsent-success.php:22 sending.php:21
 #: subscribe.php:24 template-preview.php:21 unsubscribe-success.php:22
 #: unsubscribe.php:24 verification-status.php:23 w.php:21
 msgid "There is a problem connecting to the database. Please try again later."
-msgstr ""
+msgstr "データベースへの接続に問題があります。後でもう一度試してみてください。"
 
 #: app.php:50 autoresponders-create.php:96 autoresponders-edit.php:112
 #: autoresponders-emails.php:50 autoresponders-list.php:81
@@ -44,99 +46,113 @@ msgstr ""
 #: send-to.php:39 subscribers.php:73 templates.php:33
 #: unsubscribe-from-list.php:74 update-list.php:71
 msgid "Edit brand settings"
-msgstr ""
+msgstr "ブランド設定の編集"
 
 #: app.php:54 includes/sidebar.php:8
 msgid "All campaigns"
-msgstr ""
+msgstr "すべてのキャンペーン"
 
 #: app.php:57 app.php:60
 msgid "Create & send new campaign"
-msgstr ""
+msgstr "新規キャンペーンを作成して送信する"
 
 #: app.php:63 create.php:73 includes/sidebar.php:9
 msgid "New campaign"
-msgstr ""
+msgstr "新規キャンペーン"
 
 #: app.php:64
 msgid "Create a new campaign"
-msgstr ""
+msgstr "新規キャンペーンを作成する"
 
 #: app.php:66
 msgid "Or use a template"
-msgstr ""
+msgstr "またはテンプレートを使用する"
 
 #: app.php:84 app.php:88
 msgid "Campaigns RSS feed"
-msgstr ""
+msgstr "キャンペーンのRSSフィード"
 
 #: app.php:91
 msgid ""
 "The following is the link to your campaigns RSS feed. This RSS feed displays "
 "an archive of the last 100 campaigns previously sent."
 msgstr ""
+"以下は、キャンペーンのRSSフィードへのリンクです。このRSSフィードは、過去100件"
+"の送信済キャンペーンのアーカイブを表示します。"
 
 #: app.php:93
 msgid "Some ways to use your RSS feed"
-msgstr ""
+msgstr "RSSフィードの使い方"
 
 #: app.php:95
 msgid ""
 "Integrate your campaigns feed with your website or application anyway you "
 "like"
 msgstr ""
+"様々な方法でキャンペーン フィードをウェブサイトやアプリケーションに統合するこ"
+"とができます"
 
 #: app.php:96
 msgid ""
 "Display an archive of your past campaigns on your website or application"
-msgstr ""
+msgstr "過去キャンペーンのアーカイブをホームページやアプリに表示する"
 
 #: app.php:97
+#, fuzzy
 msgid ""
 "Let your audience subscribe to your RSS feed so they'll get notified "
 "whenever you send a campaign. Good for users who prefers RSS over email (or "
 "even both)"
 msgstr ""
+"あなたのオーディエンスにRSSフィードを購読させることで、あなたがキャンペーンを"
+"送信するたびに通知を受け取ることができます。メールよりもRSSを好むユーザーに最"
+"適です。"
 
 #: app.php:98
+#, fuzzy
 msgid ""
 "Subscribe to your client's RSS feed (if you give access to your clients) to "
 "get notified when they send a new campaign"
 msgstr ""
+"クライアントのRSSフィードを購読して（クライアントにアクセス権を与えている場"
+"合）、クライアントが新しいキャンペーンを送信したときに通知を受け取ることがで"
+"きます。"
 
 #: app.php:109 segment.php:939 send-to.php:769 send-to.php:846 settings.php:134
 #: subscribers.php:378 subscribers.php:758 update-list.php:245
 msgid "Okay"
-msgstr ""
+msgstr "完了"
 
 #: app.php:120 includes/create/send-now.php:754
 #: includes/subscribers/subscriber-info.php:389 reports.php:56
 #: scheduled.php:793
 msgid "Campaign"
-msgstr ""
+msgstr "キャンペーン"
 
 #: app.php:121 autoresponders-report.php:168 includes/create/send-now.php:755
 #: report.php:211 reports.php:57 scheduled.php:794 send-to.php:588
 #: send-to.php:617 send-to.php:641
 msgid "Recipients"
-msgstr ""
+msgstr "受信者"
 
 #: app.php:122 app.php:365 app.php:563 app.php:565
 #: autoresponders-emails.php:122 reports.php:58
 msgid "Sent"
-msgstr ""
+msgstr "送信"
 
 #: app.php:123 autoresponders-emails.php:123 reports.php:59
+#, fuzzy
 msgid "Unique Opens"
-msgstr ""
+msgstr "ユニークオープン"
 
+# Just translating it with katanaka is not enough. Much better to be specific. 
 #: app.php:124 autoresponders-emails.php:124 reports.php:60
 msgid "Unique Clicks"
-msgstr ""
+msgstr "固有のクリック数"
 
 #: app.php:125 app.php:682
 msgid "Duplicate"
-msgstr ""
+msgstr "複製"
 
 #: app.php:126 app.php:304 app.php:423 app.php:525 app.php:593
 #: autoresponders-edit.php:319 autoresponders-emails.php:254
@@ -149,65 +165,73 @@ msgstr ""
 #: segments-list.php:68 segments-list.php:89 send-to.php:989
 #: subscribers.php:478 subscribers.php:573 templates.php:53 templates.php:91
 msgid "Delete"
-msgstr ""
+msgstr "削除"
 
 #: app.php:188
 msgid "Draft"
-msgstr ""
+msgstr "下書き"
 
 #: app.php:189 reports.php:156
+#, fuzzy
 msgid "Define recipients & send"
-msgstr ""
+msgstr "受信者の定義と送信"
 
 #: app.php:195
 msgid "Scheduled"
-msgstr ""
+msgstr "予定済み"
 
 #: app.php:196
+#, fuzzy
 msgid "Scheduled on"
-msgstr ""
+msgstr "予定"
 
 #: app.php:256 autoresponders-emails.php:282 autoresponders-report.php:210
 #: report.php:303 reports.php:149
 msgid "opened"
-msgstr ""
+msgstr "営業日"
 
 #: app.php:256 app.php:257 autoresponders-emails.php:282
 #: autoresponders-emails.php:283 reports.php:149 reports.php:150
+#, fuzzy
 msgid "Tracking disabled"
-msgstr ""
+msgstr "追跡が無効"
 
 #: app.php:257 autoresponders-emails.php:283 autoresponders-report.php:212
 #: reports.php:150
 msgid "clicked"
-msgstr ""
+msgstr "クリック"
 
 #: app.php:271 js/create/main.php:28 login.php:72
 msgid "Sending"
-msgstr ""
+msgstr "送信中"
 
 #: app.php:271
+#, fuzzy
 msgid "Currently sending your campaign to"
-msgstr ""
+msgstr "キャンペーンの送信先"
 
 #: app.php:271 app.php:396 includes/create/send-now.php:736
 #: includes/create/send-now.php:752 scheduled.php:775 scheduled.php:791
 msgid "recipients"
-msgstr ""
+msgstr "メール受信者"
 
 #: app.php:275
+#, fuzzy
 msgid ""
 "If sending has stopped, the send was probably timed out by the server, click "
 "to resume sending."
 msgstr ""
+"送信が停止している場合は、サーバーによって送信がタイムアウトしている可能性が"
+"ありますので、クリックして送信を再開してください。"
 
 #: app.php:275
 msgid "Resume"
-msgstr ""
+msgstr "再開"
 
 #: app.php:279 app.php:397 includes/list/main.php:90
+#, fuzzy
 msgid "Checking.."
-msgstr ""
+msgstr "チェック中..."
 
 #: app.php:308 app.php:427 app.php:529 app.php:597 autoresponders-edit.php:326
 #: autoresponders-emails.php:261 autoresponders-list.php:362
@@ -215,7 +239,7 @@ msgstr ""
 #: custom-fields.php:143 edit.php:230 reports.php:165 reports.php:207
 #: segments-list.php:93 send-to.php:996
 msgid "Confirm delete"
-msgstr ""
+msgstr "削除の確認"
 
 #: app.php:319 app.php:438 app.php:540 app.php:608 autoresponders-edit.php:338
 #: autoresponders-emails.php:272 autoresponders-list.php:375
@@ -224,203 +248,233 @@ msgstr ""
 #: list.php:205 reports.php:176 reports.php:218 search-all-brands.php:151
 #: search-all-lists.php:236 search-all-lists.php:249 segments-list.php:111
 #: send-to.php:1008 subscribers.php:678 subscribers.php:691 templates.php:107
+#, fuzzy
 msgid "Sorry, unable to delete. Please try again later!"
-msgstr ""
+msgstr "申し訳ありませんが、削除できません。後ほどお試しください。"
 
 #: app.php:328
+#, fuzzy
 msgid "Only continue if you think that sending has stopped. Resume sending?"
-msgstr ""
+msgstr "送信が停止したと思われる場合のみ続行してください。送信を再開しますか？"
 
 #: app.php:368 app.php:563
+#, fuzzy
 msgid "View report for this campaign"
-msgstr ""
+msgstr "本キャンペーンのレポートを見る"
 
 #: app.php:379 app.php:469 includes/list/main.php:110
+#, fuzzy
 msgid "Error retrieving count"
-msgstr ""
+msgstr "カウントの取得エラー"
 
 #: app.php:396
 msgid "Preparing"
-msgstr ""
+msgstr "準備中"
 
 #: app.php:396
+#, fuzzy
 msgid "Preparing to send your campaign to"
-msgstr ""
+msgstr "にキャンペーンを送る準備をしています。"
 
 #: app.php:398
+#, fuzzy
 msgid "Preparing to send"
-msgstr ""
+msgstr "送信準備"
 
 #: app.php:499 reports.php:156
+#, fuzzy
 msgid "Edit this campaign"
-msgstr ""
+msgstr "このキャンペーンを編集する"
 
 #: app.php:499 autoresponders-emails.php:252 custom-fields.php:94 index.php:110
 #: list.php:114 search-all-brands.php:29 templates.php:52
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 #: app.php:554 reports.php:189
+#, fuzzy
 msgid "Download CSV of emails that were not delivered to even after retrying"
-msgstr ""
+msgstr "再試行しても届かなかったメールのCSVダウンロード"
 
 #: app.php:554 reports.php:189
+#, fuzzy
 msgid "not delivered"
-msgstr ""
+msgstr "未配達"
 
 #: app.php:625
+#, fuzzy
 msgid "There are no campaigns yet"
-msgstr ""
+msgstr "キャンペーンはまだありません。"
 
 #: app.php:625
+#, fuzzy
 msgid "Send one"
-msgstr ""
+msgstr "1つを送る"
 
 #: app.php:645
+#, fuzzy
 msgid "Duplicate on which brand?"
-msgstr ""
+msgstr "どのブランドでの複製ですか？"
 
 #: app.php:650
+#, fuzzy
 msgid "Choose a brand you'd like to duplicate this campaign on"
-msgstr ""
+msgstr "このキャンペーンを複製したいブランドを選択してください。"
 
 #: app.php:681 autoresponders-list.php:292 blacklist-blocked-domains.php:144
 #: blacklist-blocked-domains.php:175 blacklist-suppression.php:144
 #: blacklist-suppression.php:175 list.php:94
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: app.php:699
+#, fuzzy
 msgid "Your cron job may not be working"
-msgstr ""
+msgstr "あなたのcronジョブが動作していない可能性があります"
 
 #: app.php:702
+#, fuzzy
 msgid ""
 "Your campaign has been in 'Preparing' status for more than 5 minutes. This "
 "means that your cron job aren't executing the 'scheduled.php' script to "
 "start sending. If your campaign does not go into 'Sending' status in the "
 "next 5 minutes, please see this troubleshooting tip"
 msgstr ""
+"キャンペーンは5分以上「準備中」の状態になっています。これは、あなたのcronジョ"
+"ブが送信を開始するために'scheduled.php'スクリプトを実行していないことを意味し"
+"ます。キャンペーンが次の5分以内に「送信」ステータスに入らない場合は、このトラ"
+"ブルシューティングのヒントを参照してください。"
 
 #: app.php:705 autoresponders-report.php:869 custom-fields.php:198
 #: login.php:120 report.php:1041 search-all-lists.php:223 segment.php:878
 #: subscribers.php:665 subscribers.php:733
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: autoresponders-create.php:49 autoresponders-edit.php:65 create.php:43
 #: edit.php:72
+#, fuzzy
 msgid "The subject of your email is required"
-msgstr ""
+msgstr "メールの件名は必須"
 
 #: autoresponders-create.php:50 autoresponders-edit.php:66 create.php:44
 #: edit-brand.php:48 edit.php:73 new-brand.php:47
+#, fuzzy
 msgid "'From name' is required"
-msgstr ""
+msgstr "名前から」は必須"
 
 #: autoresponders-create.php:51 autoresponders-edit.php:67 create.php:45
 #: edit-brand.php:49 edit.php:74 new-brand.php:48
+#, fuzzy
 msgid "A valid 'From email' is required"
-msgstr ""
+msgstr "有効な「From email」が必要です。"
 
 #: autoresponders-create.php:52 autoresponders-edit.php:68 create.php:46
 #: edit-brand.php:50 edit.php:75 new-brand.php:49
+#, fuzzy
 msgid "A valid 'Reply to' email is required"
-msgstr ""
+msgstr "有効な「Reply to」メールが必要です。"
 
 #: autoresponders-create.php:53 autoresponders-edit.php:69
 #: create-template.php:36 create.php:47 edit-template.php:51 edit.php:76
+#, fuzzy
 msgid "Your HTML code is required"
-msgstr ""
+msgstr "あなたのHTMLコードが必要です"
 
 #: autoresponders-create.php:54 autoresponders-edit.php:70
+#, fuzzy
 msgid "Please specify a number"
-msgstr ""
+msgstr "番号を指定してください"
 
 #: autoresponders-create.php:60 autoresponders-create.php:112
 #: autoresponders-edit.php:76 autoresponders-edit.php:162
 msgid "immediately"
-msgstr ""
+msgstr "すぐに"
 
 #: autoresponders-create.php:68 autoresponders-create.php:138
 #: autoresponders-edit.php:84 autoresponders-edit.php:225 segment.php:129
 #: segment.php:132 segment.php:239
 msgid "on"
-msgstr ""
+msgstr "オン"
 
 #: autoresponders-create.php:100 autoresponders-edit.php:116
+#, fuzzy
 msgid "Create autoresponder email"
-msgstr ""
+msgstr "オートレスポンダーのメールを作成する"
 
 #: autoresponders-create.php:100 autoresponders-edit.php:116
 #: autoresponders-emails.php:55 autoresponders-report.php:195
 msgid "For"
-msgstr ""
+msgstr "対象"
 
 #: autoresponders-create.php:110 autoresponders-create.php:129
 #: autoresponders-edit.php:160 autoresponders-edit.php:216
 msgid "Send email"
-msgstr ""
+msgstr "Eメールを送信"
 
 #: autoresponders-create.php:113 autoresponders-create.php:131
 #: autoresponders-edit.php:137 autoresponders-edit.php:163
 #: autoresponders-edit.php:218
 msgid "minutes"
-msgstr ""
+msgstr "分"
 
 #: autoresponders-create.php:114 autoresponders-create.php:132
 #: autoresponders-edit.php:139 autoresponders-edit.php:164
 #: autoresponders-edit.php:219
 msgid "hours"
-msgstr ""
+msgstr "時間"
 
 #: autoresponders-create.php:115 autoresponders-create.php:133
 #: autoresponders-edit.php:141 autoresponders-edit.php:165
 #: autoresponders-edit.php:220
 msgid "days"
-msgstr ""
+msgstr "日"
 
 #: autoresponders-create.php:116 autoresponders-create.php:134
 #: autoresponders-edit.php:143 autoresponders-edit.php:166
 #: autoresponders-edit.php:221
 msgid "weeks"
-msgstr ""
+msgstr "週間"
 
 #: autoresponders-create.php:117 autoresponders-create.php:135
 #: autoresponders-edit.php:145 autoresponders-edit.php:167
 #: autoresponders-edit.php:222
 msgid "months"
-msgstr ""
+msgstr "月"
 
 #: autoresponders-create.php:120 autoresponders-edit.php:170
+#, fuzzy
 msgid "after they subscribe"
-msgstr ""
+msgstr "購読した後"
 
 #: autoresponders-create.php:139 autoresponders-edit.php:226
 #: autoresponders-emails.php:190 autoresponders-emails.php:194 segment.php:133
 #: segment.php:239
+#, fuzzy
 msgid "before"
-msgstr ""
+msgstr "曩に"
 
 #: autoresponders-create.php:140 autoresponders-edit.php:227
 #: autoresponders-emails.php:178 autoresponders-emails.php:182 segment.php:134
 #: segment.php:239
 msgid "after"
-msgstr ""
+msgstr "後"
 
 #: autoresponders-create.php:142 autoresponders-edit.php:229
+#, fuzzy
 msgid "each subscriber's"
-msgstr ""
+msgstr "各加入者の"
 
 #: autoresponders-create.php:157 autoresponders-edit.php:244 create.php:112
 #: edit.php:119 report.php:283 send-to.php:967
 msgid "Subject"
-msgstr ""
+msgstr "件名"
 
 #: autoresponders-create.php:160 autoresponders-edit.php:247 create.php:115
 #: edit.php:122
+#, fuzzy
 msgid "Subject of this email"
-msgstr ""
+msgstr "このメールの件名"
 
 #: autoresponders-create.php:164 autoresponders-create.php:167
 #: autoresponders-edit.php:251 autoresponders-edit.php:254 create.php:140
@@ -428,190 +482,226 @@ msgstr ""
 #: edit.php:152 new-brand.php:98 new-brand.php:101 settings.php:404
 #: settings.php:407
 msgid "From name"
-msgstr ""
+msgstr "フォーム名"
 
 #: autoresponders-create.php:171 autoresponders-edit.php:258 create.php:147
 #: edit-brand.php:106 edit.php:156 new-brand.php:105 settings.php:411
 #: settings.php:414
 msgid "From email"
-msgstr ""
+msgstr "送信者メールアドレス"
 
 #: autoresponders-create.php:174 autoresponders-create.php:181
 #: autoresponders-edit.php:261 autoresponders-edit.php:268 create.php:156
 #: create.php:163 edit-brand.php:109 edit-brand.php:229 edit-brand.php:646
 #: edit.php:165 edit.php:172 new-brand.php:108 new-brand.php:205
 #: new-brand.php:555
+#, fuzzy
 msgid "name@domain.com"
-msgstr ""
+msgstr "name@domain.com"
 
 #: autoresponders-create.php:178 autoresponders-edit.php:265 create.php:160
 #: edit-brand.php:226 edit.php:169 new-brand.php:202 settings.php:418
 #: settings.php:421
+#, fuzzy
 msgid "Reply to email"
-msgstr ""
+msgstr "メールへの返信"
 
 #: autoresponders-create.php:185 autoresponders-edit.php:272 create.php:167
 #: edit.php:176
 msgid "Plain text"
-msgstr ""
+msgstr "プレーンテキスト"
 
 #: autoresponders-create.php:188 autoresponders-edit.php:275 create.php:170
 #: edit.php:179
+#, fuzzy
 msgid "Plain text of this email"
-msgstr ""
+msgstr "このメールの平文"
 
 #: autoresponders-create.php:192 autoresponders-edit.php:279 create.php:174
 #: edit.php:183
 msgid "Query string"
-msgstr ""
+msgstr "クエリ文字列"
 
 #: autoresponders-create.php:192 autoresponders-edit.php:279 create.php:174
 #: edit.php:183
+#, fuzzy
 msgid ""
 "Optionally append a query string to all links in your email newsletter. A "
 "good use case is Google Analytics tracking. Don't include '?' in your query "
 "string."
 msgstr ""
+"必要に応じて、メールマガジンのすべてのリンクにクエリ文字列を追加します。良い"
+"使用例は、Googleアナリティクスのトラッキングです。クエリ文字列に「?"
 
 #: autoresponders-create.php:205 autoresponders-edit.php:292 create.php:187
 #: edit.php:196 send-to.php:973
 msgid "Attachments"
-msgstr ""
+msgstr "添付ファイル"
 
 #: autoresponders-create.php:210 autoresponders-edit.php:297 create.php:192
 #: edit.php:201
 msgid "Allowed file types"
-msgstr ""
+msgstr "アップロードできるファイルの拡張子"
 
 #: autoresponders-create.php:216 autoresponders-edit.php:360 create.php:197
 #: edit.php:264
+#, fuzzy
 msgid "Track opens"
-msgstr ""
+msgstr "トラックが開きます。"
 
 #: autoresponders-create.php:218 autoresponders-create.php:240
 #: autoresponders-edit.php:362 autoresponders-edit.php:392
 #: autoresponders-emails.php:286 create.php:199 create.php:221
 #: edit-brand.php:391 edit.php:266 edit.php:296 new-brand.php:317
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: autoresponders-create.php:219 autoresponders-create.php:241
 #: autoresponders-edit.php:363 autoresponders-edit.php:393
 #: autoresponders-emails.php:287 create.php:200 create.php:222
 #: edit-brand.php:392 edit.php:267 edit.php:297 new-brand.php:318
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #: autoresponders-create.php:238 autoresponders-edit.php:390 create.php:219
 #: edit.php:294
+#, fuzzy
 msgid "Track clicks"
-msgstr ""
+msgstr "トラッククリック"
 
 #: autoresponders-create.php:265 autoresponders-edit.php:425 create.php:244
 #: custom-fields.php:199 edit-brand.php:613 edit-brand.php:947
 #: edit-list.php:471 edit.php:327 new-brand.php:526 new-brand.php:793
 #: settings.php:566
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: autoresponders-create.php:266 autoresponders-edit.php:426
+#, fuzzy
 msgid "Save & exit"
-msgstr ""
+msgstr "セーブ＆エグジット"
 
 #: autoresponders-create.php:268 autoresponders-edit.php:428
+#, fuzzy
 msgid "Back to autoresponder email list"
-msgstr ""
+msgstr "自動応答メールリストに戻る"
 
 #: autoresponders-create.php:279 autoresponders-edit.php:439 create.php:255
 #: edit.php:339
+#, fuzzy
 msgid "Disable Grammarly extension in your browser"
-msgstr ""
+msgstr "ブラウザのGrammarly拡張機能を無効にする"
 
 #: autoresponders-create.php:280 autoresponders-edit.php:440 create.php:256
 #: edit.php:340
+#, fuzzy
 msgid ""
 "You have 'Grammarly' extension installed in your browser. Grammarly injects "
 "thousands of lines of code into the email editor. As a result your email "
 "will have an extremely huge file size, look weird and you may not be able to "
 "save or send your campaign. To avoid all these, please do the following:"
 msgstr ""
+"ブラウザに「Grammarly」エクステンションがインストールされています。Grammarly"
+"は何千行ものコードをメールエディタに注入します。その結果、メールのファイルサ"
+"イズが非常に大きくなったり、見た目が変になったり、キャンペーンの保存や送信が"
+"できなくなったりすることがあります。これらを避けるために、以下のことを行って"
+"ください。"
 
 #: autoresponders-create.php:282 autoresponders-edit.php:442 create.php:258
 #: edit.php:342
+#, fuzzy
 msgid "Disable Grammarly extension in your browser (please see image below)"
 msgstr ""
+"ブラウザのGrammarly拡張機能を無効にしてください（下の画像をご覧ください"
 
 #: autoresponders-create.php:283 autoresponders-edit.php:443 create.php:259
 #: edit.php:343
+#, fuzzy
 msgid "Then refresh this page"
-msgstr ""
+msgstr "その後、このページを更新します。"
 
 #: autoresponders-create.php:290 autoresponders-edit.php:450
 #: create-template.php:81 create.php:266 edit-template.php:95 edit.php:350
 msgid "HTML code"
-msgstr ""
+msgstr "HTMLコード"
 
 #: autoresponders-create.php:292 autoresponders-edit.php:453 create.php:268
 #: edit.php:353 includes/ares/toggle-wysiwyg.php:8
 #: includes/create/toggle-wysiwyg.php:9
+#, fuzzy
 msgid "Save and switch to HTML editor"
-msgstr ""
+msgstr "保存してHTMLエディタに切り替える"
 
 #: autoresponders-create.php:293 autoresponders-edit.php:30 create.php:269
 #: edit.php:40
+#, fuzzy
 msgid ""
 "Switch to HTML editor if the WYSIWYG editor is causing your newsletter to "
 "look weird."
 msgstr ""
+"WYSIWYGエディタのせいでニュースレターが変に見える場合は、HTMLエディタに切り替"
+"えてください。"
 
 #: autoresponders-create.php:314 autoresponders-edit.php:470 edit.php:370
 msgid "Untitled"
-msgstr ""
+msgstr "無題"
 
 #: autoresponders-create.php:323 autoresponders-edit.php:490
 #: create-template.php:84 create.php:299 edit-template.php:98 edit.php:390
 msgid "Email content"
-msgstr ""
+msgstr "メールの内容"
 
 #: autoresponders-create.php:326 autoresponders-edit.php:493
 #: create-template.php:87 create.php:302 edit-template.php:101 edit.php:393
+#, fuzzy
 msgid ""
 "Use the following tags in your subject, plain text or HTML code and they'll "
 "automatically be formatted when your campaign is sent. For web version and "
 "unsubscribe tags, you can style them with inline CSS."
 msgstr ""
+"件名、プレーンテキスト、または HTML コードに以下のタグを使用すると、キャン"
+"ペーンが送信されたときに自動的にフォーマットされます。ウェブバージョンと配信"
+"停止タグについては、インラインCSSでスタイルを設定することができます。"
 
 #: autoresponders-edit.php:34 edit.php:44
+#, fuzzy
 msgid "Switch to the WYSIWYG editor to use formatting tools."
-msgstr ""
+msgstr "WYSIWYGエディタに切り替えて、書式設定ツールを使用します。"
 
 #: autoresponders-edit.php:455 edit.php:355
+#, fuzzy
 msgid "Save and switch to WYSIWYG editor"
-msgstr ""
+msgstr "保存してWYSIWYGエディタに切り替える"
 
 #: autoresponders-edit.php:480 edit.php:380
+#, fuzzy
 msgid "Sorry, unable to toggle. Please try again later!"
 msgstr ""
+"申し訳ありませんが、切り替えができません。後でもう一度試してみてください"
 
 #: autoresponders-emails.php:54
+#, fuzzy
 msgid "Autoresponder emails"
-msgstr ""
+msgstr "オートレスポンダーメール"
 
 #: autoresponders-emails.php:56
+#, fuzzy
 msgid "Click to change the title of this Autoresponder"
-msgstr ""
+msgstr "このオートレスポンダのタイトルを変更するにはクリックしてください。"
 
 #: autoresponders-emails.php:100
+#, fuzzy
 msgid "Autoresponder title cannot be empty"
-msgstr ""
+msgstr "オートレスポンダのタイトルを空にすることはできません"
 
 #: autoresponders-emails.php:111
+#, fuzzy
 msgid "Add a new email to this autoresponder"
-msgstr ""
+msgstr "このオートレスポンダに新しいメールを追加する"
 
 #: autoresponders-emails.php:120
 msgid "Send"
-msgstr ""
+msgstr "送信"
 
 #: autoresponders-emails.php:121 autoresponders-report.php:314
 #: autoresponders-report.php:436 autoresponders-report.php:518
@@ -626,56 +716,61 @@ msgstr ""
 #: segment.php:840 settings.php:62 subscribe.php:691 subscribers.php:474
 #: subscription.php:141 update-list.php:117
 msgid "Email"
-msgstr ""
+msgstr "メールアドレス"
 
 #: autoresponders-emails.php:125 send-to.php:968 send-to.php:969
 msgid "Enabled"
-msgstr ""
+msgstr "有効"
 
 #: autoresponders-emails.php:163
 msgid "On"
-msgstr ""
+msgstr "オン"
 
 #: autoresponders-emails.php:163
 msgid "sign up"
-msgstr ""
+msgstr "新規登録"
 
 #: autoresponders-emails.php:167
+#, fuzzy
 msgid "Annually on"
-msgstr ""
+msgstr "年に一度"
 
 #: autoresponders-emails.php:169
+#, fuzzy
 msgid "Once on"
-msgstr ""
+msgstr "一度"
 
 #: autoresponders-emails.php:178 autoresponders-emails.php:190
 msgid "signup"
-msgstr ""
+msgstr "入会"
 
 #: autoresponders-emails.php:253 templates.php:48
 msgid "Preview"
-msgstr ""
+msgstr "プレビュー"
 
 #: autoresponders-emails.php:255 includes/create/send-now.php:738
 #: includes/create/send-now.php:756 scheduled.php:777 scheduled.php:795
 msgid "View report"
-msgstr ""
+msgstr "レポートを見る"
 
 #: autoresponders-emails.php:355
+#, fuzzy
 msgid "No autoresponder emails are set up."
-msgstr ""
+msgstr "自動返信メールが設定されていません。"
 
 #: autoresponders-emails.php:363
+#, fuzzy
 msgid "Back to autoresponders list"
-msgstr ""
+msgstr "自動返信リストに戻る"
 
 #: autoresponders-list.php:61
+#, fuzzy
 msgid "Autoresponder name is required"
-msgstr ""
+msgstr "オートレスポンダ名を入力してください。"
 
 #: autoresponders-list.php:85 subscribers.php:169 subscribers.php:171
 msgid "Autoresponders"
-msgstr ""
+msgstr "自動返信"
 
 #: autoresponders-list.php:87 autoresponders-report.php:315
 #: autoresponders-report.php:437 autoresponders-report.php:519
@@ -688,147 +783,186 @@ msgstr ""
 #: segment.php:69 segments-list.php:42 subscribe.php:693 subscribers.php:150
 #: unsubscribe-from-list.php:77 update-list.php:74
 msgid "List"
-msgstr ""
+msgstr "リスト"
 
 #: autoresponders-list.php:87 custom-fields.php:46 search-all-lists.php:35
 #: segments-list.php:42 subscribers.php:150
+#, fuzzy
 msgid "Back to lists"
-msgstr ""
+msgstr "リストに戻る"
 
 #: autoresponders-list.php:93
+#, fuzzy
 msgid ""
 "You can't create an autoresponder based on a custom field already in use by "
 "another autoresponder."
 msgstr ""
+"他のオートレスポンダで既に使用されているカスタムフィールドを元にオートレスポ"
+"ンダを作成することはできません。"
 
 #: autoresponders-list.php:133 autoresponders-list.php:150
+#, fuzzy
 msgid "Create a new autoresponder"
-msgstr ""
+msgstr "新しいオートレスポンダを作成する"
 
 #: autoresponders-list.php:138
+#, fuzzy
 msgid "All types of autoresponders have been created"
-msgstr ""
+msgstr "あらゆるタイプのオートレスポンダーが作成されています。"
 
 #: autoresponders-list.php:140
+#, fuzzy
 msgid ""
 "You can create more emails in each type of autoresponder that you have "
 "previously created below."
 msgstr ""
+"以前に作成したオートレスポンダの種類ごとに、以下のようにさらに多くのメールを"
+"作成することができます。"
 
 #: autoresponders-list.php:141
+#, fuzzy
 msgid ""
 "To create more 'Send annually' and 'Send on date' autoresponders, add more "
 "'Date based' custom fields to this list."
 msgstr ""
+"毎年送信」および「日付で送信」の自動返信メールを作成するには、このリストに"
+"「日付ベース」のカスタムフィールドを追加します。"
 
 #: autoresponders-list.php:156
+#, fuzzy
 msgid "Autoresponder name"
-msgstr ""
+msgstr "オートレスポンダ名"
 
 #: autoresponders-list.php:161
+#, fuzzy
 msgid "Autoresponder type"
-msgstr ""
+msgstr "オートレスポンダの種類"
 
 #: autoresponders-list.php:170 autoresponders-list.php:343
 #: includes/ares/main.php:46
+#, fuzzy
 msgid "Drip campaign"
-msgstr ""
+msgstr "点滴キャンペーン"
 
 #: autoresponders-list.php:171
+#, fuzzy
 msgid ""
 "Create a sequence of emails that automatically sends to subscribers after "
 "they sign up."
 msgstr ""
+"購読者がサインアップした後に自動的に送信される一連のメールを作成します。"
 
 #: autoresponders-list.php:178
+#, fuzzy
 msgid ""
 "A drip campaign autoresponder has already been created. You cannot create "
 "another drip campaign but you can add more emails to the sequence."
 msgstr ""
+"ドリップキャンペーンのオートレスポンダーは既に作成されています。別のドリップ"
+"キャンペーンを作成することはできませんが、シーケンスにメールを追加することは"
+"できます。"
 
 #: autoresponders-list.php:209
+#, fuzzy
 msgid ""
 "There are no available 'date based custom fields' to create anniversary or "
 "date based autoresponders."
 msgstr ""
+"記念日や日付ベースの自動返信メールを作成するために利用できる「日付ベースのカ"
+"スタムフィールド」はありません。"
 
 #: autoresponders-list.php:221 autoresponders-list.php:346
+#, fuzzy
 msgid "Send annually"
-msgstr ""
+msgstr "毎年送る"
 
 #: autoresponders-list.php:222
+#, fuzzy
 msgid ""
 "Create emails that automatically sends annually to subscribers, eg. "
 "anniversaries or birthdays."
-msgstr ""
+msgstr "記念日や誕生日など、毎年自動的に購読者に送信されるメールを作成します。"
 
 #: autoresponders-list.php:224 autoresponders-list.php:260
+#, fuzzy
 msgid "Based on this date"
-msgstr ""
+msgstr "この日を基準に"
 
 #: autoresponders-list.php:257 autoresponders-list.php:349
+#, fuzzy
 msgid "Send on date"
-msgstr ""
+msgstr "日付で送信"
 
 #: autoresponders-list.php:258
+#, fuzzy
 msgid ""
 "Create one off emails that sends automatically on a specific date. eg. one "
 "off reminders."
-msgstr ""
+msgstr "特定の日に自動的に送信するワンオフメールを作成します。"
 
 #: autoresponders-list.php:291 create.php:245 edit.php:328
+#, fuzzy
 msgid "Save & next"
-msgstr ""
+msgstr "保存して次へ"
 
 #: autoresponders-list.php:305
+#, fuzzy
 msgid "Existing autoresponders"
-msgstr ""
+msgstr "既存のオートレスポンダ"
 
 #: autoresponders-list.php:309
 msgid "Autoresponder"
-msgstr ""
+msgstr "自動返信機能"
 
 #: autoresponders-list.php:310
 msgid "Type"
-msgstr ""
+msgstr "タイプ"
 
 #: autoresponders-list.php:311
+#, fuzzy
 msgid "Emails sent"
-msgstr ""
+msgstr "送信されたメール"
 
 #: autoresponders-list.php:338
+#, fuzzy
 msgid "No emails have been set up"
-msgstr ""
+msgstr "メールが設定されていない"
 
 #: autoresponders-list.php:362
+#, fuzzy
 msgid "All associated autoresponder emails will be permanently deleted."
-msgstr ""
+msgstr "関連するすべての自動返信メールは永久に削除されます。"
 
 #: autoresponders-list.php:390
+#, fuzzy
 msgid "No autoresponders"
-msgstr ""
+msgstr "自動返信はありません"
 
 #: autoresponders-report.php:33 report.php:59
+#, fuzzy
 msgid "No opens yet!"
-msgstr ""
+msgstr "まだオープンしていません"
 
 #: autoresponders-report.php:33 autoresponders-report.php:210
 #: autoresponders-report.php:211 report.php:59 report.php:303 report.php:304
+#, fuzzy
 msgid "Tracking disabled for opens"
-msgstr ""
+msgstr "オープン時にはトラッキングを無効にしています"
 
 #: autoresponders-report.php:34 autoresponders-report.php:285
+#, fuzzy
 msgid "There are no links for this autoresponder."
-msgstr ""
+msgstr "このオートレスポンダのリンクはありません。"
 
 #: autoresponders-report.php:34 autoresponders-report.php:212 report.php:60
 #: report.php:311
+#, fuzzy
 msgid "Tracking disabled for clicks"
-msgstr ""
+msgstr "クリックされた場合はトラッキングを無効にする"
 
 #: autoresponders-report.php:109 report.php:152
 msgid "Activity"
-msgstr ""
+msgstr "タイムライン"
 
 #: autoresponders-report.php:144 autoresponders-report.php:373
 #: autoresponders-report.php:639 includes/subscribers/subscriber-info.php:63
@@ -836,7 +970,7 @@ msgstr ""
 #: search-all-lists.php:85 subscribers.php:439 subscribers.php:525
 #: subscribers.php:531
 msgid "Marked as spam"
-msgstr ""
+msgstr "スパムとしてマークしました"
 
 #: autoresponders-report.php:148 autoresponders-report.php:371
 #: autoresponders-report.php:558 includes/subscribers/subscriber-info.php:61
@@ -844,7 +978,7 @@ msgstr ""
 #: search-all-lists.php:83 subscribers.php:438 subscribers.php:523
 #: subscribers.php:529
 msgid "Bounced"
-msgstr ""
+msgstr "バウンス"
 
 #: autoresponders-report.php:152 autoresponders-report.php:369
 #: autoresponders-report.php:477 includes/subscribers/subscriber-info.php:59
@@ -852,91 +986,109 @@ msgstr ""
 #: search-all-lists.php:81 search-all-lists.php:148 subscribers.php:437
 #: subscribers.php:521 subscribers.php:591 unsubscribe.php:360
 msgid "Unsubscribed"
-msgstr ""
+msgstr "配信停止しました"
 
 #: autoresponders-report.php:156 report.php:199
 msgid "Clicked"
-msgstr ""
+msgstr "クリック済み"
 
 #: autoresponders-report.php:160 report.php:203
+#, fuzzy
 msgid "Unopened"
-msgstr ""
+msgstr "未開封"
 
 #: autoresponders-report.php:164 report.php:207
 msgid "Opened"
-msgstr ""
+msgstr "開封済"
 
 #: autoresponders-report.php:192
+#, fuzzy
 msgid "Autoresponder report"
-msgstr ""
+msgstr "オートレスポンダのレポート"
 
 #: autoresponders-report.php:194
+#, fuzzy
 msgid "View the web version"
-msgstr ""
+msgstr "ウェブ版を見る"
 
 #: autoresponders-report.php:195
+#, fuzzy
 msgid "sent to"
-msgstr ""
+msgstr "送達"
 
 #: autoresponders-report.php:195 report.php:284
+#, fuzzy
 msgid "subscribers"
-msgstr ""
+msgstr "加入者"
 
 #: autoresponders-report.php:210 report.php:303
 msgid "unique"
 msgstr ""
+"パッケージが保存されるフォルダです。これは、相対パス </strong> ではなく絶対パ"
+"スで <strong> し、デュプリケータを使用して各 web サイトで一意にする必要があり"
+"ます"
 
 #: autoresponders-report.php:210 report.php:303
 msgid "times"
-msgstr ""
+msgstr "回"
 
 #: autoresponders-report.php:211 report.php:304
+#, fuzzy
 msgid "not opened"
-msgstr ""
+msgstr "未開封"
 
 #: autoresponders-report.php:212 report.php:311
+#, fuzzy
 msgid "clicked a link"
-msgstr ""
+msgstr "リンクをクリック"
 
 #: autoresponders-report.php:218 report.php:317
+#, fuzzy
 msgid "unsubscribed"
-msgstr ""
+msgstr "未購読"
 
 #: autoresponders-report.php:219 report.php:319
+#, fuzzy
 msgid "bounced"
-msgstr ""
+msgstr "跳ね返った"
 
 #: autoresponders-report.php:220 report.php:321
+#, fuzzy
 msgid "marked as spam"
-msgstr ""
+msgstr "スパムマーク"
 
 #: autoresponders-report.php:229 report.php:330
+#, fuzzy
 msgid "Link activity"
-msgstr ""
+msgstr "リンク活動"
 
 #: autoresponders-report.php:231
+#, fuzzy
 msgid "Export subscribers who clicked"
-msgstr ""
+msgstr "クリックした購読者をエクスポート"
 
 #: autoresponders-report.php:240 report.php:343
+#, fuzzy
 msgid "Link (URL)"
-msgstr ""
+msgstr "リンク (URL)"
 
 #: autoresponders-report.php:241 report.php:344
 msgid "Unique"
-msgstr ""
+msgstr "ユニーク"
 
 #: autoresponders-report.php:242 report.php:345
 msgid "Total"
-msgstr ""
+msgstr "合計"
 
 #: autoresponders-report.php:302 report.php:417
+#, fuzzy
 msgid "Last 10 opened"
-msgstr ""
+msgstr "最後の10個が開いた"
 
 #: autoresponders-report.php:304
+#, fuzzy
 msgid "Export subscribers who opened"
-msgstr ""
+msgstr "オープンした加入者をエクスポートする"
 
 #: autoresponders-report.php:313 autoresponders-report.php:435
 #: autoresponders-report.php:517 autoresponders-report.php:598 confirm.php:223
@@ -951,7 +1103,7 @@ msgstr ""
 #: subscribe.php:690 subscribers.php:473 subscription.php:136
 #: update-list.php:116
 msgid "Name"
-msgstr ""
+msgstr "名前"
 
 #: autoresponders-report.php:316 autoresponders-report.php:438
 #: autoresponders-report.php:520 autoresponders-report.php:601
@@ -962,70 +1114,81 @@ msgstr ""
 #: includes/subscribers/subscriber-info.php:328 report.php:434 report.php:566
 #: report.php:659 report.php:754 search-all-lists.php:47 subscribers.php:476
 msgid "Status"
-msgstr ""
+msgstr "ステータス"
 
 #: autoresponders-report.php:338 autoresponders-report.php:408 report.php:534
+#, fuzzy
 msgid "No one opened yet."
-msgstr ""
+msgstr "まだ誰も開いていません。"
 
 #: autoresponders-report.php:367 includes/subscribers/subscriber-info.php:57
 #: report.php:485 search-all-lists.php:79 search-all-lists.php:144
 #: search-all-lists.php:154 search-all-lists.php:160 subscribers.php:519
 #: subscribers.php:587 subscribers.php:597 subscribers.php:603
 msgid "Subscribed"
-msgstr ""
+msgstr "登録済み"
 
 #: autoresponders-report.php:376 autoresponders-report.php:459
 #: autoresponders-report.php:540 report.php:494 report.php:587 report.php:679
 #: report.php:774 search-all-lists.php:90 subscribers.php:534
+#, fuzzy
 msgid "No name"
-msgstr ""
+msgstr "名無し"
 
 #: autoresponders-report.php:426 report.php:552
+#, fuzzy
 msgid "Last 10 unsubscribed"
-msgstr ""
+msgstr "過去10回の配信停止"
 
 #: autoresponders-report.php:427
+#, fuzzy
 msgid "Export subscribers who unsubscribed"
-msgstr ""
+msgstr "購読を解除した購読者をエクスポートする"
 
 #: autoresponders-report.php:439 autoresponders-report.php:521
 #: autoresponders-report.php:602 custom-fields.php:71 custom-fields.php:137
 #: report.php:567 report.php:660 report.php:755
 msgid "Date"
-msgstr ""
+msgstr "日付"
 
 #: autoresponders-report.php:489
+#, fuzzy
 msgid "No one unsubscribed from this autoresponder!"
-msgstr ""
+msgstr "誰もこのオートレスポンダーを解除しませんでした!"
 
 #: autoresponders-report.php:508 report.php:645
+#, fuzzy
 msgid "Last 10 bounced emails"
-msgstr ""
+msgstr "過去10回のバウンスメール"
 
 #: autoresponders-report.php:509
+#, fuzzy
 msgid "Export subscribers who bounced"
-msgstr ""
+msgstr "バウンスした加入者をエクスポート"
 
 #: autoresponders-report.php:570
+#, fuzzy
 msgid "No emails bounced from this autoresponder!"
-msgstr ""
+msgstr "このオートレスポンダーからバウンスされたメールはありません!"
 
 #: autoresponders-report.php:589 report.php:740
+#, fuzzy
 msgid "Last 10 marked as spam"
-msgstr ""
+msgstr "スパムとマークされた最後の10"
 
 #: autoresponders-report.php:590
+#, fuzzy
 msgid "Export subscribers who marked your email as spam"
-msgstr ""
+msgstr "メールをスパムとしてマークした購読者をエクスポート"
 
 #: autoresponders-report.php:651 report.php:814
+#, fuzzy
 msgid "No one marked your email as spam!"
-msgstr ""
+msgstr "誰もあなたのメールをスパムとしてマークしていません"
 
 #: autoresponders-report.php:670 report.php:835
 msgid "All countries"
-msgstr ""
+msgstr "所有语种"
 
 #: autoresponders-report.php:674 includes/ares-reports/export-csv.php:211
 #: includes/reports/export-csv.php:322 includes/subscribers/export-csv.php:164
@@ -1034,64 +1197,75 @@ msgstr ""
 #: includes/subscribers/subscriber-info.php:392 report.php:839 segment.php:97
 #: segment.php:227
 msgid "Country"
-msgstr ""
+msgstr "国"
 
 #: autoresponders-report.php:675 includes/reports/export-csv.php:295
 #: includes/subscribers/subscriber-info.php:390 report.php:840
 msgid "Opens"
-msgstr ""
+msgstr "開く"
 
 #: autoresponders-report.php:676 blacklist-blocked-domains.php:78
 #: blacklist-suppression.php:78 housekeeping-unconfirmed.php:80 report.php:347
 #: report.php:842 segment.php:831 subscribers.php:127
 msgid "Export"
-msgstr ""
+msgstr "エクスポート"
 
 #: autoresponders-report.php:739
+#, fuzzy
 msgid "Export subscribers from"
-msgstr ""
+msgstr "から加入者をエクスポートします。"
 
 #: autoresponders-report.php:760 report.php:932
+#, fuzzy
 msgid "Top 10 countries"
-msgstr ""
+msgstr "上位10カ国"
 
 #: autoresponders-report.php:844 report.php:1016
+#, fuzzy
 msgid "No countries detected yet."
-msgstr ""
+msgstr "まだ検出された国はありません。"
 
 #: autoresponders-report.php:863 report.php:1035 search-all-lists.php:217
 #: segment.php:872 subscribers.php:659
+#, fuzzy
 msgid "Subscriber info"
-msgstr ""
+msgstr "契約者情報"
 
 #: autoresponders-report.php:875 report.php:1047 search-all-lists.php:255
 #: segment.php:884 subscribers.php:697
+#, fuzzy
 msgid "Fetching"
-msgstr ""
+msgstr "フェッチ"
 
 #: autoresponders-report.php:885 report.php:1057 search-all-lists.php:265
 #: segment.php:894 subscribers.php:707
+#, fuzzy
 msgid ""
 "Oops, there was an error getting the subscriber's info. Please try again "
 "later."
 msgstr ""
+"おっと、購読者情報の取得にエラーが発生しました。後でもう一度試してみてくださ"
+"い。"
 
 #: blacklist-blocked-domains.php:48 blacklist-suppression.php:48
 #: includes/sidebar.php:25
 msgid "Blacklist"
-msgstr ""
+msgstr "ブラックリスト"
 
 #: blacklist-blocked-domains.php:52 blacklist-suppression.php:52
 #: blacklist-suppression.php:66
+#, fuzzy
 msgid "Suppression list"
-msgstr ""
+msgstr "抑制リスト"
 
 #: blacklist-blocked-domains.php:53 blacklist-blocked-domains.php:66
 #: blacklist-suppression.php:53
+#, fuzzy
 msgid "Blocked domains"
-msgstr ""
+msgstr "ブロックされたドメイン"
 
 #: blacklist-blocked-domains.php:57
+#, fuzzy
 msgid ""
 "If you'd like block email addresses that belong to certain domains (eg. "
 "disposable emails) from ever being imported into any lists in this brand, "
@@ -1099,584 +1273,780 @@ msgid ""
 "into any list in this brand in future will not be imported if they appear in "
 "this list."
 msgstr ""
+"特定のドメインに属するメールアドレス（例：使い捨てメール）がこのブランドのリ"
+"ストにインポートされるのをブロックしたい場合は、このリストにインポートしてく"
+"ださい。今後、CSVやAPIを介してこのブランドのいずれかのリストにインポートした"
+"メールアドレスは、このリストに表示されてもインポートされません。"
 
 #: blacklist-blocked-domains.php:77
+#, fuzzy
 msgid "Import list of domains to block"
-msgstr ""
+msgstr "ブロックするドメインのインポートリスト"
 
 #: blacklist-blocked-domains.php:84 blacklist-suppression.php:84
 #: subscribers.php:146
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: blacklist-blocked-domains.php:95 blacklist-suppression.php:95
 #: update-list.php:77
+#, fuzzy
 msgid "Import via CSV file"
-msgstr ""
+msgstr "CSVファイルからのインポート"
 
 #: blacklist-blocked-domains.php:102
+#, fuzzy
 msgid ""
 "Please ensure there is only one column in your CSV containing only domains."
-msgstr ""
+msgstr "CSVにはドメインのみを含む列が1つしかないようにしてください。"
 
 #: blacklist-blocked-domains.php:107 blacklist-suppression.php:107
 #: delete-from-list.php:91 unsubscribe-from-list.php:91 update-list.php:88
+#, fuzzy
 msgid "Please upload a CSV file."
-msgstr ""
+msgstr "CSVファイルをアップロードしてください。"
 
 #: blacklist-blocked-domains.php:108 blacklist-suppression.php:108
 #: update-list.php:89
+#, fuzzy
 msgid ""
 "If you are uploading a huge CSV file, Try increasing the following values in "
 "your server's php.ini to larger numbers. Contact your hosting support if "
 "you're unsure how to do this."
 msgstr ""
+"巨大なCSVファイルをアップロードしている場合は、サーバーのphp.iniで以下の値を"
+"より大きな数値に増やしてみてください。この方法がわからない場合は、ホスティン"
+"グサポートにお問い合わせください。"
 
 #: blacklist-blocked-domains.php:114 blacklist-suppression.php:114
 #: update-list.php:95
+#, fuzzy
 msgid "(set to 0 so that execution won't time out indefinitely)"
-msgstr ""
+msgstr "(実行が無期限にタイムアウトしないように0に設定)"
 
 #: blacklist-blocked-domains.php:116 blacklist-suppression.php:116
 #: update-list.php:97
+#, fuzzy
 msgid ""
 "Alternatively, try splitting your huge CSV file into several smaller sized "
 "CSV files and import them one after another."
 msgstr ""
+"あるいは、巨大なCSVファイルをいくつかの小さなサイズのCSVファイルに分割して、"
+"次々とインポートしてみてください。"
 
 #: blacklist-blocked-domains.php:120 blacklist-suppression.php:120
 #: update-list.php:106
+#, fuzzy
 msgid "CSV format"
-msgstr ""
+msgstr "シーエスブイフォーマット"
 
 #: blacklist-blocked-domains.php:122
+#, fuzzy
 msgid "Your CSV should only contain one column containing only domains"
-msgstr ""
+msgstr "CSVにはドメインのみを含む列が1つだけ含まれている必要があります。"
 
 #: blacklist-blocked-domains.php:123 blacklist-suppression.php:123
 #: update-list.php:109
+#, fuzzy
 msgid ""
 "Your CSV columns should be separated by commas, not semi-colons or any other "
 "characters"
 msgstr ""
+"CSVの列は、セミコロンやその他の文字ではなく、カンマで区切る必要があります。"
 
 #: blacklist-blocked-domains.php:127 blacklist-blocked-domains.php:187
 #: includes/subscribers/export-blocked-domains.php:43
 msgid "Domain"
-msgstr ""
+msgstr "ドメイン"
 
 #: blacklist-blocked-domains.php:141
+#, fuzzy
 msgid ""
 "Email addresses with domains matching any records in your CSV will also be "
 "removed from all lists in this brand."
 msgstr ""
+"あなたのCSV内の任意のレコードに一致するドメインを持つメールアドレスは、このブ"
+"ランドのすべてのリストからも削除されます。"
 
 #: blacklist-blocked-domains.php:143 blacklist-blocked-domains.php:174
 #: blacklist-suppression.php:143 blacklist-suppression.php:174
+#, fuzzy
 msgid "Import and delete matching records from all lists"
-msgstr ""
+msgstr "すべてのリストから一致するレコードをインポートして削除する"
 
 #: blacklist-blocked-domains.php:151
+#, fuzzy
 msgid "Import domains per line"
-msgstr ""
+msgstr "行ごとにドメインをインポート"
 
 #: blacklist-blocked-domains.php:158 blacklist-suppression.php:158
 #: delete-from-list.php:127 unsubscribe-from-list.php:127 update-list.php:268
+#, fuzzy
 msgid "Sorry, we didn't receive any input."
-msgstr ""
+msgstr "申し訳ありませんが、何も入力がありませんでした。"
 
 #: blacklist-blocked-domains.php:162
 msgid "Domains"
-msgstr ""
+msgstr "ドメイン"
 
 #: blacklist-blocked-domains.php:172
+#, fuzzy
 msgid ""
 "Email addresses with domains matching any domains you've entered above will "
 "also be removed from all lists in this brand."
 msgstr ""
+"上記で入力したドメインに一致するドメインを持つメールアドレスは、このブランド"
+"のすべてのリストからも削除されます。"
 
 #: blacklist-blocked-domains.php:189 blacklist-suppression.php:189
 #: includes/subscribers/export-blocked-domains.php:43
 #: includes/subscribers/export-suppression-list.php:43 segment.php:906
 #: segments-list.php:88
 msgid "Last update"
-msgstr ""
+msgstr "最終更新"
 
 #: blacklist-blocked-domains.php:190 blacklist-suppression.php:190
 #: includes/subscribers/export-blocked-domains.php:43
 #: includes/subscribers/export-suppression-list.php:43
+#, fuzzy
 msgid "Block attempts"
-msgstr ""
+msgstr "ブロックの試み"
 
 #: blacklist-blocked-domains.php:252
 msgid "No domain found."
-msgstr ""
+msgstr "ドメインが見つかりませんでした。"
 
 #: blacklist-blocked-domains.php:283
+#, fuzzy
 msgid ""
 "Please note that email addresses with domains matching any records in your "
 "CSV will also be removed from all lists in this brand after being imported "
 "into this 'Blocked domains' list. Do you want to proceed?"
 msgstr ""
+"お客様のCSV内のレコードと一致するドメインを持つメールアドレスは、この「ブロッ"
+"クされたドメイン」リストにインポートされた後、このブランドのすべてのリストか"
+"ら削除されますのでご注意ください。先に進みますか？"
 
 #: blacklist-blocked-domains.php:287
+#, fuzzy
 msgid ""
 "Please note that email addresses with domains matching any records you've "
 "provided will also be removed from all lists in this brand after being "
 "imported into this 'Blocked domains' list. Do you want to proceed?"
 msgstr ""
+"あなたが提供した記録と一致するドメインを持つメールアドレスは、この「ブロック"
+"されたドメイン」リストにインポートされた後、このブランドのすべてのリストから"
+"削除されますのでご注意ください。先に進みますか？"
 
 #: blacklist-suppression.php:57
+#, fuzzy
 msgid ""
 "If you have a list of email addresses that should never receive any email "
 "campaigns or autoresponders from you, import them into this suppression "
 "list. Any email addresses you import via CSV or API into any list in this "
 "brand in future will not be imported if they appear in this suppression list."
 msgstr ""
+"あなたからのメールキャンペーンやオートレスポンダーを絶対に受信してはいけない"
+"メールアドレスのリストがある場合は、この抑制リストにインポートしてください。"
+"今後、このブランドのどのリストにCSVやAPI経由でインポートしたメールアドレス"
+"も、この抑制リストに表示されている場合はインポートされません。"
 
 #: blacklist-suppression.php:77
+#, fuzzy
 msgid "Import suppression list"
-msgstr ""
+msgstr "インポート抑制リスト"
 
 #: blacklist-suppression.php:102
+#, fuzzy
 msgid ""
 "Please ensure there is only one column in your CSV containing only email "
 "addresses."
-msgstr ""
+msgstr "CSVにはメールアドレスのみの列が1つしかないようにしてください。"
 
 #: blacklist-suppression.php:122
+#, fuzzy
 msgid "Your CSV should only contain one column containing only email addresses"
-msgstr ""
+msgstr "CSVにはメールアドレスのみを含む列が1つだけ含まれている必要があります。"
 
 #: blacklist-suppression.php:141
+#, fuzzy
 msgid ""
 "Email addresses that matches any records in your CSV will also be removed "
 "from all lists in this brand."
 msgstr ""
+"あなたのCSV内の任意のレコードに一致するメールアドレスは、このブランドのすべて"
+"のリストからも削除されます。"
 
 #: blacklist-suppression.php:151
+#, fuzzy
 msgid "Import emails per line"
-msgstr ""
+msgstr "ラインごとにメールをインポートする"
 
 #: blacklist-suppression.php:162
+#, fuzzy
 msgid "Email addresses"
-msgstr ""
+msgstr "メールアドレス"
 
 #: blacklist-suppression.php:172
+#, fuzzy
 msgid ""
 "Email addresses matching any emails you've entered above will also be "
 "removed from all lists in this brand."
 msgstr ""
+"上記で入力したメールに一致するメールアドレスは、このブランドのすべてのリスト"
+"からも削除されます。"
 
 #: blacklist-suppression.php:187 includes/list/export-skipped-emails.php:30
 #: segment.php:96 segment.php:227
 msgid "Email address"
-msgstr ""
+msgstr "メールアドレス"
 
 #: blacklist-suppression.php:253
+#, fuzzy
 msgid "No email addresses found."
-msgstr ""
+msgstr "メールアドレスは見つかりませんでした。"
 
 #: blacklist-suppression.php:284
+#, fuzzy
 msgid ""
 "Please note that email addresses that matches any records in your CSV will "
 "also be removed from all lists in this brand after being imported into this "
 "'Suppression list'. Do you want to proceed?"
 msgstr ""
+"CSV内の任意のレコードに一致するメールアドレスは、この「抑制リスト」にインポー"
+"トされた後、このブランドのすべてのリストからも削除されますのでご注意くださ"
+"い。先に進みますか？"
 
 #: blacklist-suppression.php:288
+#, fuzzy
 msgid ""
 "Please note that email addresses that matches any emails you've provided "
 "will also be removed from all lists in this brand after being imported into "
 "this 'Suppression list'. Do you want to proceed?"
 msgstr ""
+"あなたが提供したメールと一致するメールアドレスは、この「抑制リスト」にイン"
+"ポートされた後、このブランドのすべてのリストからも削除されることに注意してく"
+"ださい。続行しますか？"
 
 #: campaigns-rss.php:93
+#, fuzzy
 msgid "Campaigns RSS"
-msgstr ""
+msgstr "キャンペーンRSS"
 
 #: clear-queue.php:6
+#, fuzzy
 msgid "Clear queue table"
-msgstr ""
+msgstr "キューテーブルのクリア"
 
 #: clear-queue.php:15
+#, fuzzy
 msgid "The queue table has been cleared successfully!"
-msgstr ""
+msgstr "キューテーブルのクリアに成功しました"
 
 #: clear-queue.php:17
+#, fuzzy
 msgid "Failed to clear the queue table."
-msgstr ""
+msgstr "キューテーブルのクリアに失敗しました。"
 
 #: clear-queue.php:22
+#, fuzzy
 msgid ""
 "Please make sure all currently sending campaigns are completed first before "
 "doing this."
 msgstr ""
+"その前に、現在送信中のキャンペーンがすべて完了しているかどうかを確認してくだ"
+"さい。"
 
 #: clear-queue.php:22
+#, fuzzy
 msgid "Do you want to clear the queue table?"
-msgstr ""
+msgstr "キューテーブルをクリアしますか？"
 
 #: clear-queue.php:24
+#, fuzzy
 msgid "Yes, clear the queue table"
-msgstr ""
+msgstr "はい、キューテーブルをクリアします。"
 
 #: confirm.php:218 subscribe.php:685
+#, fuzzy
 msgid "You have a new subscriber!"
-msgstr ""
+msgstr "新しい購読者を獲得しました"
 
 #: confirm.php:221 subscribe.php:688
+#, fuzzy
 msgid "The following user signed up to your list"
-msgstr ""
+msgstr "次のユーザーがあなたのリストにサインアップしました"
 
 #: confirm.php:293 confirm.php:342 subscribe.php:600 subscribe.php:654
 #: subscribe.php:892
+#, fuzzy
 msgid "You're subscribed!"
-msgstr ""
+msgstr "購読されています!"
 
 #: create-template.php:35 edit-template.php:50
+#, fuzzy
 msgid "The name of this template is required"
-msgstr ""
+msgstr "このテンプレートの名前は必須です。"
 
 #: create-template.php:60
 msgid "Create template"
-msgstr ""
+msgstr "テンプレートを作成"
 
 #: create-template.php:69 edit-template.php:83 templates.php:47
 msgid "Template name"
-msgstr ""
+msgstr "テンプレート名"
 
 #: create-template.php:72 edit-template.php:86
+#, fuzzy
 msgid "Name of this template"
-msgstr ""
+msgstr "このテンプレートの名前"
 
 #: create-template.php:76 edit-template.php:90
 msgid "Save template"
-msgstr ""
+msgstr "テンプレートを保存"
 
 #: create.php:81
 msgid "Select a template"
-msgstr ""
+msgstr "テンプレートを選択"
 
 #: create.php:104 edit.php:111 send-to.php:965
+#, fuzzy
 msgid "Campaign title"
-msgstr ""
+msgstr "キャンペーンタイトル"
 
 #: create.php:107 edit.php:114
+#, fuzzy
 msgid "Title of this campaign"
-msgstr ""
+msgstr "本キャンペーンのタイトル"
 
 #: create.php:119 edit.php:127
+#, fuzzy
 msgid "Set a title for this campaign?"
-msgstr ""
+msgstr "キャンペーンのタイトルを設定しますか？"
 
 #: create.php:120 edit.php:128
+#, fuzzy
 msgid ""
 "This title (instead of the subject line) will be displayed in your campaigns "
 "list and reports. You can also set the title later in the campaign report "
 "after sending this campaign."
 msgstr ""
+"このタイトル（件名ではなく）は、キャンペーン一覧やレポートに表示されます。ま"
+"た、本キャンペーンを送信した後に、後からキャンペーンレポートでタイトルを設定"
+"することも可能です。"
 
 #: custom-fields.php:21
+#, fuzzy
 msgid "Please enter a custom field name"
-msgstr ""
+msgstr "カスタムフィールド名を入力してください"
 
 #: custom-fields.php:44 subscribers.php:174
 msgid "Custom fields"
-msgstr ""
+msgstr "カスタムフィールド"
 
 #: custom-fields.php:54
 msgid "Add a field"
-msgstr ""
+msgstr "フィールドを追加する"
 
 #: custom-fields.php:55 custom-fields.php:91 custom-fields.php:190
 msgid "Field name"
-msgstr ""
+msgstr "項目名"
 
 #: custom-fields.php:60
+#, fuzzy
 msgid "This custom field already exist, please use a unique custom field."
 msgstr ""
+"このカスタムフィールドは既に存在しますので、独自のカスタムフィールドを使用し"
+"てください。"
 
 #: custom-fields.php:64
+#, fuzzy
 msgid "Name of custom field"
-msgstr ""
+msgstr "カスタムフィールドの名前"
 
 #: custom-fields.php:68 custom-fields.php:93
 msgid "Data type"
-msgstr ""
+msgstr "データタイプ"
 
 #: custom-fields.php:70 custom-fields.php:102 custom-fields.php:109
 #: custom-fields.php:137
 msgid "Text"
-msgstr ""
+msgstr "テキスト"
 
 #: custom-fields.php:77
+#, fuzzy
 msgid "Add custom field"
-msgstr ""
+msgstr "カスタムフィールドの追加"
 
 #: custom-fields.php:86
+#, fuzzy
 msgid "Existing fields"
-msgstr ""
+msgstr "既存のフィールド"
 
 #: custom-fields.php:87
+#, fuzzy
 msgid ""
 "This custom field is currently used by an autoresponder. In order to delete "
 "this custom field, delete the autoresponder associated with this custom "
 "field."
 msgstr ""
+"このカスタムフィールドは現在、オートレスポンダで使用されています。このカスタ"
+"ムフィールドを削除するには、 このカスタムフィールドに関連付けられているオート"
+"レスポンダを削除します。"
 
 #: custom-fields.php:92
+#, fuzzy
 msgid "Personalization tag"
-msgstr ""
+msgstr "パーソナル化タグ"
 
 #: custom-fields.php:143
+#, fuzzy
 msgid "All data belonging to this custom field will also be deleted."
-msgstr ""
+msgstr "このカスタムフィールドに属するデータもすべて削除されます。"
 
 #: custom-fields.php:186
+#, fuzzy
 msgid "Edit custom field"
-msgstr ""
+msgstr "カスタムフィールドの編集"
 
 #: delete-from-list.php:48 unsubscribe-from-list.php:48 update-list.php:45
+#, fuzzy
 msgid "Please upload a CSV file"
-msgstr ""
+msgstr "CSVファイルをアップロードしてください"
 
 #: delete-from-list.php:58 unsubscribe-from-list.php:58 update-list.php:55
+#, fuzzy
 msgid "Please enter at least one combination of name & email"
-msgstr ""
+msgstr "お名前とメールアドレスの組み合わせを1つ以上入力してください。"
 
 #: delete-from-list.php:80
+#, fuzzy
 msgid "Mass delete via CSV file"
-msgstr ""
+msgstr "CSVファイルによる大量削除"
 
 #: delete-from-list.php:86 unsubscribe-from-list.php:86
+#, fuzzy
 msgid "There should only be 1 column in your CSV containing emails."
-msgstr ""
+msgstr "メールを含むCSVには、1カラムしかないはずです。"
 
 #: delete-from-list.php:95 unsubscribe-from-list.php:95
+#, fuzzy
 msgid "CSV format example"
-msgstr ""
+msgstr "CSV形式の例"
 
 #: delete-from-list.php:116 unsubscribe-from-list.php:116 update-list.php:224
 msgid "Import"
-msgstr ""
+msgstr "インポート"
 
 #: delete-from-list.php:121
+#, fuzzy
 msgid "Delete email per line"
-msgstr ""
+msgstr "1行ごとにメールを削除する"
 
 #: delete-from-list.php:131
+#, fuzzy
 msgid "Email to delete"
-msgstr ""
+msgstr "削除するためのメール"
 
 #: detect-table-conflicts.php:22 includes/functions.php:36
+#, fuzzy
 msgid ""
 "There is a problem connecting to the database. Please try again later or see "
 "this <a href=\"https://sendy.co/troubleshooting#cannot-connect-to-database\" "
 "target=\"_blank\">troubleshooting tip</a>."
 msgstr ""
+"データベースへの接続に問題があります。後でもう一度試すか、このトラブルシュー"
+"ティングのヒントを参照してください。"
 
 #: edit-brand.php:47 new-brand.php:46
+#, fuzzy
 msgid "Please specify your brand's name"
-msgstr ""
+msgstr "ブランド名をご指定ください"
 
 #: edit-brand.php:84 index.php:14 new-brand.php:84 search-all-brands.php:9
 #: settings.php:26
+#, fuzzy
 msgid "Amazon SES Quota"
-msgstr ""
+msgstr "アマゾンのSESクォータ"
 
 #: edit-brand.php:90
+#, fuzzy
 msgid "Edit brand"
-msgstr ""
+msgstr "ブランドを編集する"
 
 #: edit-brand.php:92 new-brand.php:91
+#, fuzzy
 msgid "Brand name"
-msgstr ""
+msgstr "ブランド名"
 
 #: edit-brand.php:95 new-brand.php:94
+#, fuzzy
 msgid "Name of the brand"
-msgstr ""
+msgstr "ブランド名"
 
 #: edit-brand.php:111 new-brand.php:110
+#, fuzzy
 msgid "Checking if your 'From email' is verified in your SES console.."
-msgstr ""
+msgstr "SESコンソールで「From email」が確認されているかどうかを確認します。"
 
 #: edit-brand.php:112 new-brand.php:111 send-to.php:251
+#, fuzzy
 msgid "Unverified 'From email'"
-msgstr ""
+msgstr "未検証の「メールから」です。"
 
 #: edit-brand.php:112 new-brand.php:111
+#, fuzzy
 msgid ""
 "Your 'From email' or its domain is not verified in your Amazon SES console. "
 "Do either of the following:"
 msgstr ""
+"Amazon SESコンソールで「From email」またはそのドメインが確認されていません。"
+"以下のいずれかを行ってください。"
 
 #: edit-brand.php:115 new-brand.php:114
+#, fuzzy
 msgid ""
 "Click here to verify this 'From email', Amazon will send a verification "
 "email to this 'From email'"
 msgstr ""
+"この「From email」を確認するにはここをクリックしてください、Amazonはこの"
+"「From email」に確認メールを送信します。"
 
 #: edit-brand.php:116 new-brand.php:115
+#, fuzzy
 msgid ""
 "Alternatively, verify this 'From email's 'domain' in your Amazon SES console"
 msgstr ""
+"あるいは、Amazon SES コンソールでこの「From email の「ドメイン」を確認しま"
+"す。"
 
 #: edit-brand.php:118 new-brand.php:117
+#, fuzzy
 msgid ""
 "When you verify a domain, you can use any 'From email' address belonging to "
 "that domain without having to verify them individually."
 msgstr ""
+"ドメインを検証すると、そのドメインに属する「From email」アドレスを個別に検証"
+"しなくても、そのドメインに属する任意の「From email」アドレスを使用することが"
+"できます。"
 
 #: edit-brand.php:119 new-brand.php:118
+#, fuzzy
 msgid ""
 "Lastly, the 'From email' is case sensitive. Please ensure you are using the "
 "same case as the email address verified in your Amazon SES console."
 msgstr ""
+"最後に、「From email」は大文字と小文字を区別します。Amazon SESコンソールで確"
+"認されたメールアドレスと同じ大文字と小文字を使用していることを確認してくださ"
+"い。"
 
 #: edit-brand.php:121 new-brand.php:120
+#, fuzzy
 msgid "'From email' pending verification"
-msgstr ""
+msgstr "メールから」検証待ち"
 
 #: edit-brand.php:121 new-brand.php:120
+#, fuzzy
 msgid ""
 "Your 'From email' or its domain is pending verification in your Amazon SES "
 "console. Please complete the verification."
 msgstr ""
+"お客様の「From email」またはそのドメインは、Amazon SESコンソールで検証が保留"
+"されています。検証を完了してください。"
 
 #: edit-brand.php:122 new-brand.php:121 send-to.php:151
+#, fuzzy
 msgid "Unable to communicate with Amazon SES API"
-msgstr ""
+msgstr "Amazon SES APIとの通信ができない"
 
 #: edit-brand.php:122 new-brand.php:121
+#, fuzzy
 msgid "Please check the error message on the left for instructions."
-msgstr ""
+msgstr "左側のエラーメッセージをご確認の上、ご指示ください。"
 
 #: edit-brand.php:123 new-brand.php:122
+#, fuzzy
 msgid "Congrats! This 'From email' is verified."
-msgstr ""
+msgstr "おめでとうございます。この「メールから」は確認されています。"
 
 #: edit-brand.php:201 index.php:50 new-brand.php:177
+#, fuzzy
 msgid "Please wait.."
-msgstr ""
+msgstr "お待ちください..."
 
 #: edit-brand.php:207 new-brand.php:183
+#, fuzzy
 msgid ""
 "A verification email has been sent to your 'From email' address with a "
 "confirmation link to complete the verification. Please click the link to "
 "complete the verification, then refresh this page."
 msgstr ""
+"お客様の「From email」アドレスに、検証を完了するための確認リンクが記載された"
+"検証メールが送信されました。リンクをクリックして検証を完了させ、このページを"
+"更新してください。"
 
 #: edit-brand.php:209 new-brand.php:185
+#, fuzzy
 msgid ""
 "Two verification emails has been sent to both your login email address and "
 "the above 'From email' address. Please click the verification link in both "
 "emails to complete the verification, then refresh this page."
 msgstr ""
+"ログインメールアドレスと上記の「From email」アドレスの両方に、2通の確認メール"
+"が送信されています。両方のメールに記載されている検証リンクをクリックして検証"
+"を完了させ、このページを更新してください。"
 
 #: edit-brand.php:211 new-brand.php:187
+#, fuzzy
 msgid ""
 "Unable to send your 'From email' address to Amazon SES for verification! "
 "Please try again later."
 msgstr ""
+"確認のために「From email」アドレスをAmazon SESに送信することができません。後"
+"でもう一度試してみてください。"
 
 #: edit-brand.php:215 index.php:62 new-brand.php:191
+#, fuzzy
 msgid "Sorry, unable to verify email address. Please try again later!"
 msgstr ""
+"申し訳ありませんが、メールアドレスを確認することができません。後ほどもう一度"
+"お試しください。"
 
 #: edit-brand.php:235 new-brand.php:211
+#, fuzzy
 msgid "Brand logo"
-msgstr ""
+msgstr "ブランドロゴ"
 
 #: edit-brand.php:235 new-brand.php:211
+#, fuzzy
 msgid "(32 x 32 pixel, jpeg, jpg, gif or png format)"
-msgstr ""
+msgstr "(32 x 32ピクセル、jpeg、jpg、gifまたはpng形式)"
 
 #: edit-brand.php:248
+#, fuzzy
 msgid "Confirm delete this logo?"
-msgstr ""
+msgstr "このロゴを削除しますか？"
 
 #: edit-brand.php:277
+#, fuzzy
 msgid ""
 "Could not create '/logos/' directory. Please make sure permissions in /"
 "uploads/ folder is set to 777. Your logo has not been uploaded."
 msgstr ""
+"ディレクトリを作成することができませんでした。Uploads/フォルダのパーミッショ"
+"ンが777に設定されていることを確認してください。ロゴがアップロードされていませ"
+"ん。"
 
 #: edit-brand.php:282
+#, fuzzy
 msgid "Please upload only these file formats: jpeg, jpg, gif or png."
 msgstr ""
+"以下のファイル形式のみアップロードしてください。jPEG、JPG、GIF、PNGのいずれか"
+"のファイル形式でお願いします。"
 
 #: edit-brand.php:287
+#, fuzzy
 msgid ""
 "Could not upload image to '/logos/' folder. <br/>Please make sure "
 "permissions in /uploads/ folder is set to 777. <br/>Then remove the /logos/ "
 "folder in the /uploads/ folder and try again."
 msgstr ""
+"画像を '/logos/' フォルダにアップロードできませんでした。Uploads/フォルダの"
+"パーミッションが777に設定されていることを確認してください。その後、/uploads/"
+"フォルダ内の/logos/フォルダを削除して、再度お試しください。"
 
 #: edit-brand.php:297 edit-brand.php:331 new-brand.php:226 new-brand.php:260
+#, fuzzy
 msgid "Custom domain"
-msgstr ""
+msgstr "カスタムドメイン"
 
 #: edit-brand.php:318 new-brand.php:247
+#, fuzzy
 msgid "Just like Sendy domain licenses, custom domains requires licensing."
 msgstr ""
+"Sendyのドメインライセンスと同様に、カスタムドメインにもライセンスが必要です。"
 
 #: edit-brand.php:318 new-brand.php:247
+#, fuzzy
 msgid "You can purchase custom domain licenses here →"
-msgstr ""
+msgstr "カスタムドメインライセンスはこちらから購入できます→こちら"
 
 #: edit-brand.php:318 new-brand.php:247
+#, fuzzy
 msgid ""
 "Refresh this page once done and you will be able to set your custom domain."
 msgstr ""
+"完了したらこのページを更新して、カスタムドメインを設定することができます。"
 
 #: edit-brand.php:322 new-brand.php:251
+#, fuzzy
 msgid ""
 "When you set a custom domain, unsubscribe, web version and all trackable "
 "links in emails you send will use this custom domain instead of the domain "
 "you installed Sendy on. Brand users can also login to their accounts via the "
 "custom domain."
 msgstr ""
+"カスタムドメインを設定すると、購読解除、ウェブバージョン、送信するメール内の"
+"すべての追跡可能なリンクは、Sendyをインストールしたドメインではなく、このカス"
+"タムドメインを使用します。ブランドユーザーは、カスタムドメインを使ってアカウ"
+"ントにログインすることもできます。"
 
 #: edit-brand.php:327 new-brand.php:256
+#, fuzzy
 msgid ""
 "Unsubscribe, web version and all trackable links in emails you send will use "
 "this custom domain instead of the domain you installed Sendy on. Brand users "
 "can also login to their accounts via the custom domain."
 msgstr ""
+"配信停止、ウェブバージョン、送信するメールのすべての追跡可能なリンクは、Sendy"
+"をインストールしたドメインではなく、このカスタムドメインを使用します。ブラン"
+"ドユーザーは、カスタムドメインを使ってアカウントにログインすることもできま"
+"す。"
 
 #: edit-brand.php:327 new-brand.php:256
+#, fuzzy
 msgid "You can purchase more custom domain licenses here →"
-msgstr ""
+msgstr "その他のカスタムドメインライセンスはこちらから購入できます→こちら"
 
 #: edit-brand.php:347 new-brand.php:273
+#, fuzzy
 msgid ""
 "Create a CNAME record in your custom domain's DNS and point it to your Sendy "
 "installation's domain:"
 msgstr ""
+"カスタムドメインのDNSにCNAMEレコードを作成し、Sendyインストールのドメインにポ"
+"イントします。"
 
 #: edit-brand.php:378 new-brand.php:304
+#, fuzzy
 msgid ""
 "Before enabling your custom domain, test your custom domain setup by "
 "visiting the following URL and it should load your Sendy login page"
 msgstr ""
+"カスタムドメインを有効にする前に、以下のURLにアクセスしてカスタムドメインの設"
+"定をテストしてください。"
 
 #: edit-brand.php:382 new-brand.php:308
+#, fuzzy
 msgid ""
 "Otherwise, <a href=\"https://sendy.co/troubleshooting#custom-domain-not-"
 "working\" target=\"_blank\" style=\"text-decoration: underline;\">please see "
 "this troubleshooting tip</a>"
 msgstr ""
+"そうでない場合は、このトラブルシューティングのヒントを参照してください。"
 
 #: edit-brand.php:389 new-brand.php:315
+#, fuzzy
 msgid "Enable custom domain?"
-msgstr ""
+msgstr "カスタムドメインを有効にしますか？"
 
 #: edit-brand.php:426 new-brand.php:341 settings.php:435
+#, fuzzy
 msgid "GDPR features"
-msgstr ""
+msgstr "GDPRの特徴"
 
 #: edit-brand.php:430 new-brand.php:345
+#, fuzzy
 msgid ""
 "The <a href=\"https://www.eugdpr.org/the-regulation.html\" target=\"_blank\" "
 "style=\"text-decoration: underline;\">General Data Protection Regulation "
@@ -1686,59 +2056,86 @@ msgid ""
 "collect and process data of EU users, Sendy's GDPR features will be useful "
 "to you."
 msgstr ""
+"一般データ保護規則（GDPR）とは、欧州連合（EU）内のすべての個人のデータ保護と"
+"プライバシーに関するEU法の規則です。GDPR規制は、EUユーザーの個人データを収"
+"集・処理する世界中のすべての人に影響を与えます。EUユーザーのデータを収集して"
+"処理する場合は、SendyのGDPR機能を利用すると便利です。"
 
 #: edit-brand.php:432 new-brand.php:347 settings.php:441
+#, fuzzy
 msgid "GDPR options"
-msgstr ""
+msgstr "GDPRオプション"
 
 #: edit-brand.php:436 new-brand.php:351 settings.php:445
+#, fuzzy
 msgid "Show me GDPR options where applicable"
-msgstr ""
+msgstr "該当する場合はGDPRオプションを表示する"
 
 #: edit-brand.php:436 new-brand.php:351 settings.php:445
+#, fuzzy
 msgid ""
 "By enabling this option, GDPR features will show up in the app where "
 "appropriate. For example, subscribe form dialogues will present you with an "
 "option to enable 'GDPR fields' amongst many others."
 msgstr ""
+"このオプションを有効にすることで、GDPR機能がアプリ内の適切な場所に表示される"
+"ようになります。例えば、購読フォームのダイアログでは、その他多くのオプション"
+"の中から「GDPRフィールド」を有効にするオプションが表示されます。"
 
 #: edit-brand.php:443 new-brand.php:358 settings.php:452
+#, fuzzy
 msgid "GDPR safe switch"
-msgstr ""
+msgstr "GDPR安全スイッチ"
 
 #: edit-brand.php:447 new-brand.php:362 settings.php:456
+#, fuzzy
 msgid ""
 "Only send Campaigns to subscribers with <span class=\"label label-warning"
 "\">GDPR</span> tag"
-msgstr ""
+msgstr "GDPRタグが付いた購読者にのみキャンペーンを送信する"
 
 #: edit-brand.php:447 new-brand.php:362
+#, fuzzy
 msgid ""
 "Subscribers who signup through Sendy's 'Ready-to-use subscribe form', the "
 "embeddable 'Subscribe form HTML code' or the 'subscribe' API with 'gdpr' "
 "parameter set to 'true' will be tagged with 'GDPR'. By enabling this option, "
 "your future Campaigns will only send to subscribers tagged with 'GDPR'."
 msgstr ""
+"Sendyの「すぐに使えるサブスクライブフォーム」、埋め込み可能な「サブスクライブ"
+"フォームのHTMLコード」、または「sgpr」パラメータを「true」に設定した「サブス"
+"クライブ」APIからサインアップした購読者には、「GDPR」のタグが付けられます。こ"
+"のオプションを有効にすることで、将来のキャンペーンは「GDPR」とタグ付けされた"
+"購読者にのみ送信されます。"
 
 #: edit-brand.php:453 new-brand.php:368 settings.php:462
+#, fuzzy
 msgid ""
 "Only send Autoresponders to subscribers with <span class=\"label label-"
 "warning\">GDPR</span> tag"
-msgstr ""
+msgstr "GDPRタグが付いた購読者にのみオートレスポンダを送信する"
 
 #: edit-brand.php:453 new-brand.php:368
+#, fuzzy
 msgid ""
 "Subscribers who signup through Sendy's 'Ready-to-use subscribe form', the "
 "embeddable 'Subscribe form HTML code' or the 'subscribe' API with 'gdpr' "
 "parameter set to 'true' will be tagged with 'GDPR'. By enabling this option, "
 "your future Autoresponders will only send to subscribers tagged with 'GDPR'."
 msgstr ""
+"Sendy の「すぐに使える subscribe フォーム」、埋め込み可能な「Subscribe フォー"
+"ム HTML コード」、または「sgpr」パラメータを「true」に設定した「subscribe」"
+"API を介してサインアップした購読者には、「GDPR」タグが付けられます。このオプ"
+"ションを有効にすることで、将来のオートレスポンダは「GDPR」とタグ付けされた購"
+"読者にのみ送信されます。"
 
 #: edit-brand.php:464 new-brand.php:379 settings.php:473
+#, fuzzy
 msgid "Google reCAPTCHA v2"
-msgstr ""
+msgstr "Google reCAPTCHA v2"
 
 #: edit-brand.php:469 new-brand.php:384 settings.php:478
+#, fuzzy
 msgid ""
 "You can use Google's reCAPTCHA v2 to protect your subscription forms from "
 "spam bots. To enable, register your site on <a href=\"https://www.google.com/"
@@ -1747,24 +2144,32 @@ msgid ""
 "not a robot\" tickbox' to get your 'Site key' and 'Secret key', then paste "
 "them below. reCAPTCHA will be disabled if the following fields are empty."
 msgstr ""
+"GoogleのreCAPTCHA v2を利用して、購読フォームをスパムボットから保護することが"
+"できます。有効にするには、GoogleのreCAPTCHAウェブサイトにサイトを登録し、"
+"「reCAPTCHA v2 > \"I'm not a robot \"チェックボックス」を選択して「サイト"
+"キー」と「シークレットキー」を取得し、以下に貼り付けてください。 以下のフィー"
+"ルドが空の場合、reCAPTCHAは無効になります。"
 
 #: edit-brand.php:472 new-brand.php:387 settings.php:481
 msgid "Site key"
-msgstr ""
+msgstr "サイトキー"
 
 #: edit-brand.php:479 new-brand.php:394 settings.php:488
 msgid "Secret key"
-msgstr ""
+msgstr "シークレットキー"
 
 #: edit-brand.php:492 new-brand.php:407
+#, fuzzy
 msgid "SMTP settings"
-msgstr ""
+msgstr "SMTP設定"
 
 #: edit-brand.php:492 new-brand.php:407
+#, fuzzy
 msgid "only if you're not using Amazon SES"
-msgstr ""
+msgstr "amazon SESを使っていない場合のみ"
 
 #: edit-brand.php:497 new-brand.php:412
+#, fuzzy
 msgid ""
 "If you prefer using other email service providers over Amazon SES for "
 "sending emails, set your SMTP settings here. You must also remove your "
@@ -1773,199 +2178,252 @@ msgid ""
 "bounces and complaints will also not be registered if you use other email "
 "service providers to send emails."
 msgstr ""
+"メール送信にAmazon SESよりも他のメールサービスプロバイダを使用したい場合は、"
+"ここでSMTP設定を行います。また、これらのSMTP設定でメールが送信されるように、"
+"メイン設定から「Amazon Web Services Credentials」を削除する必要があります。な"
+"お、メール送信に他のメールサービスプロバイダを利用している場合、マルチスレッ"
+"ドには対応しておらず、バウンスやクレームも登録されないので注意が必要です。"
 
 #: edit-brand.php:500 new-brand.php:415
 msgid "Host"
-msgstr ""
+msgstr "ホスト"
 
 #: edit-brand.php:507 new-brand.php:422
 msgid "Port"
-msgstr ""
+msgstr "ポート"
 
 #: edit-brand.php:527 new-brand.php:439
 msgid "Username"
-msgstr ""
+msgstr "ユーザー名"
 
 #: edit-brand.php:530 new-brand.php:442
+#, fuzzy
 msgid "Username (usually your email)"
-msgstr ""
+msgstr "ユーザー名 (通常はメールアドレス)"
 
 #: edit-brand.php:534 edit-brand.php:648 includes/login/reset.php:85
 #: includes/login/reset.php:102 login.php:50 new-brand.php:446
 #: new-brand.php:557
 msgid "Password"
-msgstr ""
+msgstr "パスワード"
 
 #: edit-brand.php:537
+#, fuzzy
 msgid "Leave blank to not change it"
-msgstr ""
+msgstr "変更しない場合は空白のままにしてください。"
 
 #: edit-brand.php:547 new-brand.php:460 settings.php:369 settings.php:506
 msgid "Miscellaneous"
-msgstr ""
+msgstr "その他"
 
 #: edit-brand.php:552 new-brand.php:465 settings.php:513
+#, fuzzy
 msgid "Default URL query string"
-msgstr ""
+msgstr "デフォルトの URL クエリ文字列"
 
 #: edit-brand.php:557 new-brand.php:470 settings.php:518
+#, fuzzy
 msgid ""
 "(Default query string to append to all links in your campaigns and "
 "autoresponders. A good use case is Google Analytics tracking. Don't include "
 "'?' in your query string.)"
 msgstr ""
+"(キャンペーンやオートレスポンダーのすべてのリンクに追加するデフォルトのクエリ"
+"文字列。良い使用例は、Google Analyticsのトラッキングです。クエリ文字列に「?)"
 
 #: edit-brand.php:563 new-brand.php:476 settings.php:524
+#, fuzzy
 msgid "Prefix for subject line of test emails"
-msgstr ""
+msgstr "テストメールの件名のプレフィックス"
 
 #: edit-brand.php:568 new-brand.php:481 settings.php:529
+#, fuzzy
 msgid "(Optionally add a prefix to the subject line of test emails)"
-msgstr ""
+msgstr "(オプションでテストメールの件名にプレフィックスを追加)"
 
 #: edit-brand.php:574 new-brand.php:487
+#, fuzzy
 msgid "Allowed attachments file types"
-msgstr ""
+msgstr "許可された添付ファイルの種類"
 
 #: edit-brand.php:579 new-brand.php:492
+#, fuzzy
 msgid "(Empty field to disable attachments in campaigns)"
-msgstr ""
+msgstr "(キャンペーンで添付ファイルを無効にするための空欄)"
 
 #: edit-brand.php:585 new-brand.php:498
+#, fuzzy
 msgid "Sort lists and templates by"
-msgstr ""
+msgstr "リストとテンプレートを並べ替え"
 
 #: edit-brand.php:590 new-brand.php:503
 msgid "Date added"
-msgstr ""
+msgstr "追加日"
 
 #: edit-brand.php:598 new-brand.php:511 settings.php:539
+#, fuzzy
 msgid "No. of rows to show in campaigns, reports and lists"
-msgstr ""
+msgstr "キャンペーン、レポート、リストに表示する行数"
 
 #: edit-brand.php:601 new-brand.php:514 settings.php:542
+#, fuzzy
 msgid "rows per page"
-msgstr ""
+msgstr "ページあたりの行数"
 
 #: edit-brand.php:620 new-brand.php:533
+#, fuzzy
 msgid "Brand settings"
-msgstr ""
+msgstr "ブランド設定"
 
 #: edit-brand.php:622 new-brand.php:535
+#, fuzzy
 msgid ""
 "If you're creating this brand for your client, you can allow them to send "
 "newsletters on their own at a fee you preset below."
 msgstr ""
+"あなたがクライアントのためにこのブランドを作っているのであれば、以下のように"
+"プリセットした料金で勝手にニュースレターを送信させることができます。"
 
 #: edit-brand.php:622 new-brand.php:535
+#, fuzzy
 msgid "Send the"
-msgstr ""
+msgstr "を送信します。"
 
 #: edit-brand.php:622 edit-brand.php:629 new-brand.php:535 new-brand.php:541
+#, fuzzy
 msgid "Client login details"
-msgstr ""
+msgstr "クライアントのログイン詳細"
 
 #: edit-brand.php:622 new-brand.php:535
+#, fuzzy
 msgid ""
 "to your client so that they can login to manage lists, subscribers and send "
 "newsletters."
 msgstr ""
+"をクライアントに提供することで、リスト、購読者の管理、ニュースレターの送信に"
+"ログインできるようになります。"
 
 #: edit-brand.php:622 new-brand.php:535
+#, fuzzy
 msgid "Also, don't forget to set your PayPal account email address in"
-msgstr ""
+msgstr "また、PayPalアカウントのメールアドレスを"
 
 #: edit-brand.php:622 includes/header.php:121 new-brand.php:535 settings.php:34
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: edit-brand.php:632 new-brand.php:544
 msgid "Login URL"
-msgstr ""
+msgstr "ログインURL"
 
 #: edit-brand.php:646 new-brand.php:555
+#, fuzzy
 msgid "Login email"
-msgstr ""
+msgstr "ログインメール"
 
 #: edit-brand.php:647 new-brand.php:556
+#, fuzzy
 msgid ""
 "This login email is already in use by your main login email address set in "
 "your main Settings. Please use another email address or remove the email "
 "address from the field."
 msgstr ""
+"このログインメールは、メイン設定で設定したメインログインメールアドレスで既に"
+"使用されています。別のメールアドレスをご利用いただくか、入力欄からメールアド"
+"レスを削除してください。"
 
 #: edit-brand.php:648
+#, fuzzy
 msgid "Generate new password"
-msgstr ""
+msgstr "新しいパスワードの生成"
 
 #: edit-brand.php:650 settings.php:88
+#, fuzzy
 msgid ""
 "Two-factor authentication is currently <strong class=\"label label-success"
 "\">enabled</strong>"
-msgstr ""
+msgstr "現在、二要素認証が有効になっています。"
 
 #: edit-brand.php:653 settings.php:90
+#, fuzzy
 msgid "Disable two-factor authentication"
-msgstr ""
+msgstr "二要素認証を無効にする"
 
 #: edit-brand.php:666
+#, fuzzy
 msgid ""
 "Two-factor authentication is currently <strong class=\\\"label\\\">disabled</"
 "strong>"
-msgstr ""
+msgstr "二要素認証は現在無効になっています"
 
 #: edit-brand.php:666 edit-brand.php:675
+#, fuzzy
 msgid ""
 "(two-factor authentication can only be enabled by the brand user while "
 "logged in to their account)"
 msgstr ""
+"(二要素認証は、ブランドユーザーが自分のアカウントにログインしている間のみ有効"
+"にできます)"
 
 #: edit-brand.php:668 settings.php:184 settings.php:215
+#, fuzzy
 msgid "Unable to save. Please try again."
-msgstr ""
+msgstr "保存できません。もう一度お試しください。"
 
 #: edit-brand.php:675 settings.php:82
+#, fuzzy
 msgid ""
 "Two-factor authentication is currently <strong class=\"label\">disabled</"
 "strong>"
-msgstr ""
+msgstr "二要素認証は現在無効になっています"
 
 #: edit-brand.php:691 new-brand.php:561
 msgid "Language"
-msgstr ""
+msgstr "言語"
 
 #: edit-brand.php:719 new-brand.php:590
+#, fuzzy
 msgid "Client privileges"
-msgstr ""
+msgstr "クライアントの特権"
 
 #: edit-brand.php:723 new-brand.php:593
+#, fuzzy
 msgid ""
 "By default, your client will have full access to their own brand so they can "
 "manage their own lists, subscribers, campaigns, templates and see reports. "
 "You can however adjust these privileges below."
 msgstr ""
+"デフォルトでは、クライアントは自分のブランドに完全にアクセスできるようになっ"
+"ており、自分のリスト、購読者、キャンペーン、テンプレート、レポートを管理する"
+"ことができます。ただし、これらの権限は以下のように調整することができます。"
 
 #: edit-brand.php:727 new-brand.php:597
+#, fuzzy
 msgid "Client can access campaigns"
-msgstr ""
+msgstr "クライアントはキャンペーンにアクセスすることができます。"
 
 #: edit-brand.php:730 new-brand.php:600
+#, fuzzy
 msgid "Client can access templates"
-msgstr ""
+msgstr "クライアントはテンプレートにアクセスすることができます"
 
 #: edit-brand.php:733 new-brand.php:603
+#, fuzzy
 msgid "Client can access lists and subscribers"
-msgstr ""
+msgstr "クライアントはリストや購読者にアクセスすることができます"
 
 #: edit-brand.php:736 new-brand.php:606
+#, fuzzy
 msgid "Client can access campaign reports"
-msgstr ""
+msgstr "クライアントはキャンペーンレポートにアクセスすることができます"
 
 #: edit-brand.php:746 new-brand.php:616
+#, fuzzy
 msgid "Campaign sent notifications"
-msgstr ""
+msgstr "キャンペーンのお知らせ"
 
 #: edit-brand.php:750 new-brand.php:620
+#, fuzzy
 msgid ""
 "When a campaign is sent successfully, a 'Campaign sent' email notification "
 "is sent to the 'From email' address that was used to send out the campaign. "
@@ -1973,819 +2431,1026 @@ msgid ""
 "address as well so that you're notified each time your client sends out a "
 "campaign, check the box below."
 msgstr ""
+"キャンペーンが正常に送信されると、「キャンペーンが送信されました」というメー"
+"ル通知が、キャンペーンの送信に使用された「送信元メールアドレス」に送信されま"
+"す。クライアントがキャンペーンを送信するたびに通知されるように、同じメール通"
+"知をあなたのメインログインメールアドレスにも送信したい場合は、以下のボックス"
+"にチェックを入れてください。"
 
 #: edit-brand.php:754 new-brand.php:624
+#, fuzzy
 msgid "Send email notifications to my main login email "
-msgstr ""
+msgstr "私のメインログインメールに通知メールを送信する"
 
 #: edit-brand.php:764 new-brand.php:634
+#, fuzzy
 msgid "Campaign fee settings"
-msgstr ""
+msgstr "キャンペーン料金の設定"
 
 #: edit-brand.php:768 new-brand.php:638
 msgid "Currency"
-msgstr ""
+msgstr "通貨"
 
 #: edit-brand.php:810 new-brand.php:671 send-to.php:619
 msgid "Delivery Fee"
-msgstr ""
+msgstr "配送料"
 
 #: edit-brand.php:819 new-brand.php:680
+#, fuzzy
 msgid "Cost per recipient"
-msgstr ""
+msgstr "受信者あたりのコスト"
 
 #: edit-brand.php:833 index.php:108 new-brand.php:694 search-all-brands.php:27
+#, fuzzy
 msgid "Sending limits"
-msgstr ""
+msgstr "送信制限"
 
 #: edit-brand.php:842 new-brand.php:703
 msgid "No limits"
-msgstr ""
+msgstr "制限なし"
 
 #: edit-brand.php:843 edit-brand.php:858 new-brand.php:704 new-brand.php:715
 #: send-to.php:587 send-to.php:616
+#, fuzzy
 msgid "Monthly limit"
-msgstr ""
+msgstr "月間制限"
 
 #: edit-brand.php:844 edit-brand.php:869 new-brand.php:705 new-brand.php:724
+#, fuzzy
 msgid "Non expiring limit"
-msgstr ""
+msgstr "期限切れにならない限度額"
 
 #: edit-brand.php:848 edit-brand.php:871 new-brand.php:726
+#, fuzzy
 msgid "Number of emails"
-msgstr ""
+msgstr "メール数"
 
 #: edit-brand.php:848 edit-brand.php:860 new-brand.php:709 new-brand.php:717
+#, fuzzy
 msgid "Number of emails per month"
-msgstr ""
+msgstr "月間のメール数"
 
 #: edit-brand.php:851
+#, fuzzy
 msgid "Currently used"
-msgstr ""
+msgstr "現在使用されている"
 
 #: edit-brand.php:900 new-brand.php:748
+#, fuzzy
 msgid "Reset limit on which day of the month?"
-msgstr ""
+msgstr "月のどの日にリミットをリセットするか？"
 
 #: edit-list.php:44 subscribers.php:151
 msgid "List settings"
-msgstr ""
+msgstr "一覧設定"
 
 #: edit-list.php:52 list.php:84 new-list.php:40
+#, fuzzy
 msgid "List name"
-msgstr ""
+msgstr "リスト名"
 
 #: edit-list.php:55
+#, fuzzy
 msgid "The list name"
-msgstr ""
+msgstr "リスト名"
 
 #: edit-list.php:67
+#, fuzzy
 msgid "For each new signup"
-msgstr ""
+msgstr "新規登録をするたびに"
 
 #: edit-list.php:77
+#, fuzzy
 msgid "Send me an email notification"
-msgstr ""
+msgstr "メールで通知を送る"
 
 #: edit-list.php:81
+#, fuzzy
 msgid "Notification email address"
-msgstr ""
+msgstr "通知用メールアドレス"
 
 #: edit-list.php:91
+#, fuzzy
 msgid "Unsubscribe user from another list"
-msgstr ""
+msgstr "他のリストからユーザーの退会を解除する"
 
 #: edit-list.php:95
+#, fuzzy
 msgid "Which list?"
-msgstr ""
+msgstr "どのリスト？"
 
 #: edit-list.php:102
+#, fuzzy
 msgid "Select a list.."
-msgstr ""
+msgstr "リストを選択します。"
 
 #: edit-list.php:141
+#, fuzzy
 msgid "Subscribe settings"
-msgstr ""
+msgstr "設定を購読する"
 
 #: edit-list.php:149
 msgid "List type"
-msgstr ""
+msgstr "設置タイプ"
 
 #: edit-list.php:150
+#, fuzzy
 msgid ""
 "If you select double opt-in, users will be required to click a link in a "
 "confirmation email they'll receive when they sign up via the subscribe form "
 "or API."
 msgstr ""
+"ダブルオプトインを選択した場合、ユーザーは、購読フォームまたは API を介してサ"
+"インアップした際に受け取る確認メールのリンクをクリックする必要があります。"
 
 #: edit-list.php:153
+#, fuzzy
 msgid "Single Opt-In"
-msgstr ""
+msgstr "シングルオプトイン"
 
 #: edit-list.php:154
 msgid "Double Opt-In"
-msgstr ""
+msgstr "ダブル・オプトイン"
 
 #: edit-list.php:181
+#, fuzzy
 msgid "Subscribe success page"
-msgstr ""
+msgstr "サクセスページの登録"
 
 #: edit-list.php:182
+#, fuzzy
 msgid ""
 "To redirect users to a custom page letting them know they're subscribed "
 "successfully, enter the link below. If you chose 'Double Opt-In' as your "
 "'List type', this page will tell them a confirmation email has been sent to "
 "them."
 msgstr ""
+"購読に成功したことを知らせるカスタムページにユーザーをリダイレクトするには、"
+"以下のリンクを入力してください。リストタイプ」として「ダブルオプトイン」を選"
+"択した場合、このページでは確認のメールが送信されたことをお知らせします。"
 
 #: edit-list.php:183 edit-list.php:206 edit-list.php:229 edit-list.php:242
 #: edit-list.php:253 edit-list.php:404
 msgid "Page URL"
-msgstr ""
+msgstr "ページの"
 
 #: edit-list.php:187 edit-list.php:210 edit-list.php:408
 msgid "Advanced options"
-msgstr ""
+msgstr "高度なオプション"
 
 #: edit-list.php:191
+#, fuzzy
 msgid ""
 "You can also pass variables into your custom 'Subscribe success page' like so"
 msgstr ""
+"また、以下のように変数をカスタムの 'Subscribe success page' に渡すこともでき"
+"ます。"
 
 #: edit-list.php:192 edit-list.php:215 edit-list.php:413
 msgid "Example"
-msgstr ""
+msgstr "例"
 
 #: edit-list.php:195 edit-list.php:218
+#, fuzzy
 msgid "<code>%n</code> will be converted into the subscriber's name"
-msgstr ""
+msgstr "n は加入者名に変換されます。"
 
 #: edit-list.php:196 edit-list.php:219 edit-list.php:416
-#, php-format
+#, fuzzy, php-format
 msgid "<code>%e</code> will be converted into the 'email'"
-msgstr ""
+msgstr "e は 'email' に変換されます。"
 
 #: edit-list.php:197 edit-list.php:220 edit-list.php:417
+#, fuzzy
 msgid "<code>%l</code> will be converted into the 'listID'"
-msgstr ""
+msgstr "l は 'listID' に変換されます。"
 
 #: edit-list.php:204
+#, fuzzy
 msgid "Subscription confirmed page"
-msgstr ""
+msgstr "購読確認ページ"
 
 #: edit-list.php:204 edit-list.php:297 edit-list.php:304
+#, fuzzy
 msgid "only applies for double opt-ins"
-msgstr ""
+msgstr "ダブルオプトインの場合のみ適用されます"
 
 #: edit-list.php:205
+#, fuzzy
 msgid ""
 "To redirect users to a custom URL letting them know their 'Double Opt-in' "
 "subscription is confirmed, enter the link below."
 msgstr ""
+"ユーザーに「ダブルオプトイン」購読が確定したことを知らせるカスタム URL にリダ"
+"イレクトするには、以下のリンクを入力してください。"
 
 #: edit-list.php:214
+#, fuzzy
 msgid ""
 "You can also pass variables into your custom 'Subscription confirmed page' "
 "like so"
 msgstr ""
+"また、以下のように変数をカスタムの '購読確認ページ' に渡すこともできます。"
 
 #: edit-list.php:227
+#, fuzzy
 msgid "Already subscribed page"
-msgstr ""
+msgstr "購読済みのページ"
 
 #: edit-list.php:228
+#, fuzzy
 msgid ""
 "To redirect users to a custom URL letting them know they're already "
 "subscribed, enter the link below."
 msgstr ""
+"ユーザーが既に購読していることを知らせるカスタム URL にリダイレクトするには、"
+"以下のリンクを入力してください。"
 
 #: edit-list.php:240
+#, fuzzy
 msgid "GDPR reconsent success page"
-msgstr ""
+msgstr "GDPRリコンセント成功のページ"
 
 #: edit-list.php:241
+#, fuzzy
 msgid ""
 "When you send a reconsent campaign with the <code>[reconsent]</code> tag, "
 "the converted reconsent link will send the user to a generic page thanking "
 "them for their confirmation. To redirect them to a custom URL, enter the "
 "link below."
 msgstr ""
+"Reconsent]タグを使用してリコンセントキャンペーンを送信すると、変換されたリコ"
+"ンセントリンクは、ユーザーが確認したことに感謝する一般的なページに送信されま"
+"す。カスタムURLにリダイレクトするには、以下のリンクを入力してください。"
 
 #: edit-list.php:251
+#, fuzzy
 msgid "GDPR consent not given page"
-msgstr ""
+msgstr "GDPRの同意が与えられていないページ"
 
 #: edit-list.php:252
+#, fuzzy
 msgid ""
 "If you enabled 'GDPR fields' for your subscribe form, users will be required "
 "to tick a checkbox in order to complete the subscription. If they don't, "
 "they'll be sent to a generic page with an error message \"Consent not given"
 "\". To redirect them to a custom URL, enter the link below."
 msgstr ""
+"購読フォームで「GDPRフィールド」を有効にした場合、ユーザーは購読を完了するた"
+"めにチェックボックスにチェックを入れる必要があります。チェックボックスに"
+"チェックを入れないと、「同意が得られません」というエラーメッセージが表示され"
+"た一般的なページに送られます。カスタムURLにリダイレクトするには、以下のリンク"
+"を入力してください。"
 
 #: edit-list.php:272
+#, fuzzy
 msgid ""
 "Send user a thank you email after they subscribe through the subscribe form "
 "or API?"
 msgstr ""
+"ユーザーが購読フォームやAPIを介して購読した後、ユーザーに感謝のメールを送信し"
+"ますか？"
 
 #: edit-list.php:277
+#, fuzzy
 msgid "Thank you email subject"
-msgstr ""
+msgstr "メールの件名をありがとうございます。"
 
 #: edit-list.php:280 edit-list.php:441
 msgid "Email subject"
-msgstr ""
+msgstr "メールの件名"
 
 #: edit-list.php:284
+#, fuzzy
 msgid "Thank you email message"
-msgstr ""
+msgstr "ありがとうメールメッセージ"
 
 #: edit-list.php:284
+#, fuzzy
 msgid ""
 "You can use personalization tags as well as any custom field tags in the "
 "subject and message of your thank you email. Eg. "
 msgstr ""
+"お礼のメールの件名やメッセージには、カスタムフィールドタグだけでなく、パーソ"
+"ナライゼーションタグを使用することができます。例えば、以下のようになります。"
 
 #: edit-list.php:284
+#, fuzzy
 msgid ""
 "You can also use <code>[unsubscribe]</code> or <code>&lt;unsubscribe&gt;&lt;/"
 "unsubscribe&gt;</code> in the HTML of your thank you email."
 msgstr ""
+"お礼メールのHTMLには、[unsubscribe]や&lt;unsubscribe&gt;を使用することもでき"
+"ます。"
 
 #: edit-list.php:287 edit-list.php:314 edit-list.php:448
 msgid "Email message"
-msgstr ""
+msgstr "メールメッセージ"
 
 #: edit-list.php:297
 msgid "Confirmation email subject"
-msgstr ""
+msgstr "自動返信メールの件名"
 
 #: edit-list.php:297
+#, fuzzy
 msgid "A generic subject line will be used if you leave this field empty."
-msgstr ""
+msgstr "このフィールドを空欄にすると、一般的な件名が使用されます。"
 
 #: edit-list.php:300
+#, fuzzy
 msgid "Subject of confirmation email"
-msgstr ""
+msgstr "確認メールの件名"
 
 #: edit-list.php:304
+#, fuzzy
 msgid "Double Opt-In confirmation message"
-msgstr ""
+msgstr "ダブルオプトイン確認メッセージ"
 
 #: edit-list.php:304
+#, fuzzy
 msgid "A generic email message will be used if you leave this field empty."
 msgstr ""
+"このフィールドを空欄にすると、一般的な電子メールメッセージが使用されます。"
 
 #: edit-list.php:304
+#, fuzzy
 msgid "Don't forget to include the confirmation link tag"
-msgstr ""
+msgstr "確認用のリンクタグを忘れずに入れてください。"
 
 #: edit-list.php:304
+#, fuzzy
 msgid "somewhere in your message"
-msgstr ""
+msgstr "メッセージのどこかに"
 
 #: edit-list.php:304
+#, fuzzy
 msgid ""
 "You can use personalization tags as well as any custom field tags in the "
 "subject and message of your confirmation email. Eg. "
 msgstr ""
+"確認メールの件名やメッセージには、カスタムフィールドタグと同様に、パーソナラ"
+"イゼーションタグを使用することができます。例えば、以下のようになります。"
 
 #: edit-list.php:330
+#, fuzzy
 msgid "Unsubscribe settings"
-msgstr ""
+msgstr "配信停止の設定"
 
 #: edit-list.php:338
+#, fuzzy
 msgid "Unsubscribe behavior"
-msgstr ""
+msgstr "配信停止の動作"
 
 #: edit-list.php:339
+#, fuzzy
 msgid ""
 "If you select double opt-out, users will be required to click a confirmation "
 "link in the unsubscribe page to complete their unsubscription."
 msgstr ""
+"ダブルオプトアウトを選択した場合、ユーザーは購読解除ページで確認リンクをク"
+"リックして購読解除を完了する必要があります。"
 
 #: edit-list.php:342
+#, fuzzy
 msgid "Single Opt-Out"
-msgstr ""
+msgstr "シングルオプトアウト"
 
 #: edit-list.php:343
+#, fuzzy
 msgid "Double Opt-Out"
-msgstr ""
+msgstr "ダブルオプトアウト"
 
 #: edit-list.php:370
+#, fuzzy
 msgid "Unsubscribe user"
-msgstr ""
+msgstr "ユーザーの登録を解除する"
 
 #: edit-list.php:371
+#, fuzzy
 msgid ""
 "When a user unsubscribes from a newsletter or through the API, choose "
 "whether to unsubscribe them from this list only, or unsubscribe them from "
 "all lists in this brand."
 msgstr ""
+"ユーザーがニュースレターやAPIを介して購読を解除する場合、このリストからのみ購"
+"読を解除するか、このブランドのすべてのリストから購読を解除するかを選択しま"
+"す。"
 
 #: edit-list.php:374
+#, fuzzy
 msgid "Only this list"
-msgstr ""
+msgstr "このリストだけ"
 
 #: edit-list.php:375
+#, fuzzy
 msgid "All lists"
-msgstr ""
+msgstr "すべてのリスト"
 
 #: edit-list.php:402
+#, fuzzy
 msgid "Unsubscribe confirmation page"
-msgstr ""
+msgstr "配信停止確認ページ"
 
 #: edit-list.php:403
+#, fuzzy
 msgid ""
 "When users unsubscribe from a newsletter, they'll be sent to a generic "
 "unsubscription confirmation page. To redirect users to a page of your "
 "preference, enter the link below."
 msgstr ""
+"ユーザーがニュースレターの配信を停止すると、一般的な配信停止確認ページが表示"
+"されます。ユーザーをお好みのページにリダイレクトするには、以下のリンクを入力"
+"してください。"
 
 #: edit-list.php:412
+#, fuzzy
 msgid ""
 "You can also pass variables into your custom 'Unsubscribe confirmation page' "
 "like so"
 msgstr ""
+"また、次のように変数をカスタムの「退会確認ページ」に渡すこともできます。"
 
 #: edit-list.php:418
-#, php-format
+#, fuzzy, php-format
 msgid "<code>%s</code> will be converted into the full 're-subscribe' URL"
-msgstr ""
+msgstr "%s は完全な 're-subscribe' URL に変換されます。"
 
 #: edit-list.php:433
+#, fuzzy
 msgid ""
 "Send user a confirmation email after they unsubscribe from a newsletter or "
 "through the API?"
 msgstr ""
+"ユーザーがニュースレターの購読を解除した後、またはAPIを介して確認メールを送信"
+"しますか？"
 
 #: edit-list.php:438
+#, fuzzy
 msgid "Goodbye email subject"
-msgstr ""
+msgstr "さようならメールの件名"
 
 #: edit-list.php:445
+#, fuzzy
 msgid "Goodbye email message"
-msgstr ""
+msgstr "さよならメールメッセージ"
 
 #: edit-list.php:445
+#, fuzzy
 msgid ""
 "You can use personalization tags as well as any custom field tags in the "
 "subject and message of your goodbye email. Eg. "
 msgstr ""
+"さよならメールの件名やメッセージには、カスタムフィールドタグと同様に、パーソ"
+"ナライズタグを使用することができます。例えば、以下のようになります。"
 
 #: edit-list.php:445
+#, fuzzy
 msgid ""
 "You can also use <code>[resubscribe]</code> or <code>&lt;resubscribe&gt;&lt;/"
 "resubscribe&gt;</code> in the HTML of your goodbye email."
 msgstr ""
+"また、お別れメールのHTMLには[resubscribe]や&lt;resubscribe&gt;&lt;/"
+"resubscribe&gt;を使用することもできます。"
 
 #: edit-template.php:74
 msgid "Edit template"
-msgstr ""
+msgstr "テンプレートの編集"
 
 #: edit.php:102
+#, fuzzy
 msgid "Edit campaign"
-msgstr ""
+msgstr "キャンペーンの編集"
 
 #: housekeeping-inactive.php:45 housekeeping-unconfirmed.php:45
 #: includes/sidebar.php:24
+#, fuzzy
 msgid "Housekeeping"
-msgstr ""
+msgstr "ハウスキーピング"
 
 #: housekeeping-inactive.php:49 housekeeping-unconfirmed.php:49
 #: housekeeping-unconfirmed.php:63
+#, fuzzy
 msgid "Unconfirmed subscribers"
-msgstr ""
+msgstr "未確認の購読者"
 
 #: housekeeping-inactive.php:50 housekeeping-inactive.php:63
 #: housekeeping-unconfirmed.php:50
+#, fuzzy
 msgid "Inactive subscribers"
-msgstr ""
+msgstr "活動休止中の購読者"
 
 #: housekeeping-inactive.php:54
+#, fuzzy
 msgid ""
 "Housekeeping for 'Inactive subscribers' allows you to bulk remove "
 "subscribers who did not open or click any campaigns that you have ever sent "
 "to them."
 msgstr ""
+"アクティブでない購読者」のためのハウスキーピングでは、これまでに送信された"
+"キャンペーンを開かなかったりクリックしなかった購読者を一括して削除することが"
+"できます。"
 
 #: housekeeping-inactive.php:112
+#, fuzzy
 msgid "Did not open"
-msgstr ""
+msgstr "開かなかった"
 
 #: housekeeping-inactive.php:113
+#, fuzzy
 msgid "Did not click"
-msgstr ""
+msgstr "クリックしなかった"
 
 #: housekeeping-inactive.php:143
 msgid "Inactive"
-msgstr ""
+msgstr "非アクティブ"
 
 #: housekeeping-inactive.php:161
+#, fuzzy
 msgid "Remove subscribers who did not open any campaign ever sent to them?"
-msgstr ""
+msgstr "今までに送られてきたキャンペーンを開かなかった購読者を削除しますか？"
 
 #: housekeeping-inactive.php:163 housekeeping-inactive.php:198
 #: housekeeping-unconfirmed.php:85 housekeeping-unconfirmed.php:151
 #: housekeeping-unconfirmed.php:172 housekeeping-unconfirmed.php:193
 #: housekeeping-unconfirmed.php:214
+#, fuzzy
 msgid "Confirm permanently remove subscribers?"
-msgstr ""
+msgstr "購読者の永久削除を確認しますか？"
 
 #: housekeeping-inactive.php:171 housekeeping-inactive.php:206
 #: housekeeping-unconfirmed.php:101 housekeeping-unconfirmed.php:166
 #: housekeeping-unconfirmed.php:187 housekeeping-unconfirmed.php:208
 #: housekeeping-unconfirmed.php:233
+#, fuzzy
 msgid "Sorry, unable to remove subscribers. Please try again later!"
 msgstr ""
+"申し訳ありませんが、購読者を削除することができません。後でもう一度試してみて"
+"ください"
 
 #: housekeeping-inactive.php:196
+#, fuzzy
 msgid ""
 "Remove subscribers who did not click any links from any campaign ever sent "
 "to them?"
 msgstr ""
+"これまでに送られたキャンペーンからリンクをクリックしなかった購読者を削除しま"
+"すか？"
 
 #: housekeeping-inactive.php:235
+#, fuzzy
 msgid ""
 "No housekeeping needed as no campaigns were sent to any of your available "
 "lists yet."
 msgstr ""
+"あなたの利用可能なリストにはまだキャンペーンが送られていないので、ハウスキー"
+"ピングは必要ありません。"
 
 #: housekeeping-unconfirmed.php:54
+#, fuzzy
 msgid ""
 "Housekeeping for 'Unconfirmed subscribers' allows you to bulk remove "
 "subscribers who signed up to double opt-in lists but did not click the "
 "confirmation link to confirm their subscription."
 msgstr ""
+"未確認の購読者」のためのハウスキーピングでは、二重のオプトインリストにサイン"
+"アップしたにもかかわらず、確認リンクをクリックして購読を確認しなかった購読者"
+"を一括削除できます。"
 
 #: housekeeping-unconfirmed.php:76
+#, fuzzy
 msgid ""
 "Remove subscribers from all lists who did not confirm their subscription for "
 "1 week?"
-msgstr ""
+msgstr "1週間購読を確認しなかったすべてのリストから購読者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:76
 msgid "1 week"
-msgstr ""
+msgstr "1週間"
 
 #: housekeeping-unconfirmed.php:77
+#, fuzzy
 msgid ""
 "Remove subscribers from all lists who did not confirm their subscription for "
 "more than 1 week?"
-msgstr ""
+msgstr "1週間以上購読を確認していない購読者をすべてのリストから削除しますか？"
 
 #: housekeeping-unconfirmed.php:77
+#, fuzzy
 msgid "> 1 week"
-msgstr ""
+msgstr "> 1週間"
 
 #: housekeeping-unconfirmed.php:78
+#, fuzzy
 msgid ""
 "Remove subscribers from all lists who did not confirm their subscription for "
 "more than 2 weeks?"
-msgstr ""
+msgstr "2週間以上購読を確認しなかったすべてのリストから購読者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:78
+#, fuzzy
 msgid "> 2 weeks"
-msgstr ""
+msgstr "> 2週間"
 
 #: housekeeping-unconfirmed.php:79
+#, fuzzy
 msgid ""
 "Remove subscribers from all lists who did not confirm their subscription?"
-msgstr ""
+msgstr "購読を確認していないすべてのリストから購読者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:79 subscribers.php:429
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #: housekeeping-unconfirmed.php:129
+#, fuzzy
 msgid "Remove subscribers who did not confirm their subscription for 1 week?"
-msgstr ""
+msgstr "1週間購読を確認しなかった購読者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:130
+#, fuzzy
 msgid ""
 "Remove subscribers who did not confirm their subscription for more than 1 "
 "week?"
-msgstr ""
+msgstr "1週間以上購読を確認しなかった購読者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:131
+#, fuzzy
 msgid ""
 "Remove subscribers who did not confirm their subscription for more than 2 "
 "weeks?"
-msgstr ""
+msgstr "2週間以上購読を確認しなかった購読者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:132
+#, fuzzy
 msgid "Remove ALL subscribers who did not confirm their subscription?"
-msgstr ""
+msgstr "購読を確認していないすべての購読者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:142 includes/subscribers/subscriber-info.php:65
 #: search-all-lists.php:87 search-all-lists.php:156 subscribers.php:436
 #: subscribers.php:527 subscribers.php:599
 msgid "Unconfirmed"
-msgstr ""
+msgstr "未確認"
 
 #: housekeeping-unconfirmed.php:248
+#, fuzzy
 msgid "No housekeeping needed as no double opt-in lists are found."
 msgstr ""
+"ダブルオプトインリストが見つからないため、ハウスキーピングは必要ありません。"
 
 #: includes/app/verify-email.php:47 send-to.php:139
 msgid "Please verify your email address"
-msgstr ""
+msgstr "あなたのメールを確認してください"
 
 #: includes/app/verify-email.php:48 send-to.php:140
+#, fuzzy
 msgid ""
 "Before you can use the email address as your 'From email' to send emails, "
 "please click the following link to verify that the email address belongs to "
 "you"
 msgstr ""
+"メールアドレスを「From email」として使用してメールを送信する前に、次のリンク"
+"をクリックしてメールアドレスが自分のものであることを確認してください。"
 
 #: includes/ares-reports/export-csv.php:211
+#, fuzzy
 msgid "Date signed up"
-msgstr ""
+msgstr "サインアップした日付"
 
 #: includes/ares-reports/export-csv.php:211
+#, fuzzy
 msgid "Signed up via"
-msgstr ""
+msgstr "経由でサインアップ"
 
 #: includes/ares-reports/export-csv.php:211 includes/reports/export-csv.php:322
 #: includes/subscribers/export-csv.php:164
 #: includes/subscribers/export-csv.php:175
 #: includes/subscribers/subscriber-info.php:190
+#, fuzzy
 msgid "Opt-in method"
-msgstr ""
+msgstr "オプトイン方式"
 
 #: includes/ares-reports/export-csv.php:211 includes/reports/export-csv.php:322
 #: includes/subscribers/export-csv.php:164
 #: includes/subscribers/export-csv.php:175
 #: includes/subscribers/subscriber-info.php:202
 msgid "IP address"
-msgstr ""
+msgstr "IPアドレス"
 
 #: includes/ares-reports/export-csv.php:211 segment.php:98 segment.php:227
 msgid "Referrer"
-msgstr ""
+msgstr "紹介者"
 
 #: includes/ares-reports/export-csv.php:223
+#, fuzzy
 msgid ""
 "Can't export CSV. Number of records may be too large. Try increasing MySQL's "
 "max_allowed_packet."
 msgstr ""
+"CSVエクスポートができません。レコード数が多すぎる可能性があります。MySQLの"
+"max_allowed_packetを増やしてみてください。"
 
 #: includes/ares/main.php:50
+#, fuzzy
 msgid "Sent annually based on"
-msgstr ""
+msgstr "に基づいて毎年送信されます。"
 
 #: includes/ares/main.php:54
+#, fuzzy
 msgid "Sent once based on"
-msgstr ""
+msgstr "に基づいて一度送信された"
 
 #: includes/ares/save-autoresponder-email.php:81
 #: includes/ares/save-autoresponder-email.php:121
 #: includes/create/save-campaign.php:62 includes/create/save-campaign.php:111
+#, fuzzy
 msgid "Unable to upload attachment"
-msgstr ""
+msgstr "添付ファイルをアップロードできない"
 
 #: includes/ares/save-autoresponder-email.php:81
 #: includes/ares/save-autoresponder-email.php:121
 #: includes/create/save-campaign.php:62 includes/create/save-campaign.php:111
+#, fuzzy
 msgid "Please ensure the /uploads/ folder permission is set to 777."
 msgstr ""
+"Uploads/フォルダのパーミッションが777になっていることを確認してください。"
 
 #: includes/ares/save-autoresponder-email.php:95
+#, fuzzy
 msgid "Unable to save autoresponder email"
-msgstr ""
+msgstr "オートレスポンダの電子メールを保存できない"
 
 #: includes/ares/save-autoresponder-email.php:135
+#, fuzzy
 msgid "Unable to create autoresponder email"
-msgstr ""
+msgstr "自動応答メールを作成できない"
 
 #: includes/create/save-campaign.php:76
+#, fuzzy
 msgid "Unable to save campaign"
-msgstr ""
+msgstr "キャンペーンの保存ができない"
 
 #: includes/create/save-campaign.php:125
+#, fuzzy
 msgid "Unable to create campaign"
-msgstr ""
+msgstr "キャンペーンの作成ができない"
 
 #: includes/create/send-now.php:168 scheduled.php:127
 msgid "Sunday"
-msgstr ""
+msgstr "日曜日"
 
 #: includes/create/send-now.php:168 scheduled.php:127
 msgid "Monday"
-msgstr ""
+msgstr "月曜日"
 
 #: includes/create/send-now.php:168 scheduled.php:127
 msgid "Tuesday"
-msgstr ""
+msgstr "火曜日"
 
 #: includes/create/send-now.php:168 scheduled.php:127
 msgid "Wednesday"
-msgstr ""
+msgstr "水曜日"
 
 #: includes/create/send-now.php:168 scheduled.php:127
 msgid "Thursday"
-msgstr ""
+msgstr "木曜日"
 
 #: includes/create/send-now.php:168 scheduled.php:127
 msgid "Friday"
-msgstr ""
+msgstr "金曜日"
 
 #: includes/create/send-now.php:168 scheduled.php:127
 msgid "Saturday"
-msgstr ""
+msgstr "土曜日"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "January"
-msgstr ""
+msgstr "1月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "February"
-msgstr ""
+msgstr "2月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "March"
-msgstr ""
+msgstr "3月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "April"
-msgstr ""
+msgstr "4月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "May"
-msgstr ""
+msgstr "5月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "June"
-msgstr ""
+msgstr "6月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "July"
-msgstr ""
+msgstr "7月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "August"
-msgstr ""
+msgstr "8月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "September"
-msgstr ""
+msgstr "9月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "October"
-msgstr ""
+msgstr "10月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "November"
-msgstr ""
+msgstr "11月"
 
 #: includes/create/send-now.php:169 scheduled.php:128
 msgid "December"
-msgstr ""
+msgstr "12月"
 
 #: includes/create/send-now.php:734 scheduled.php:771
+#, fuzzy
 msgid "Campaign sent"
-msgstr ""
+msgstr "キャンペーンのご案内"
 
 #: includes/create/send-now.php:736 includes/create/send-now.php:752
 #: scheduled.php:775 scheduled.php:791
+#, fuzzy
 msgid "Your campaign has been successfully sent to"
-msgstr ""
+msgstr "あなたのキャンペーンは正常に送信されました"
 
 #: includes/create/send-now.php:749 scheduled.php:788
+#, fuzzy
 msgid "Your campaign has been sent"
-msgstr ""
+msgstr "あなたのキャンペーンが送られてきました"
 
 #: includes/functions.php:69
+#, fuzzy
 msgid "APP_PATH not set"
-msgstr ""
+msgstr "APP_PATH が設定されていない"
 
 #: includes/functions.php:69
+#, fuzzy
 msgid ""
 "Please set your APP_PATH in /includes/config.php to your Sendy installation "
 "URL."
 msgstr ""
+"/includes/config.phpのAPP_PATHをSendyのインストールURLに設定してください。"
 
 #: includes/functions.php:261
+#, fuzzy
 msgid "Invalid license or domain"
-msgstr ""
+msgstr "無効なライセンスまたはドメイン"
 
 #: includes/functions.php:261
+#, fuzzy
 msgid ""
 "Please refer to this <a href=\"https://sendy.co/troubleshooting#unlicensed-"
 "domain-error\" target=\"_blank\">troubleshooting tip</a>."
-msgstr ""
+msgstr "このトラブルシューティングのコツを参考にしてください。"
 
 #: includes/functions.php:271
+#, fuzzy
 msgid "Outgoing connections blocked"
-msgstr ""
+msgstr "送信接続がブロックされている"
 
 #: includes/functions.php:271
+#, fuzzy
 msgid ""
 "Your server has a firewall blocking outgoing connections. Please refer to "
 "this <a href=\"https://sendy.co/troubleshooting#unlicensed-domain-error\" "
 "target=\"_blank\">troubleshooting tip</a>."
 msgstr ""
+"サーバーにファイアウォールがあり、送信接続がブロックされています。このトラブ"
+"ルシューティングのヒントを参照してください。"
 
 #: includes/functions.php:276
+#, fuzzy
 msgid "Upgrade your license to 4.x"
-msgstr ""
+msgstr "ライセンスを4.xにアップグレード"
 
 #: includes/functions.php:276
+#, fuzzy
 msgid ""
 "Your Sendy license requires an upgrade to version 4.x. Please visit <a href="
 "\"https://sendy.co/get-updated\" target=\"_blank\">https://sendy.co/get-"
 "updated</a> to purchase an upgrade in order to proceed."
 msgstr ""
+"お使いのSendyライセンスをバージョン4.xにアップグレードするには、https://"
+"sendy.co/get-updated を参照してアップグレードを購入してください。"
 
 #: includes/functions.php:320
+#, fuzzy
 msgid "Unlicensed custom domains"
-msgstr ""
+msgstr "ライセンスを取得していないカスタムドメイン"
 
 #: includes/functions.php:320
+#, fuzzy
 msgid ""
 "You are using more custom domains than your license allow. Please purchase "
 "custom domain licenses here →"
 msgstr ""
+"ライセンスが許可している以上のカスタムドメインを使用しています。こちらからカ"
+"スタムドメインライセンスを購入してください。"
 
 #: includes/functions.php:464
+#, fuzzy
 msgid "'simplexml' extension not installed on your server"
-msgstr ""
+msgstr "'simplexml' 拡張モジュールがサーバにインストールされていません"
 
 #: includes/functions.php:465
+#, fuzzy
 msgid ""
 "We have detected that the 'simplexml' is not installed on your server. Sendy "
 "may not be able to load your Amazon SES quotas. Please see the answer on "
 "this page to resolve this issue"
 msgstr ""
+"サーバーに'simplexml'がインストールされていないことが検出されました。Sendyは"
+"Amazon SESのクォータをロードできない可能性があります。この問題を解決するに"
+"は、このページの回答を参照してください。"
 
 #: includes/functions.php:466 send-to.php:119
+#, fuzzy
 msgid "Once done, refresh this page and this error message should disappear."
 msgstr ""
+"完了したら、このページを更新すると、このエラーメッセージが消えるはずです。"
 
 #: includes/header.php:42 includes/helpers/ses-quota.php:50
 #: includes/helpers/ses-quota.php:54 includes/helpers/ses-quota.php:58
 #: includes/helpers/ses-quota.php:62 includes/helpers/ses-quota.php:70
 #: send-to.php:690 send-to.php:694 send-to.php:701 send-to.php:705
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
 #: includes/header.php:59 login.php:48
 msgid "Login"
-msgstr ""
+msgstr "ログイン"
 
 #: includes/header.php:123
 msgid "Logout"
-msgstr ""
+msgstr "ログアウト"
 
 #: includes/header.php:153 index.php:70 index.php:107 search-all-brands.php:26
 msgid "Brands"
-msgstr ""
+msgstr "ブランド"
 
 #: includes/header.php:183 index.php:86
+#, fuzzy
 msgid "Add a new brand"
-msgstr ""
+msgstr "新ブランドの追加"
 
 #: includes/helpers/personalization.tags.php:11
+#, fuzzy
 msgid "Essential tags (HTML only)"
-msgstr ""
+msgstr "必須タグ（HTMLのみ"
 
 #: includes/helpers/personalization.tags.php:12
+#, fuzzy
 msgid "The following tags can only be used on the HTML version"
-msgstr ""
+msgstr "以下のタグは、HTML版でのみ使用できます。"
 
 #: includes/helpers/personalization.tags.php:13
 #: includes/helpers/personalization.tags.php:18
+#, fuzzy
 msgid "Webversion link"
-msgstr ""
+msgstr "ウェブバージョンリンク"
 
 #: includes/helpers/personalization.tags.php:13
+#, fuzzy
 msgid "View web version"
-msgstr ""
+msgstr "ウェブ版を見る"
 
 #: includes/helpers/personalization.tags.php:14
 #: includes/helpers/personalization.tags.php:19
 msgid "Unsubscribe link"
-msgstr ""
+msgstr "登録解除リンク"
 
 #: includes/helpers/personalization.tags.php:14
+#, fuzzy
 msgid "Unsubscribe here"
-msgstr ""
+msgstr "配信停止はこちら"
 
 #: includes/helpers/personalization.tags.php:16
+#, fuzzy
 msgid "Essential tags"
-msgstr ""
+msgstr "必須タグ"
 
 #: includes/helpers/personalization.tags.php:17
 #: includes/helpers/personalization.tags.php:30
+#, fuzzy
 msgid "The following tags can be used on both Plain text or HTML version"
 msgstr ""
+"以下のタグは、プレーンテキスト版とHTML版の両方で使用することができます。"
 
 #: includes/helpers/personalization.tags.php:22
+#, fuzzy
 msgid "GDPR re-consent tag"
-msgstr ""
+msgstr "GDPR再同意タグ"
 
 #: includes/helpers/personalization.tags.php:23
+#, fuzzy
 msgid ""
 "When requesting your subscribers to re-consent to your future campaigns, you "
 "can use this tag as the re-consent link. Upon clicking this link, the "
@@ -2794,97 +3459,131 @@ msgid ""
 "Campaigns and Autoresponders will only be sent to subscribers tagged with "
 "<span class=\"label label-warning\">GDPR</span>."
 msgstr ""
+"購読者に今後のキャンペーンへの再同意を求める際に、このタグを再同意リンクとし"
+"て使用することができます。このリンクをクリックすると、購読者にはGDPRのタグが"
+"付けられます。ブランド設定で「GDPR セーフスイッチ」をオンにすると、今後のキャ"
+"ンペーンやオートレスポンダーは GDPR タグが付けられた購読者にのみ送信されま"
+"す。"
 
 #: includes/helpers/personalization.tags.php:25
+#, fuzzy
 msgid "Reconsent link"
-msgstr ""
+msgstr "再度のリンク"
 
 #: includes/helpers/personalization.tags.php:29
+#, fuzzy
 msgid "Personalization tags"
-msgstr ""
+msgstr "パーソナル化タグ"
 
 #: includes/helpers/personalization.tags.php:33
+#, fuzzy
 msgid "Two digit day of the month (eg. 01 to 31)"
-msgstr ""
+msgstr "月の二桁の曜日（例：01～31"
 
 #: includes/helpers/personalization.tags.php:34
+#, fuzzy
 msgid "A full textual representation of the day (eg. Friday)"
-msgstr ""
+msgstr "曜日の完全なテキスト表現（例：金曜日"
 
 #: includes/helpers/personalization.tags.php:35
+#, fuzzy
 msgid "Two digit representation of the month (eg. 01 to 12)"
-msgstr ""
+msgstr "月の2桁表示（例：01～12"
 
 #: includes/helpers/personalization.tags.php:36
+#, fuzzy
 msgid "Full month name (eg. May)"
-msgstr ""
+msgstr "完全な月名（例：5月"
 
 #: includes/helpers/personalization.tags.php:37
+#, fuzzy
 msgid "Four digit representation of the year (eg. 2014)"
-msgstr ""
+msgstr "年を4桁で表したもの（例：2014年"
 
 #: includes/helpers/personalization.tags.php:39
+#, fuzzy
 msgid "Custom field tags"
-msgstr ""
+msgstr "カスタムフィールドタグ"
 
 #: includes/helpers/personalization.tags.php:40
+#, fuzzy
 msgid "You can also use custom fields to personalize your newsletter, eg."
 msgstr ""
+"また、カスタムフィールドを使用してニュースレターをパーソナライズすることもで"
+"きます。"
 
 #: includes/helpers/personalization.tags.php:41
+#, fuzzy
 msgid ""
 "To manage or get a reference of tags from custom fields, go to any "
 "subscriber list. Then click 'Custom fields' button at the top right."
 msgstr ""
+"カスタムフィールドからタグの参照を管理または取得するには、任意の購読者リスト"
+"にアクセスします。そして、右上の「カスタムフィールド」ボタンをクリックしま"
+"す。"
 
 #: includes/helpers/ses-quota.php:35
+#, fuzzy
 msgid "Amazon SES is not set up as we can't find your AWS credentials in"
-msgstr ""
+msgstr "でAWSの資格情報が見つからないため、Amazon SESが設定されていません。"
 
 #: includes/helpers/ses-quota.php:35
 msgid "settings"
-msgstr ""
+msgstr "設定"
 
 #: includes/helpers/ses-quota.php:36
+#, fuzzy
 msgid ""
 "If you entered SMTP credentials when you create or edit a brand, emails will "
 "be sent via SMTP. Otherwise, emails will be sent via your server (not "
 "recommended)."
 msgstr ""
+"ブランドを作成または編集する際にSMTP認証情報を入力した場合、メールはSMTP経由"
+"で送信されます。それ以外の場合は、メールはあなたのサーバーを介して送信されま"
+"す（推奨されません）。"
 
 #: includes/helpers/ses-quota.php:37
+#, fuzzy
 msgid "View Get Started guide"
-msgstr ""
+msgstr "スタートガイドを見る"
 
 #: includes/helpers/ses-quota.php:41
+#, fuzzy
 msgid "Sending status"
-msgstr ""
+msgstr "送信状態"
 
 #: includes/helpers/ses-quota.php:42
+#, fuzzy
 msgid "SES region"
-msgstr ""
+msgstr "SES地域"
 
 #: includes/helpers/ses-quota.php:43
+#, fuzzy
 msgid "Daily quota"
-msgstr ""
+msgstr "毎日のノルマ"
 
 #: includes/helpers/ses-quota.php:44
+#, fuzzy
 msgid "Sends left"
-msgstr ""
+msgstr "左側を送信"
 
 #: includes/helpers/ses-quota.php:45
+#, fuzzy
 msgid "Sent today"
-msgstr ""
+msgstr "本日送信"
 
 #: includes/helpers/ses-quota.php:46
+#, fuzzy
 msgid "Send rate"
-msgstr ""
+msgstr "レートを送信する"
 
 #: includes/helpers/ses-quota.php:46
+#, fuzzy
 msgid "per sec"
-msgstr ""
+msgstr "毎秒"
 
 #: includes/helpers/ses-quota.php:50
+#, fuzzy
 msgid ""
 "Your Sendy installation is unable to get your SES quota from Amazon because "
 "you did not attach \"AmazonSESFullAccess\" user policy to your IAM "
@@ -2892,16 +3591,26 @@ msgid ""
 "get-started#step5\" target=\"_blank\">Get Started Guide</a> carefully to "
 "resolve this error."
 msgstr ""
+"あなたのSendyインストールは、\"AmazonSESFullAccess \"ユーザーポリシーをIAM資"
+"格情報にアタッチしていないため、AmazonからSESクォータを取得することができませ"
+"ん。このエラーを解決するために、Get Started Guideのステップ5.2と5.3を注意深く"
+"やり直してください。"
 
 #: includes/helpers/ses-quota.php:54
+#, fuzzy
 msgid ""
 "Your Sendy installation is unable to get your SES quota from Amazon because "
 "your server clock is out of sync with NTP. To fix this, Amazon requires you "
 "to <strong>sync your server clock with NTP</strong>. Request your host to "
 "sync your server clock with NTP with the following command via SSH:"
 msgstr ""
+"サーバークロックがNTPと同期されていないため、SendyがAmazonからSESクォータを取"
+"得できません。これを修正するには、AmazonはサーバークロックをNTPと同期させる必"
+"要があります。SSH経由で以下のコマンドでホストにサーバークロックをNTPと同期す"
+"るように要求してください。"
 
 #: includes/helpers/ses-quota.php:58
+#, fuzzy
 msgid ""
 "Your Sendy installation is unable to get your SES quota from Amazon because "
 "the 'Amazon Web Services Credentials' set in Sendy's main Settings are "
@@ -2910,378 +3619,480 @@ msgid ""
 "\"https://sendy.co/get-started#step5\" target=\"_blank\">Get Started Guide</"
 "a> carefully to resolve this error."
 msgstr ""
+"Sendyのメイン設定で設定されている'Amazon Web Services Credentials'が間違って"
+"いるため、SendyのインストールがAmazonからSESクォータを取得できません。おそら"
+"く、IAM資格情報を完全にコピー＆ペーストしていないか、正しく設定に入れていない"
+"のでしょう。このエラーを解決するには、Get Started Guideのステップ5.2と5.3を慎"
+"重にやり直してください。"
 
 #: includes/helpers/ses-quota.php:62
+#, fuzzy
 msgid ""
 "Your Sendy installation is unable to get your SES quota from Amazon because "
 "you have not completed your sign up of Amazon SES. Here's what you should do:"
 msgstr ""
+"お使いのSandyのインストールは、Amazon SESのサインアップが完了していないため、"
+"AmazonからSESのクォータを取得することができません。ここでは、あなたがすべきこ"
+"とを説明します。"
 
 #: includes/helpers/ses-quota.php:62
 msgid "Visit"
-msgstr ""
+msgstr "訪問"
 
 #: includes/helpers/ses-quota.php:62
+#, fuzzy
 msgid "your Amazon SES console"
-msgstr ""
+msgstr "お使いのAmazon SESコンソール"
 
 #: includes/helpers/ses-quota.php:62
+#, fuzzy
 msgid "Click the 'Sign Up For Amazon SES' button to finish your signup"
 msgstr ""
+"Sign Up For Amazon SES」ボタンをクリックしてサインアップを完了させます。"
 
 #: includes/helpers/ses-quota.php:62
+#, fuzzy
 msgid "Once you've completed your signup, this error will disappear."
-msgstr ""
+msgstr "サインアップが完了すると、このエラーは消えます。"
 
 #: includes/helpers/ses-quota.php:66
+#, fuzzy
 msgid "You're currently in Amazon SES's \"Sandbox mode\"."
-msgstr ""
+msgstr "現在、Amazon SESの「サンドボックスモード」に入っています。"
 
 #: includes/helpers/ses-quota.php:66
+#, fuzzy
 msgid ""
 "Please request Amazon to \"<a href=\"http://aws.amazon.com/ses/"
 "fullaccessrequest/\" target=\"_blank\">raise your SES Sending Limits</a>\" "
 "to be able to send to and from any email address as well as raise your daily "
 "sending quota from 200 to any number you need."
 msgstr ""
+"Amazonに「SES送信制限を上げる」を依頼して、任意のメールアドレスとの送受信がで"
+"きるようにするだけでなく、1日の送信枠を200から必要な数だけ上げるようにしてく"
+"ださい。"
 
 #: includes/helpers/ses-quota.php:66 send-to.php:786
+#, fuzzy
 msgid ""
 "Please also make sure to select the same 'Region' as what is set in your "
 "Sendy Settings (under 'Amazon SES region') when requesting for 'SES Sending "
 "Limits' increase."
 msgstr ""
+"また、「SES送信制限」の増加をリクエストする際には、Sendyの設定（「Amazon SES"
+"リージョン」の下）で設定されているものと同じ「リージョン」を選択してくださ"
+"い。"
 
 #: includes/list/export-skipped-emails.php:30
 msgid "Reason"
-msgstr ""
+msgstr "理由"
 
 #: includes/login/forgot.php:79 includes/login/forgot.php:136
 msgid "Reset your password"
-msgstr ""
+msgstr "パスワードをリセット"
 
 #: includes/login/forgot.php:82
+#, fuzzy
 msgid ""
 "We have received a request to reset your password. If you did not send this "
 "request, please ignore this email."
 msgstr ""
+"パスワードの再設定のリクエストを受信しました。このリクエストを送信していない"
+"場合は、このメールを無視してください。"
 
 #: includes/login/forgot.php:83
+#, fuzzy
 msgid "To reset your password, please click the following link:"
-msgstr ""
+msgstr "パスワードをリセットするには、以下のリンクをクリックしてください。"
 
 #: includes/login/forgot.php:85
+#, fuzzy
 msgid "Password reset link"
-msgstr ""
+msgstr "パスワードリセットリンク"
 
 #: includes/login/forgot.php:148 login.php:84 login.php:85 r.php:119
 #: unsubscribe.php:177 unsubscribe.php:227 unsubscribe.php:411
+#, fuzzy
 msgid "Email does not exist."
-msgstr ""
+msgstr "メールは存在しません。"
 
 #: includes/login/reset.php:83 includes/login/reset.php:100
+#, fuzzy
 msgid "Your password has been reset, here's your new one"
-msgstr ""
+msgstr "パスワードがリセットされました。"
 
 #: includes/login/reset.php:87
+#, fuzzy
 msgid ""
 "For better security, we recommend changing your password immediately once "
 "you log back in."
 msgstr ""
+"より良いセキュリティのためには、一度ログインしたらすぐにパスワードを変更する"
+"ことをお勧めします。"
 
 #: includes/login/reset.php:97 includes/login/reset.php:154
 msgid "Your new password"
-msgstr ""
+msgstr "新しいパスワード"
 
 #: includes/login/reset.php:104
+#, fuzzy
 msgid ""
 "For better security, it's recommended to change your password immediately "
 "once you log back in."
 msgstr ""
+"より良いセキュリティのためには、ログインしたらすぐにパスワードを変更すること"
+"をお勧めします。"
 
 #: includes/login/reset.php:170
+#, fuzzy
 msgid "Can't reset password."
-msgstr ""
+msgstr "パスワードのリセットができません。"
 
 #: includes/reports/export-csv.php:303 includes/reports/export-csv.php:311
 #: includes/subscribers/subscriber-info.php:391
 msgid "Clicks"
-msgstr ""
+msgstr "クリック数"
 
 #: includes/reports/export-csv.php:322 includes/subscribers/export-csv.php:164
 #: includes/subscribers/export-csv.php:175
 #: includes/subscribers/subscriber-info.php:178
 msgid "Joined"
-msgstr ""
+msgstr "加入日"
 
 #: includes/reports/export-csv.php:322 includes/subscribers/export-csv.php:164
 #: includes/subscribers/export-csv.php:175
 #: includes/subscribers/subscriber-info.php:184 search-all-lists.php:46
 #: segment.php:94 segment.php:227 segment.php:841 subscribers.php:475
 msgid "Last activity"
-msgstr ""
+msgstr "最終利用時"
 
 #: includes/reports/export-csv.php:322 includes/subscribers/export-csv.php:164
 #: includes/subscribers/export-csv.php:175
 #: includes/subscribers/subscriber-info.php:196
+#, fuzzy
 msgid "Added via"
-msgstr ""
+msgstr "経由で追加"
 
 #: includes/reports/export-csv.php:322 includes/subscribers/export-csv.php:164
 #: includes/subscribers/export-csv.php:175
 msgid "Country code"
-msgstr ""
+msgstr "国コード"
 
 #: includes/reports/export-csv.php:322 includes/subscribers/export-csv.php:164
 #: includes/subscribers/export-csv.php:175
 #: includes/subscribers/subscriber-info.php:214
+#, fuzzy
 msgid "Signed up from"
-msgstr ""
+msgstr "からサインアップしました。"
 
 #: includes/reports/export-csv.php:322 includes/subscribers/export-csv.php:164
 #: includes/subscribers/export-csv.php:175 list.php:108 segment.php:100
 #: segment.php:234 subscribers.php:433
 msgid "GDPR"
-msgstr ""
+msgstr "GDPR"
 
 #: includes/reports/export-csv.php:334
+#, fuzzy
 msgid "Can't export CSV"
-msgstr ""
+msgstr "CSVエクスポートができない"
 
 #: includes/reports/export-csv.php:334
+#, fuzzy
 msgid ""
 "There is either nothing to export, or the number of records may be too "
 "large. If it's the latter, try increasing MySQL's max_allowed_packet."
 msgstr ""
+"エクスポートするものがないか、レコード数が多すぎるかのどちらかです。後者の場"
+"合は、MySQL の max_allowed_packet を増やしてみてください。"
 
 #: includes/segments/segmentate.php:67
+#, fuzzy
 msgid "Error: Can't delete all subscribers from segment. "
-msgstr ""
+msgstr "エラーが発生しました。セグメントからすべての加入者を削除できません。"
 
 #: includes/segments/segmentate.php:81 includes/segments/segmentate.php:204
+#, fuzzy
 msgid "Error: Can't insert subscriber into segment."
-msgstr ""
+msgstr "エラーが発生しました。セグメントに加入者を挿入できません。"
 
 #: includes/segments/segmentate.php:318
+#, fuzzy
 msgid "No segments found for this list."
-msgstr ""
+msgstr "このリストにはセグメントが見つかりませんでした。"
 
 #: includes/sidebar.php:7
 msgid "Campaigns"
-msgstr ""
+msgstr "キャンペーン"
 
 #: includes/sidebar.php:15
 msgid "Templates"
-msgstr ""
+msgstr "テンプレート"
 
 #: includes/sidebar.php:16 templates.php:37
 msgid "All templates"
-msgstr ""
+msgstr "全てのテンプレート"
 
 #: includes/sidebar.php:22
+#, fuzzy
 msgid "Lists & subscribers"
-msgstr ""
+msgstr "リストと加入者"
 
 #: includes/sidebar.php:23
+#, fuzzy
 msgid "View all lists"
-msgstr ""
+msgstr "すべてのリストを表示"
 
 #: includes/sidebar.php:31
 msgid "Reports"
-msgstr ""
+msgstr "レポート"
 
 #: includes/sidebar.php:32
+#, fuzzy
 msgid "See reports"
-msgstr ""
+msgstr "レポートを見る"
 
 #: includes/subscribers/edit.php:36 includes/subscribers/edit.php:76
 #: includes/subscribers/edit.php:99 includes/subscribers/edit.php:147
+#, fuzzy
 msgid "Oops! Unable to save, please try again later."
-msgstr ""
+msgstr "おっと！保存できません。"
 
 #: includes/subscribers/edit.php:57
+#, fuzzy
 msgid "Email already exist in this list."
-msgstr ""
+msgstr "メールはすでにこのリストに存在しています。"
 
 #: includes/subscribers/edit.php:86 subscribe.php:728 subscribe.php:741
 #: subscribe.php:797
+#, fuzzy
 msgid "Email is suppressed."
-msgstr ""
+msgstr "メールは抑制されています。"
 
 #: includes/subscribers/edit.php:90 subscribe.php:99 subscribe.php:115
 #: subscribe.php:245 subscribe.php:485 subscribe.php:828 unsubscribe.php:101
 #: unsubscribe.php:117 unsubscribe.php:158 unsubscribe.php:226
 #: unsubscribe.php:411
 msgid "Email address is invalid."
-msgstr ""
+msgstr "メールアドレスが無効です。"
 
 #: includes/subscribers/import-blocked-domain-list.php:43
 #: includes/subscribers/import-delete.php:23
 #: includes/subscribers/import-suppression-list.php:44
 #: includes/subscribers/import-unsubscribe.php:23
+#, fuzzy
 msgid "Error opening data file."
-msgstr ""
+msgstr "データファイルを開く際にエラーが発生しました。"
 
 #: includes/subscribers/import-blocked-domain-list.php:51
 #: includes/subscribers/import-delete.php:31
 #: includes/subscribers/import-suppression-list.php:52
 #: includes/subscribers/import-unsubscribe.php:31
+#, fuzzy
 msgid "File is empty."
-msgstr ""
+msgstr "ファイルは空です。"
 
 #: includes/subscribers/subscriber-info.php:69
+#, fuzzy
 msgid "not set"
-msgstr ""
+msgstr "未設定"
 
 #: includes/subscribers/subscriber-info.php:118
 #: includes/subscribers/subscriber-info.php:363 settings.php:43
+#, fuzzy
 msgid "Sorry, unable to save. Please try again later!"
-msgstr ""
+msgstr "申し訳ありませんが、保存できません。あとでもう一度お試しください"
 
 #: includes/subscribers/subscriber-info.php:329
 msgid "Notes"
-msgstr ""
+msgstr "ノート"
 
 #: includes/subscribers/subscriber-info.php:332
 #: includes/subscribers/subscriber-info.php:368
+#, fuzzy
 msgid "Click to add a note for this subscriber."
-msgstr ""
+msgstr "この購読者のメモを追加するにはクリックしてください。"
 
 #: includes/subscribers/subscriber-info.php:350
+#, fuzzy
 msgid "Saving.."
-msgstr ""
+msgstr "節約..."
 
 #: includes/subscribers/subscriber-info.php:385
+#, fuzzy
 msgid "Campaign activity"
-msgstr ""
+msgstr "キャンペーン活動"
 
 #: includes/subscribers/subscriber-info.php:455
+#, fuzzy
 msgid "Not detected"
-msgstr ""
+msgstr "検出されません"
 
 #: includes/subscribers/subscriber-info.php:460
+#, fuzzy
 msgid "View report for"
-msgstr ""
+msgstr "レポートを見る"
 
 #: includes/subscribers/subscriber-info.php:469
 msgid "Links clicked"
-msgstr ""
+msgstr "リンクをクリック"
 
 #: includes/subscribers/subscriber-info.php:486
 #: includes/subscribers/subscriber-info.php:498
+#, fuzzy
 msgid "No activity."
-msgstr ""
+msgstr "活動はしていません。"
 
 #: includes/templates/save-template.php:29
 #: includes/templates/save-template.php:43
+#, fuzzy
 msgid "Unable to create template"
-msgstr ""
+msgstr "テンプレートの作成ができない"
 
 #: includes/templates/use-template.php:72
+#, fuzzy
 msgid "Failed to create new campaign with template, please try again."
-msgstr ""
+msgstr "テンプレートを使用した新規キャンペーンの作成に失敗しました。"
 
 #: index.php:32 index.php:40
+#, fuzzy
 msgid "Please verify your login email address"
-msgstr ""
+msgstr "ログインメールアドレスを確認してください。"
 
 #: index.php:33
+#, fuzzy
 msgid ""
 "A verification email has been sent to your main login email address with a "
 "confirmation link to complete the verification. Please click the link to "
 "complete the verification, then refresh this page and this message should "
 "disappear."
 msgstr ""
+"メインログインのメールアドレスに、検証を完了するための確認リンクが記載された"
+"検証メールが送信されました。検証を完了するためのリンクをクリックして、この"
+"ページを更新すると、このメッセージが消えます。"
 
 #: index.php:34 index.php:43
+#, fuzzy
 msgid ""
 "It is necessary to verify your main login email address for various reasons, "
 "one of them is to enable password reset emails to be sent to you should you "
 "forget your password in future."
 msgstr ""
+"様々な理由でメインログインのメールアドレスを確認する必要がありますが、そのう"
+"ちの1つは、将来パスワードを忘れた場合にパスワードリセットメールが送信されるよ"
+"うにすることです。"
 
 #: index.php:41
+#, fuzzy
 msgid ""
 "Your login email address is still pending verification. Please click the "
 "link in the verification email you received from Amazon to complete the "
 "verification, then refresh this page and this message should disappear."
 msgstr ""
+"ログインメールアドレスはまだ検証中です。Amazonから送られてきた検証メールに記"
+"載されているリンクをクリックして検証を完了させ、このページを更新すると、この"
+"メッセージが消えるはずです。"
 
 #: index.php:42
+#, fuzzy
 msgid "If you want to re-send the verification email"
-msgstr ""
+msgstr "検証メールを再送信する場合"
 
 #: index.php:42
+#, fuzzy
 msgid "please click here"
-msgstr ""
+msgstr "こちらをクリックしてください"
 
 #: index.php:56
+#, fuzzy
 msgid ""
 "The verification email has been re-sent to your main login email address."
-msgstr ""
+msgstr "メインログインメールアドレスに確認メールが再送信されました。"
 
 #: index.php:58
+#, fuzzy
 msgid "Unable to send the verification email. Please try again later."
-msgstr ""
+msgstr "確認メールを送信できません。後ほどもう一度お試しください。"
 
 #: index.php:90 search-all-brands.php:14
+#, fuzzy
 msgid "Search brands"
-msgstr ""
+msgstr "検索ブランド"
 
 #: index.php:106 list.php:104 search-all-brands.php:25 segments-list.php:64
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: index.php:109 search-all-brands.php:28
 msgid "Used"
-msgstr ""
+msgstr "使用済み"
 
 #: index.php:207 search-all-brands.php:140
+#, fuzzy
 msgid ""
 "All campaigns, lists, subscribers will be permanently deleted. Confirm delete"
-msgstr ""
+msgstr "すべてのキャンペーン、リスト、購読者は永久に削除されます。削除の確認"
 
 #: index.php:236
+#, fuzzy
 msgid "What are brands?"
-msgstr ""
+msgstr "ブランドとは？"
 
 #: index.php:237
+#, fuzzy
 msgid ""
 "Let's just say you own this company called Apple Inc and you have several "
 "products under it eg. Mac, iPhone, iPad etc. These several \"child\" "
 "products are what we refer to as 'brands'."
 msgstr ""
+"あなたがApple Inc.という会社を所有していて、その下にいくつかの製品を持ってい"
+"るとしましょう。これらのいくつかの \"子 \"製品は、私たちが \"ブランド \"と呼"
+"ぶものです。"
 
 #: index.php:238
+#, fuzzy
 msgid ""
 "Another example, if you have a company or business with different clients "
 "and you want to group them separately, you can create a 'brand' for each."
 msgstr ""
+"別の例としては、異なるクライアントを持つ会社やビジネスがあり、それらを別々に"
+"グループ化したい場合は、それぞれに「ブランド」を作成することができます。"
 
 #: index.php:239
+#, fuzzy
 msgid ""
 "Once you've created a brand, you can then create email campaigns, templates, "
 "lists, import subscribers or blacklists, setup autoresponders, perform list "
 "segmentation etc in each brand you've created."
 msgstr ""
+"ブランドを作成したら、作成したブランドごとに、メールキャンペーン、テンプレー"
+"ト、リスト、購読者やブラックリストのインポート、オートレスポンダーの設定、リ"
+"ストのセグメンテーションなどを行うことができます。"
 
 #: index.php:240
+#, fuzzy
 msgid ""
 "If you have clients that you want to provide email marketing services for, "
 "you can generate a set of login credentials for each brand, set access "
 "privileges, monthly limits, cost per email etc, then send the login "
 "credentials to your clients to login and send newsletters on their own."
 msgstr ""
+"メールマーケティングサービスを提供したいクライアントがいる場合は、ブランドご"
+"とにログイン認証情報を生成し、アクセス権、月額制限、メール1通あたりのコストな"
+"どを設定して、クライアントにログイン認証情報を送信して、クライアント自身がロ"
+"グインしてニュースレターを送信することができます。"
 
 #: index.php:242
+#, fuzzy
 msgid "Add your first brand!"
-msgstr ""
+msgstr "あなたの最初のブランドを追加します!"
 
 #: js/create/main.php:43 js/create/main.php:50 send-to.php:286
+#, fuzzy
 msgid "Test send this newsletter"
-msgstr ""
+msgstr "このニュースレターをテスト送信する"
 
 #: js/create/main.php:56
+#, fuzzy
 msgid ""
 "Please find Amazon's email in your inbox as well as spam folder. They will "
 "include a reason for the suspension. You will need to reply to that email in "
@@ -3289,547 +4100,673 @@ msgid ""
 "contact Amazon's support at their <a href='https://forums.aws.amazon.com/"
 "forum.jspa?forumID=90' target='_blank'>Amazon SES forum</a>"
 msgstr ""
+"迷惑メールフォルダだけでなく、受信箱にもAmazonのメールが入っています。メール"
+"には停止の理由が記載されています。アカウントを再アクティベートするには、その"
+"メールに返信する必要があります。メールが見つからない場合は、Amazonのサポート"
+"に連絡してください。"
 
 #: js/create/main.php:56
+#, fuzzy
 msgid ""
 "For more information on Amazon SES suspension, please see <a href='http://"
 "docs.aws.amazon.com/ses/latest/DeveloperGuide/e-faq-sp.html' "
 "target='_blank'>http://docs.aws.amazon.com/ses/latest/DeveloperGuide/e-faq-"
 "sp.html"
 msgstr ""
+"Amazon SESの停止については、http://docs.aws.amazon.com/ses/latest/"
+"DeveloperGuide/e-faq-sp.html。"
 
 #: js/create/main.php:97
+#, fuzzy
 msgid "Calculating"
-msgstr ""
+msgstr "計算"
 
 #: js/create/main.php:241 send-to.php:96
+#, fuzzy
 msgid "Schedule this campaign?"
-msgstr ""
+msgstr "このキャンペーンを予定していますか？"
 
 #: js/create/main.php:248 remove-duplicates.php:39 remove-duplicates.php:47
 #: remove-duplicates.php:52 send-to.php:102
 msgid "Back"
-msgstr ""
+msgstr "戻る"
 
 #: l.php:81
+#, fuzzy
 msgid "Link no longer exists"
-msgstr ""
+msgstr "リンクが存在しなくなった"
 
 #: list.php:47 new-list.php:16
+#, fuzzy
 msgid "List name is required"
-msgstr ""
+msgstr "リスト名は必須"
 
 #: list.php:70 subscribers.php:77
+#, fuzzy
 msgid "Subscriber lists"
-msgstr ""
+msgstr "購読者リスト"
 
 #: list.php:73 new-list.php:37
+#, fuzzy
 msgid "Add a new list"
-msgstr ""
+msgstr "新しいリストを追加"
 
 #: list.php:78 search-all-lists.php:32
+#, fuzzy
 msgid "Search all lists"
-msgstr ""
+msgstr "すべてのリストを検索"
 
 #: list.php:87 new-list.php:43
+#, fuzzy
 msgid "The name of your new list"
-msgstr ""
+msgstr "新しいリストの名前"
 
 #: list.php:93 new-list.php:49 update-list.php:291
 msgid "Add"
-msgstr ""
+msgstr "追加"
 
 #: list.php:106 subscribers.php:430
 msgid "Active"
-msgstr ""
+msgstr "有効"
 
 #: list.php:110
+#, fuzzy
 msgid "Segs"
-msgstr ""
+msgstr "セグス"
 
 #: list.php:111
+#, fuzzy
 msgid "ARs"
-msgstr ""
+msgstr "ＡＲ"
 
 #: list.php:194
+#, fuzzy
 msgid ""
 "All subscribers, custom fields and autoresponders in this list will also be "
 "permanently deleted. Confirm delete"
 msgstr ""
+"このリスト内のすべての購読者、カスタムフィールド、およびオートレスポンダーも"
+"永久に削除されます。削除の確認"
 
 #: list.php:229
+#, fuzzy
 msgid "No list yet."
-msgstr ""
+msgstr "まだリストはありません。"
 
 #: list.php:229
+#, fuzzy
 msgid "Add one"
-msgstr ""
+msgstr "1つ追加します。"
 
 #: login.php:52
 msgid "Sign in"
-msgstr ""
+msgstr "サインイン"
 
 #: login.php:53 login.php:59
 msgid "Forgot password?"
-msgstr ""
+msgstr "パスワードをお忘れですか?"
 
 #: login.php:60
 msgid "Your email"
-msgstr ""
+msgstr "メールアドレス"
 
 #: login.php:61 login.php:82
+#, fuzzy
 msgid "Send password reset email"
-msgstr ""
+msgstr "パスワードリセットのメールを送信する"
 
 #: login.php:99
+#, fuzzy
 msgid "Sorry, unable to reset password. Please try again later!"
 msgstr ""
+"申し訳ありませんが、パスワードの再設定ができません。後でもう一度試してみてく"
+"ださい"
 
 #: login.php:111
+#, fuzzy
 msgid "Password reset email has been sent to you"
-msgstr ""
+msgstr "パスワード再設定のメールが送信されました"
 
 #: new-brand.php:89
+#, fuzzy
 msgid "New brand"
-msgstr ""
+msgstr "新しいブランド"
 
 #: new-brand.php:449 settings.php:76
 msgid "Your password"
-msgstr ""
+msgstr "パスワード"
 
 #: payment.php:107
+#, fuzzy
 msgid "Sending you to PayPal"
-msgstr ""
+msgstr "ペイパルに送る"
 
 #: payment.php:113
+#, fuzzy
 msgid "Sending you to PayPal, one moment please"
-msgstr ""
+msgstr "PayPalに送信します、ちょっと待ってください。"
 
 #: payment.php:119
+#, fuzzy
 msgid "Campaign for"
-msgstr ""
+msgstr "キャンペーン"
 
 #: payment.php:131
+#, fuzzy
 msgid "Click here to proceed"
-msgstr ""
+msgstr "進むにはこちらをクリックしてください。"
 
 #: r.php:64 r.php:177 r.php:237
+#, fuzzy
 msgid "Thank you for your confirmation!"
-msgstr ""
+msgstr "ご確認ありがとうございました！（笑"
 
 #: r.php:179
+#, fuzzy
 msgid "Oops. There was an error."
-msgstr ""
+msgstr "おっとエラーがありました。"
 
 #: r.php:338 settings.php:65
 msgid "Your email address"
-msgstr ""
+msgstr "あなたのメールアドレス"
 
 #: reconsent-success.php:107
+#, fuzzy
 msgid "Your reconsent tag<br/>is working"
-msgstr ""
+msgstr "あなたの再同意タグは機能しています"
 
 #: reconsent-success.php:109
+#, fuzzy
 msgid ""
 "Your reconsent tag will be converted to a real reconsent link when you send "
 "out your campaign."
 msgstr ""
+"あなたのリコンセントタグは、キャンペーンを発信すると、実際のリコンセントリン"
+"クに変換されます。"
 
 #: remove-duplicates.php:39
+#, fuzzy
 msgid "duplicate emails deleted from"
-msgstr ""
+msgstr "重複メール削除"
 
 #: remove-duplicates.php:44
+#, fuzzy
 msgid "duplicate email(s) found in"
-msgstr ""
+msgstr "で見つかった重複メール"
 
 #: remove-duplicates.php:44
+#, fuzzy
 msgid "delete them?"
-msgstr ""
+msgstr "削除するのか？"
 
 #: remove-duplicates.php:52
+#, fuzzy
 msgid "No duplicate emails found."
-msgstr ""
+msgstr "重複メールは見つかりませんでした。"
 
 #: remove-duplicates.php:58
+#, fuzzy
 msgid "Check and remove duplicate emails"
-msgstr ""
+msgstr "重複メールのチェックと削除"
 
 #: remove-duplicates.php:59
+#, fuzzy
 msgid "Select the list that have duplicates so that you can remove them"
-msgstr ""
+msgstr "重複しているリストを選択して削除することができます。"
 
 #: remove-duplicates.php:59
+#, fuzzy
 msgid "All available lists"
-msgstr ""
+msgstr "利用可能なすべてのリスト"
 
 #: remove-duplicates.php:81
+#, fuzzy
 msgid "duplicates"
-msgstr ""
+msgstr "重複"
 
 #: report.php:60
+#, fuzzy
 msgid "There are no links for this campaign."
-msgstr ""
+msgstr "このキャンペーンのリンクはありません。"
 
 #: report.php:235
+#, fuzzy
 msgid "Campaign report"
-msgstr ""
+msgstr "キャンペーンレポート"
 
 #: report.php:239
 msgid "Title"
-msgstr ""
+msgstr "タイトル"
 
 #: report.php:240
+#, fuzzy
 msgid "Click to edit this campaign's title for your own reference"
-msgstr ""
+msgstr "このキャンペーンのタイトルをクリックして編集してください。"
 
 #: report.php:240 report.php:241 report.php:247 report.php:266
 msgid "Not set"
-msgstr ""
+msgstr "未設定"
 
 #: report.php:283
+#, fuzzy
 msgid "View the campaign"
-msgstr ""
+msgstr "キャンペーンを見る"
 
 #: report.php:284
+#, fuzzy
 msgid "Sent on"
-msgstr ""
+msgstr "送信日"
 
 #: report.php:284
 msgid "to"
-msgstr ""
+msgstr "から"
 
 #: report.php:285
 msgid "To"
-msgstr ""
+msgstr "まで"
 
 #: report.php:287
+#, fuzzy
 msgid "Excluded"
-msgstr ""
+msgstr "除外"
 
 #: report.php:307
+#, fuzzy
 msgid ""
 "Export a CSV of ALL subscribers who did not open this email (includes "
 "subscribers newly added to the lists after this campaign was sent)"
 msgstr ""
+"このメールを開いていないすべての購読者のCSVをエクスポートします（このキャン"
+"ペーンの送信後に新たにリストに追加された購読者も含まれます）。"
 
 #: report.php:311
+#, fuzzy
 msgid "unique clicks"
-msgstr ""
+msgstr "ユニーククリック"
 
 #: report.php:333
+#, fuzzy
 msgid "Export a CSV of ALL subscribers who clicked"
-msgstr ""
+msgstr "クリックしたすべての購読者のCSVをエクスポートする"
 
 #: report.php:387
+#, fuzzy
 msgid "Export a CSV of ALL subscribers who clicked this link"
-msgstr ""
+msgstr "このリンクをクリックしたすべての購読者のCSVをエクスポートする"
 
 #: report.php:421
+#, fuzzy
 msgid "Export a CSV of ALL subscribers who opened"
-msgstr ""
+msgstr "オープンしたすべての購読者のCSVをエクスポートする"
 
 #: report.php:554
+#, fuzzy
 msgid "Export a CSV of ALL subscribers who unsubscribed"
-msgstr ""
+msgstr "購読を解除したすべての購読者のCSVをエクスポートする"
 
 #: report.php:626
+#, fuzzy
 msgid "No one unsubscribed from this campaign!"
-msgstr ""
+msgstr "このキャンペーンでは誰も退会していません!"
 
 #: report.php:647
+#, fuzzy
 msgid "Export a CSV of ALL subscribers who bounced"
-msgstr ""
+msgstr "バウンスしたすべての購読者のCSVをエクスポートする"
 
 #: report.php:719
+#, fuzzy
 msgid "No emails bounced from this campaign!"
-msgstr ""
+msgstr "このキャンペーンからのバウンスメールはありません"
 
 #: report.php:742
+#, fuzzy
 msgid "Export a CSV of ALL subscribers who marked your email as spam"
 msgstr ""
+"あなたのメールをスパムとマークしたすべての購読者のCSVをエクスポートします。"
 
 #: report.php:909
+#, fuzzy
 msgid "Export a CSV of ALL subscribers from"
-msgstr ""
+msgstr "から全加入者のCSVをエクスポートします。"
 
 #: reports.php:51
+#, fuzzy
 msgid "Campaign reports"
-msgstr ""
+msgstr "キャンペーンレポート"
 
 #: reports.php:238 reports.php:240
+#, fuzzy
 msgid "There are no reports yet."
-msgstr ""
+msgstr "まだ報告はありません。"
 
 #: reports.php:240
 msgid "Create your first campaign"
-msgstr ""
+msgstr "最初のキャンペーンを作成します"
 
 #: reset-cron.php:6
+#, fuzzy
 msgid "Reset cron setup"
-msgstr ""
+msgstr "クロンの設定をリセットする"
 
 #: reset-cron.php:15
+#, fuzzy
 msgid ""
 "Cron setup has been reset. You'll now be able to see cron setup instructions."
 msgstr ""
+"Cronの設定がリセットされました。これで、cronのセットアップ手順が表示されるよ"
+"うになりました。"
 
 #: reset-cron.php:17
+#, fuzzy
 msgid "Failed to reset cron."
-msgstr ""
+msgstr "Cron のリセットに失敗しました。"
 
 #: reset-cron.php:22
+#, fuzzy
 msgid ""
 "Do you want to reset cron setup so that you can view cron setup instructions "
 "again?"
 msgstr ""
+"Cronの設定をリセットして、cronの設定手順を再度表示できるようにしますか？"
 
 #: reset-cron.php:24
+#, fuzzy
 msgid "Yes, reset cron setup"
-msgstr ""
+msgstr "はい、cronの設定をリセットします。"
 
 #: search-all-brands.php:17 search-all-lists.php:35 subscribers.php:383
 msgid "Keyword"
-msgstr ""
+msgstr "キーワード"
 
 #: search-all-brands.php:17
+#, fuzzy
 msgid "Back to brands"
-msgstr ""
+msgstr "ブランドに戻る"
 
 #: search-all-brands.php:169
 msgid "No brands found."
-msgstr ""
+msgstr "指定のブランドは見つかりません。"
 
 #: search-all-lists.php:48 search-all-lists.php:105 subscribers.php:477
 #: subscribers.php:548 unsubscribe-from-list.php:142
 msgid "Unsubscribe"
-msgstr ""
+msgstr "退会"
 
 #: search-all-lists.php:111 subscribers.php:554
 msgid "Resubscribe"
-msgstr ""
+msgstr "再購入"
 
 #: search-all-lists.php:121 subscribe.php:765 subscribers.php:564
 msgid "Confirm"
-msgstr ""
+msgstr "確認"
 
 #: search-all-lists.php:165 subscribers.php:608
+#, fuzzy
 msgid "Sorry, unable to unsubscribe. Please try again later!"
 msgstr ""
+"申し訳ありませんが、購読を解除することができません。後でもう一度試してみてく"
+"ださい"
 
 #: search-all-lists.php:180 subscribers.php:623
+#, fuzzy
 msgid "No subscribers found."
-msgstr ""
+msgstr "購読者は見つかりませんでした。"
 
 #: search-all-lists.php:201 subscribers.php:644
+#, fuzzy
 msgid "Delete subscriber"
-msgstr ""
+msgstr "購読者の削除"
 
 #: search-all-lists.php:204 subscribers.php:647
+#, fuzzy
 msgid ""
 "Delete <span id=\"email-to-delete\" style=\"font-weight:bold;\"></span> from "
 "'this list only' or 'ALL lists' in this brand?"
 msgstr ""
+"このブランドの「このリストのみ」または「すべてのリスト」から削除しますか？"
 
 #: search-all-lists.php:208 subscribers.php:650
+#, fuzzy
 msgid "This list only"
-msgstr ""
+msgstr "このリストのみ"
 
 #: search-all-lists.php:209 subscribers.php:651
+#, fuzzy
 msgid "ALL lists in this brand"
-msgstr ""
+msgstr "このブランドのすべてのリスト"
 
 #: segment.php:45
+#, fuzzy
 msgid "Please name your segment"
-msgstr ""
+msgstr "セグメント名をお願いします。"
 
 #: segment.php:67 segments-list.php:40 send-to.php:339 send-to.php:370
 #: send-to.php:437 send-to.php:468 subscribers.php:156
 msgid "Segments"
-msgstr ""
+msgstr "セグメント"
 
 #: segment.php:69
+#, fuzzy
 msgid "Back to segments"
-msgstr ""
+msgstr "セグメントに戻る"
 
 #: segment.php:74
+#, fuzzy
 msgid "New segment"
-msgstr ""
+msgstr "新セグメント"
 
 #: segment.php:88 segment.php:491
+#, fuzzy
 msgid "Create a condition based on"
-msgstr ""
+msgstr "に基づいて条件を作成します。"
 
 #: segment.php:93 segment.php:227
+#, fuzzy
 msgid "Signed up"
-msgstr ""
+msgstr "サインアップ"
 
 #: segment.php:135 segment.php:239
+#, fuzzy
 msgid "on or before"
-msgstr ""
+msgstr "まえに"
 
 #: segment.php:136 segment.php:239
+#, fuzzy
 msgid "on or after"
-msgstr ""
+msgstr "以後"
 
 #: segment.php:137 segment.php:239
 msgid "between"
-msgstr ""
+msgstr "間"
 
 #: segment.php:153 segment.php:156 segment.php:242
 msgid "is"
-msgstr ""
+msgstr "一致"
 
 #: segment.php:157 segment.php:242
 msgid "is not"
-msgstr ""
+msgstr "一致しない"
 
 #: segment.php:158 segment.php:242
 msgid "contains"
-msgstr ""
+msgstr "含む"
 
 #: segment.php:159 segment.php:242
 msgid "does not contain"
-msgstr ""
+msgstr "含まない"
 
 #: segment.php:160 segment.php:242
 msgid "starts with"
-msgstr ""
+msgstr "始まる"
 
 #: segment.php:161 segment.php:242
 msgid "ends with"
-msgstr ""
+msgstr "終わる"
 
 #: segment.php:162 segment.php:242
 msgid "does not start with"
-msgstr ""
+msgstr "始まらない"
 
 #: segment.php:163 segment.php:242
 msgid "does not end with"
-msgstr ""
+msgstr "終わらない"
 
 #: segment.php:171 segment.php:174 segment.php:245 segment.php:614
+#, fuzzy
 msgid "is tagged"
-msgstr ""
+msgstr "タグ付けされている"
 
 #: segment.php:175 segment.php:245
+#, fuzzy
 msgid "is not tagged"
-msgstr ""
+msgstr "はタグ付けされていません。"
 
 #: segment.php:181
 msgid "OR"
-msgstr ""
+msgstr "または"
 
 #: segment.php:191
 msgid "AND"
-msgstr ""
+msgstr "且つ"
 
 #: segment.php:199
+#, fuzzy
 msgid "Name your segment"
-msgstr ""
+msgstr "セグメント名"
 
 #: segment.php:199
+#, fuzzy
 msgid "Edit segment name"
-msgstr ""
+msgstr "セグメント名の編集"
 
 #: segment.php:202
+#, fuzzy
 msgid "Name of this segment"
-msgstr ""
+msgstr "セグメント名"
 
 #: segment.php:212
+#, fuzzy
 msgid "Save this segment"
-msgstr ""
+msgstr "このセグメントを保存する"
 
 #: segment.php:551
+#, fuzzy
 msgid "2 letter abbreviation, eg. US"
-msgstr ""
+msgstr "2文字の略語、例：米国"
 
 #: segment.php:799
+#, fuzzy
 msgid "Unable to save the segment name."
-msgstr ""
+msgstr "セグメント名を保存できません。"
 
 #: segment.php:801
+#, fuzzy
 msgid "Unable to save segment conditions."
-msgstr ""
+msgstr "セグメント条件の保存ができません。"
 
 #: segment.php:810
+#, fuzzy
 msgid "Sorry, unable to save your segment."
-msgstr ""
+msgstr "申し訳ありませんが、セグメントを保存できません。"
 
 #: segment.php:829
+#, fuzzy
 msgid "subscribers found for this segment"
-msgstr ""
+msgstr "このセグメントの加入者数"
 
 #: segment.php:830
+#, fuzzy
 msgid "showing a preview of up to 10 records below"
-msgstr ""
+msgstr "以下に10件までのレコードのプレビューを表示"
 
 #: segment.php:830
+#, fuzzy
 msgid "your conditions does not match any subscribers"
-msgstr ""
+msgstr "あなたの条件が購読者と一致しない"
 
 #: segment.php:831
+#, fuzzy
 msgid "Export CSV of this segment"
-msgstr ""
+msgstr "このセグメントのCSVエクスポート"
 
 #: segment.php:907
+#, fuzzy
 msgid "Update segmentation results?"
-msgstr ""
+msgstr "セグメンテーションの結果を更新しますか？"
 
 #: segment.php:922
+#, fuzzy
 msgid ""
 "When subscribers are added or removed from the list, the segmentation "
 "results will not update automatically unless you click the refresh button "
 msgstr ""
+"購読者がリストに追加または削除された場合、更新ボタンをクリックしない限り、セ"
+"グメンテーション結果は自動的に更新されません。"
 
 #: segment.php:922
+#, fuzzy
 msgid "To have your segmentation results update automatically,"
-msgstr ""
+msgstr "セグメンテーション結果が自動的に更新されるようにするには"
 
 #: segment.php:922 update-list.php:228
+#, fuzzy
 msgid "setup a cron job"
-msgstr ""
+msgstr "クロンジョブを設定する"
 
 #: segment.php:927 send-to.php:834 subscribers.php:746 update-list.php:233
+#, fuzzy
 msgid "Add a cron job"
-msgstr ""
+msgstr "クロンジョブの追加"
 
 #: segment.php:930
+#, fuzzy
 msgid "Add a cron job that runs every 15 minutes with the following command:"
-msgstr ""
+msgstr "以下のコマンドで15分ごとに実行するcronジョブを追加します。"
 
 #: segment.php:931 send-to.php:838 subscribers.php:750 update-list.php:237
 msgid "Time Interval"
-msgstr ""
+msgstr "インターバル時間"
 
 #: segment.php:933 send-to.php:840 subscribers.php:752 update-list.php:239
 msgid "Command"
-msgstr ""
+msgstr "コマンド"
 
 #: segment.php:935 send-to.php:842 update-list.php:241
+#, fuzzy
 msgid ""
 "(Note that adding cron jobs vary from hosts to hosts, most offer a UI to add "
 "a cron job easily. Check your hosting control panel or consult your host if "
 "unsure.)"
 msgstr ""
+"(cronジョブの追加はホストによって異なることに注意してください。ほとんどのホス"
+"トは簡単にcronジョブを追加するためのUIを提供しています。不明な場合はホストの"
+"コントロールパネルを確認するか、ホストに相談してください)。"
 
 #: segment.php:936
+#, fuzzy
 msgid ""
 "Once added, wait for the cron job to start running in 15 minutes. If your "
 "cron job is functioning correctly, the blue informational message will "
 "disappear and your segmentation results will be updated automatically every "
 "15 minutes by the cron job."
 msgstr ""
+"追加したら、15分後にcronジョブの実行が開始されるのを待ちます。Cronジョブが正"
+"常に機能していれば、青い情報メッセージは消え、セグメンテーション結果はcron"
+"ジョブによって15分ごとに自動的に更新されます。"
 
 #: segments-list.php:47
+#, fuzzy
 msgid "Create a new segment"
-msgstr ""
+msgstr "新しいセグメントを作成する"
 
 #: segments-list.php:53
+#, fuzzy
 msgid "What are segments?"
-msgstr ""
+msgstr "セグメントとは？"
 
 #: segments-list.php:54
+#, fuzzy
 msgid ""
 "Segments are subscribers filtered from a list based on certain conditions "
 "you define. Research shows sending emails to targeted segments not only "
@@ -3841,478 +4778,643 @@ msgid ""
 "created your segments, you can send targeted campaigns to these segments in "
 "addition to lists. You can even choose segments to 'exclude' from your sends."
 msgstr ""
+"セグメントとは、あなたが定義した特定の条件に基づいてリストからフィルタリング"
+"された購読者のことです。調査によると、ターゲットを絞ったセグメントにメールを"
+"送信することで、開封率やクリックスルー率が向上するだけでなく、収益が25%以上増"
+"加することがわかっています。Sendyでは、どんなリストに対してもダイナミックなセ"
+"グメントを作成することができます。名前」や「メールアドレス」などのデフォルト"
+"フィールド、またはカスタムフィールドを使用して、定義した条件に基づいて購読者"
+"のセグメントをターゲットにすることができます。複数の条件を作成し、セグメント"
+"ごとに「AND」や「OR」を使ってグループ化することができます。セグメントを作成し"
+"たら、リストに加えて、これらのセグメントにターゲットを絞ったキャンペーンを送"
+"信することができます。また、送信対象から「除外」するセグメントを選択すること"
+"もできます。"
 
 #: segments-list.php:60
+#, fuzzy
 msgid "Existing segments"
-msgstr ""
+msgstr "既存のセグメント"
 
 #: segments-list.php:65
+#, fuzzy
 msgid "Segment"
-msgstr ""
+msgstr "セグメント"
 
 #: segments-list.php:66
 msgid "Subscribers"
-msgstr ""
+msgstr "購読者"
 
 #: segments-list.php:67
 msgid "Update"
-msgstr ""
+msgstr "更新"
 
 #: segments-list.php:88
+#, fuzzy
 msgid "Update totals for"
-msgstr ""
+msgstr "の合計を更新します。"
 
 #: segments-list.php:93
+#, fuzzy
 msgid "All conditions in this segment will be permanently deleted."
-msgstr ""
+msgstr "このセグメントのすべての条件は永久に削除されます。"
 
 #: segments-list.php:101
+#, fuzzy
 msgid "Failed to delete segment"
-msgstr ""
+msgstr "セグメントの削除に失敗しました"
 
 #: segments-list.php:126
+#, fuzzy
 msgid "No segments"
-msgstr ""
+msgstr "セグメントなし"
 
 #: send-to.php:46
+#, fuzzy
 msgid "Email has been sent!"
-msgstr ""
+msgstr "メールが送信されました"
 
 #: send-to.php:51
+#, fuzzy
 msgid "Sorry, unable to send. Please try again later!"
-msgstr ""
+msgstr "申し訳ありませんが、送信できません。後ほどもう一度お試しください。"
 
 #: send-to.php:117
+#, fuzzy
 msgid "Please disable 'ONLY_FULL_GROUP_BY' from 'sql_mode'"
-msgstr ""
+msgstr "Sql_mode'から'ONLY_FULL_GROUP_BY'を無効にしてください。"
 
 #: send-to.php:118
+#, fuzzy
 msgid ""
 "We have detected that 'ONLY_FULL_GROUP_BY' is enabled in 'sql_mode' in your "
 "MySQL server. Your campaign will fail to send unless 'ONLY_FULL_GROUP_BY' is "
 "removed from 'sql_mode'. Here's how to fix this &rarr; "
 msgstr ""
+"MySQLサーバの'sql_mode'で'ONLY_FULL_GROUP_BY'が有効になっていることがわかりま"
+"した。ONLY_FULL_GROUP_BY'を'sql_mode'から削除しない限り、キャンペーンは送信に"
+"失敗します。これを修正する方法は以下の通りです。"
 
 #: send-to.php:152
+#, fuzzy
 msgid ""
 "Visit your \"Brands\" page by clicking your company's name at the top left "
 "of the screen. Then check the instructions on the left sidebar on how to "
 "resolve this issue"
 msgstr ""
+"画面左上の会社名をクリックして、「ブランド」ページにアクセスします。次に、こ"
+"の問題を解決する方法について、左側のサイドバーにある指示を確認してください。"
 
 #: send-to.php:202
 msgid "or"
-msgstr ""
+msgstr "または"
 
 #: send-to.php:202
+#, fuzzy
 msgid "is pending verification in your Amazon SES console"
-msgstr ""
+msgstr "はAmazon SESコンソールでの検証が保留されています。"
 
 #: send-to.php:203
+#, fuzzy
 msgid ""
 "Your 'From email' or its domain is pending verification in your Amazon SES "
 "console. Please complete the verification then refresh this page to proceed."
 msgstr ""
+"お客様の「From email」またはそのドメインは、Amazon SESコンソールで検証中で"
+"す。確認を完了してから、このページを更新してください。"
 
 #: send-to.php:246
+#, fuzzy
 msgid ""
 "Your 'From email' or its domain is not verified in your Amazon SES console. "
 "A verification email has been sent to your 'From email' address with a "
 "confirmation link to complete the verification. Please click the link to "
 "complete the verification, then refresh this page."
 msgstr ""
+"お客様の「From email」またはそのドメインがAmazon SESコンソールで検証されてい"
+"ません。お客様の「From email」アドレスに、検証を完了するための確認リンクが記"
+"載された検証メールが送信されました。リンクをクリックして検証を完了させてか"
+"ら、このページを更新してください。"
 
 #: send-to.php:247
+#, fuzzy
 msgid ""
 "A verification email has been sent to your 'From email' address with a "
 "confirmation link. Please click the link to verify you are the owner of the "
 "'From email', then refresh this page."
 msgstr ""
+"お客様の「From email」アドレスに確認用のメールが送信されました。リンクをク"
+"リックして、お客様が「From email」の所有者であることを確認してから、このペー"
+"ジを更新してください。"
 
 #: send-to.php:276
+#, fuzzy
 msgid "Test send this campaign"
-msgstr ""
+msgstr "このキャンペーンをテスト送信"
 
 #: send-to.php:278
+#, fuzzy
 msgid "Test email(s)"
-msgstr ""
+msgstr "テストメール"
 
 #: send-to.php:281
+#, fuzzy
 msgid "Email addresses, separated by comma"
-msgstr ""
+msgstr "カンマで区切られたメールアドレス"
 
 #: send-to.php:290
+#, fuzzy
 msgid "Define recipients"
-msgstr ""
+msgstr "受信者の定義"
 
 #: send-to.php:301
+#, fuzzy
 msgid "Choose your lists & segments"
-msgstr ""
+msgstr "リストとセグメントを選択してください"
 
 #: send-to.php:334 send-to.php:432
+#, fuzzy
 msgid "No list found, click to add one."
-msgstr ""
+msgstr "リストが見つかりませんでした。"
 
 #: send-to.php:371 send-to.php:469
+#, fuzzy
 msgid "No segments found"
-msgstr ""
+msgstr "見つかったセグメントはありません。"
 
 #: send-to.php:375
+#, fuzzy
 msgid "Exclude lists from this campaign?"
-msgstr ""
+msgstr "このキャンペーンからリストを除外？"
 
 #: send-to.php:389
+#, fuzzy
 msgid "Don't include emails from these list & segments"
-msgstr ""
+msgstr "これらのリスト＆セグメントからのメールを含まないでください。"
 
 #: send-to.php:562
+#, fuzzy
 msgid "resets on"
-msgstr ""
+msgstr "でリセット"
 
 #: send-to.php:589 send-to.php:618 send-to.php:641
+#, fuzzy
 msgid "of"
-msgstr ""
+msgstr "の"
 
 #: send-to.php:589 send-to.php:618 send-to.php:641
 msgid " remaining"
-msgstr ""
+msgstr " 残り"
 
 #: send-to.php:593 send-to.php:626
+#, fuzzy
 msgid ""
 "You can't send more than your monthly limit. Request for your limit to be "
 "raised by sending an email to"
 msgstr ""
+"月間の限度額を超えて送信することはできません。メールを送信して、上限を上げる"
+"ようにリクエストしてください。"
 
 #: send-to.php:597 send-to.php:798
+#, fuzzy
 msgid "Send newsletter now!"
-msgstr ""
+msgstr "今すぐニュースレターを送る"
 
 #: send-to.php:601 send-to.php:801
+#, fuzzy
 msgid "Your campaign is now sending!"
-msgstr ""
+msgstr "あなたのキャンペーンが送信されています"
 
 #: send-to.php:602 send-to.php:802
+#, fuzzy
 msgid "You can safely close this window, your campaign will continue to send."
 msgstr ""
+"あなたは安全にこのウィンドウを閉じることができます、あなたのキャンペーンは送"
+"信を継続します。"
 
 #: send-to.php:603 send-to.php:803
+#, fuzzy
 msgid "You will be notified by email once your campaign has completed sending."
-msgstr ""
+msgstr "キャンペーンの送信が完了すると、メールでお知らせします。"
 
 #: send-to.php:620
+#, fuzzy
 msgid "Fee per recipient"
-msgstr ""
+msgstr "受信者ごとの料金"
 
 #: send-to.php:621
 msgid "Grand total"
-msgstr ""
+msgstr "総合計"
 
 #: send-to.php:630
+#, fuzzy
 msgid "Proceed to pay for campaign"
-msgstr ""
+msgstr "キャンペーンの支払いに進む"
 
 #: send-to.php:644
+#, fuzzy
 msgid "SES sends left"
-msgstr ""
+msgstr "SESは左を送ります"
 
 #: send-to.php:647
+#, fuzzy
 msgid ""
 "Unable to get your SES quota from Amazon. Visit your \"Brands\" page by "
 "clicking your company's name at the top left of the screen. Then check the "
 "instructions on the left sidebar on how to resolve this issue"
 msgstr ""
+"AmazonからSES枠を取得できません。画面左上の会社名をクリックして「ブランド」"
+"ページにアクセスします。その後、左サイドバーにあるこの問題の解決方法について"
+"の説明を確認してください。"
 
 #: send-to.php:690 send-to.php:694 send-to.php:701 send-to.php:705
+#, fuzzy
 msgid ""
 "Please try again by refreshing this page. If this error persist, visit your "
 "Amazon SNS console and delete all 'Topics' and 'Subscriptions' and try again."
 msgstr ""
+"このページをリフレッシュして再度お試しください。このエラーが続く場合は、"
+"AmazonのSNSコンソールにアクセスして、「トピック」と「購読」をすべて削除してか"
+"ら再度お試しください。"
 
 #: send-to.php:707
+#, fuzzy
 msgid ""
 "Error: Unable to create bounces and complaints SNS topics, please try again "
 "by refreshing this page."
 msgstr ""
+"エラーが発生しています。バウンスや苦情のSNSトピックを作成できない場合は、この"
+"ページを更新して再度お試しください。"
 
 #: send-to.php:746
+#, fuzzy
 msgid ""
 "Sendy is unable to verify and setup bounces & complaints handling for your "
 "'From email' address. Here's what you need to do: "
 msgstr ""
+"Sendyでは、お客様の「From email」アドレスのバウンスや苦情処理を確認したり、設"
+"定したりすることができません。以下のようにしてください。"
 
 #: send-to.php:750
+#, fuzzy
 msgid ""
 "Visit your <a href=\"https://console.aws.amazon.com/iam/home#/users\" target="
 "\"_blank\">IAM console</a> then follow the instructions in <a href="
 "\"#amazonsnsfullaccess\" data-toggle=\"modal\">this video</a>."
-msgstr ""
+msgstr "IAMコンソールにアクセスして、このビデオの指示に従ってください。"
 
 #: send-to.php:752
+#, fuzzy
 msgid "Then refresh this page."
-msgstr ""
+msgstr "その後、このページを更新してください。"
 
 #: send-to.php:755
+#, fuzzy
 msgid ""
 "Once this is done, Sendy will be able to setup bounces & complaints handling "
 "automatically."
 msgstr ""
+"これが完了すると、Sendyは自動的にバウンスと苦情処理を設定できるようになりま"
+"す。"
 
 #: send-to.php:762
+#, fuzzy
 msgid "How to add AmazonSNSFullAccess policy to IAM user "
-msgstr ""
+msgstr "IAMユーザーにAmazonSNSFullAccessポリシーを追加する方法"
 
 #: send-to.php:777
+#, fuzzy
 msgid "Error communicating with Amazon SNS API"
-msgstr ""
+msgstr "Amazon SNS APIとの通信エラー"
 
 #: send-to.php:786
+#, fuzzy
 msgid ""
 "It looks like you are still in Amazon SES \"Sandbox mode\". You can only "
 "send to email addresses that you've verified in your"
 msgstr ""
+"まだAmazon SESの「サンドボックスモード」になっているようです。で確認したメー"
+"ルアドレスにしか送信できません。"
 
 #: send-to.php:786
+#, fuzzy
 msgid "Amazon SES console."
-msgstr ""
+msgstr "アマゾンのSESコンソール。"
 
 #: send-to.php:786
+#, fuzzy
 msgid ""
 "If you try to send newsletters to emails NOT verified in your SES console, "
 "your recipient will not receive the newsletter."
 msgstr ""
+"SESコンソールで検証されていないメールにニュースレターを送信しようとすると、受"
+"信者はニュースレターを受け取ることができません。"
 
 #: send-to.php:786
+#, fuzzy
 msgid ""
 "Request Amazon to raise your 'SES Sending Limits' to get out of \"Sandbox "
 "mode\""
 msgstr ""
+"サンドボックスモード」から抜け出すためにAmazonに「SES送信制限」の引き上げを要"
+"請"
 
 #: send-to.php:786
+#, fuzzy
 msgid "to lift this restriction."
-msgstr ""
+msgstr "を使用して、この制限を解除します。"
 
 #: send-to.php:792
+#, fuzzy
 msgid ""
 "You can't send more than your SES daily limit. Either wait till Amazon "
 "replenishes your daily limit in the next 24 hours, or"
 msgstr ""
+"SESの1日の上限を超えて送ることはできません。次の24時間以内にAmazonが1日の限度"
+"額を補充するまで待つか、または"
 
 #: send-to.php:792
+#, fuzzy
 msgid "request for extended access"
-msgstr ""
+msgstr "アクセス延長要求"
 
 #: send-to.php:809
+#, fuzzy
 msgid "We recommend"
-msgstr ""
+msgstr "お勧めします。"
 
 #: send-to.php:809
+#, fuzzy
 msgid "setting up CRON"
-msgstr ""
+msgstr "クロンの設定"
 
 #: send-to.php:809
+#, fuzzy
 msgid "to send your newsletters"
-msgstr ""
+msgstr "をクリックしてニュースレターを送信してください。"
 
 #: send-to.php:809
+#, fuzzy
 msgid ""
 "Newsletters sent via CRON have the added ability to automatically resume "
 "sending when your server times out. You'll also be able to schedule emails."
 msgstr ""
+"CRONで送信されたニュースレターは、サーバーがタイムアウトした際に自動的に送信"
+"を再開する機能が追加されています。また、メールのスケジュールを設定できるよう"
+"になります。"
 
 #: send-to.php:810
+#, fuzzy
 msgid ""
 "You haven't set up CRON yet, but that's okay. You can still send newsletters "
 "right now. But keep in mind that you won't be able to navigate around Sendy "
 "until sending is complete. Also, you'll need to manually resume sending "
 "(with a click of a button) if your server times out."
 msgstr ""
+"まだcronの設定をしていないようですが、大丈夫です。今からでもニュースレターを"
+"送ることができます。しかし、送信が完了するまでは、Sendyをナビゲートすることが"
+"できないことを覚えておいてください。また、サーバーがタイムアウトした場合は、"
+"手動で（ボタンをクリックして）送信を再開する必要があります。"
 
 #: send-to.php:811
+#, fuzzy
 msgid "Setup CRON now"
-msgstr ""
+msgstr "CRONのセットアップを開始しました"
 
 #: send-to.php:837
+#, fuzzy
 msgid "To schedule campaigns or to make sending more reliable, add a"
-msgstr ""
+msgstr "キャンペーンをスケジュールしたり、送信をより確実なものにするには"
 
 #: send-to.php:837 subscribers.php:749 update-list.php:236
+#, fuzzy
 msgid "cron job"
-msgstr ""
+msgstr "クロンジョブ"
 
 #: send-to.php:837 subscribers.php:749 update-list.php:236
+#, fuzzy
 msgid "with the following command."
-msgstr ""
+msgstr "を以下のコマンドで実行します。"
 
 #: send-to.php:842
+#, fuzzy
 msgid ""
 "This command needs to be run every 5 minutes in order to check the database "
 "for any scheduled campaigns to send."
 msgstr ""
+"このコマンドは、送信する予定のキャンペーンのデータベースをチェックするため"
+"に、5分ごとに実行する必要があります。"
 
 #: send-to.php:843
+#, fuzzy
 msgid ""
 "Once added, wait around 5 minutes. If your cron job is functioning "
 "correctly, you'll see the scheduling options instead of this modal window "
 "when you click on \"Schedule this campaign?\"."
 msgstr ""
+"追加されたら、5分ほど待ちます。Cronジョブが正常に機能している場"
+"合、\"Schedule this campaign? \"をクリックすると、このモーダルウィンドウの代"
+"わりにスケジューリングオプションが表示されます。"
 
 #: send-to.php:874
+#, fuzzy
 msgid "Schedule this campaign"
-msgstr ""
+msgstr "キャンペーンのスケジュール"
 
 #: send-to.php:882
 msgid "Pick a date"
-msgstr ""
+msgstr "日付を選択"
 
 #: send-to.php:894
+#, fuzzy
 msgid "Set a time"
-msgstr ""
+msgstr "時間を設定する"
 
 #: send-to.php:938
+#, fuzzy
 msgid "Select a timezone"
-msgstr ""
+msgstr "タイムゾーンを選択"
 
 #: send-to.php:946 send-to.php:951
+#, fuzzy
 msgid "Schedule campaign now"
-msgstr ""
+msgstr "今すぐスケジュールキャンペーン"
 
 #: send-to.php:948
+#, fuzzy
 msgid "Schedule and pay for campaign"
-msgstr ""
+msgstr "キャンペーンのスケジュールと支払い"
 
 #: send-to.php:955
+#, fuzzy
 msgid "Edit newsletter"
-msgstr ""
+msgstr "ニュースレターの編集"
 
 #: send-to.php:960
+#, fuzzy
 msgid "Newsletter preview"
-msgstr ""
+msgstr "ニュースレターのプレビュー"
 
 #: send-to.php:963
 msgid "From"
-msgstr ""
+msgstr "から"
 
 #: send-to.php:968
+#, fuzzy
 msgid "Opens tracking"
-msgstr ""
+msgstr "トラッキングを開く"
 
 #: send-to.php:968 send-to.php:969
 msgid "Disabled"
-msgstr ""
+msgstr "無効"
 
 #: send-to.php:969
+#, fuzzy
 msgid "Clicks tracking"
-msgstr ""
+msgstr "クリックトラッキング"
 
 #: send-to.php:1070
+#, fuzzy
 msgid ""
 "Have you double checked your selected lists? If so, let's go ahead and send "
 "this!"
 msgstr ""
+"選択したリストをダブルチェックしましたか？もしそうなら、これを送ってみましょ"
+"う"
 
 #: send-to.php:1086
+#, fuzzy
 msgid ""
 "Have you double checked your selected lists? If so, proceed to pay for this "
 "campaign."
 msgstr ""
+"選択したリストをダブルチェックしましたか？そうであれば、このキャンペーンの支"
+"払いに進んでください。"
 
 #: send-to.php:1136
+#, fuzzy
 msgid "Important: Bounces or complaints were not set up"
-msgstr ""
+msgstr "重要：バウンスやクレームが設定されていない"
 
 #: send-to.php:1139
+#, fuzzy
 msgid "We've detected that bounces or complaints have not been setup."
-msgstr ""
+msgstr "バウンスやクレームが設定されていないことが検出されました。"
 
 #: send-to.php:1140
+#, fuzzy
 msgid ""
 "Not having bounces or complaints registered means future campaigns will "
 "continue to be sent to emails that bounced and recipients who have marked "
 "your emails as spam. This may lead to Amazon suspending your AWS account."
 msgstr ""
+"バウンスや苦情が登録されていないということは、バウンスしたメールやスパムとし"
+"てマークした受信者に今後もキャンペーンが配信されることになります。これによ"
+"り、AmazonがAWSアカウントを停止する可能性があります。"
 
 #: send-to.php:1142
+#, fuzzy
 msgid "We highly recommend setting up bounces & complaints"
-msgstr ""
+msgstr "バウンス＆クレームの設定を強くお勧めします。"
 
 #: send-to.php:1143
+#, fuzzy
 msgid "Visit our Get Started Guide and complete steps 7 & 8"
-msgstr ""
+msgstr "スタートガイドをご覧になり、ステップ7と8を完了してください。"
 
 #: send-to.php:1144
+#, fuzzy
 msgid "Or troubleshoot with this FAQ"
-msgstr ""
+msgstr "または、この FAQ でトラブルシューティングを行う"
 
 #: send-to.php:1147
 msgid "Don't send"
-msgstr ""
+msgstr "送信しない"
 
 #: send-to.php:1148
+#, fuzzy
 msgid "Send anyway"
-msgstr ""
+msgstr "とにかく送る"
 
 #: sending.php:106 sending.php:160
+#, fuzzy
 msgid "Your campaign has been scheduled"
-msgstr ""
+msgstr "キャンペーンが予定されています"
 
 #: sending.php:162
+#, fuzzy
 msgid "You will be notified by email once your campaign has been sent."
-msgstr ""
+msgstr "キャンペーンが送信された時点でメールでお知らせします。"
 
 #: sending.php:178
+#, fuzzy
 msgid "Now sending"
-msgstr ""
+msgstr "送信中"
 
 #: sending.php:269
+#, fuzzy
 msgid "Your campaign is on the way!"
-msgstr ""
+msgstr "あなたのキャンペーンは進行中です!"
 
 #: sending.php:271
+#, fuzzy
 msgid ""
 "You can close this window and your campaign will continue to send. You will "
 "be notified by email once your campaign has completed sending."
 msgstr ""
+"このウィンドウを閉じると、キャンペーンは継続して送信されます。キャンペーンの"
+"送信が完了すると、メールでお知らせします。"
 
 #: settings.php:38
+#, fuzzy
 msgid "Settings have been saved!"
-msgstr ""
+msgstr "設定が保存されました"
 
 #: settings.php:48
 msgid "Company"
-msgstr ""
+msgstr "会社名"
 
 #: settings.php:51
+#, fuzzy
 msgid "Your company"
-msgstr ""
+msgstr "あなたの会社"
 
 #: settings.php:58
 msgid "Your name"
-msgstr ""
+msgstr "お名前"
 
 #: settings.php:70
+#, fuzzy
 msgid ""
 "This login email address is already in use by one of your brands. Please "
 "find the brand that uses this login email address and change it to something "
 "else so that you can save. Or use another email address."
 msgstr ""
+"このログインメールアドレスは、すでにあるブランドで使用されています。このログ"
+"インメールアドレスを使用しているブランドを見つけて、他のものに変更してくださ"
+"い。または別のメールアドレスを使用してください。"
 
 #: settings.php:73
+#, fuzzy
 msgid "Password (leave blank to not change it)"
-msgstr ""
+msgstr "パスワード (変更しない場合は空白のままにしてください)"
 
 #: settings.php:84
+#, fuzzy
 msgid "Enable two-factor authentication"
-msgstr ""
+msgstr "二要素認証を有効にする"
 
 #: settings.php:92
+#, fuzzy
 msgid "Regenerate secret key"
-msgstr ""
+msgstr "秘密鍵の再生"
 
 #: settings.php:99
+#, fuzzy
 msgid "What is \"Two-factor authentication\"?"
-msgstr ""
+msgstr "二要素認証」とは？"
 
 #: settings.php:100
+#, fuzzy
 msgid ""
 "Two-factor authentication provides an additional layer of security by "
 "requiring a one time password (OTP) in addition to email & password "
@@ -4320,38 +5422,52 @@ msgid ""
 "connection using a <a href=\"#two_factor_apps\"data-toggle=\"modal\" style="
 "\"text-decoration:underline;\">two-factor application</a>."
 msgstr ""
+"二要素認証は、電子メールとパスワードの認証情報に加えて、ワンタイムパスワード"
+"（OTP）を必要とすることで、セキュリティの追加レイヤーを提供します。二要素認証"
+"アプリケーションを使用すると、インターネットや携帯電話の接続がなくてもOTPコー"
+"ドを取得することができます。"
 
 #: settings.php:102
+#, fuzzy
 msgid ""
 "<strong>Step 1</strong>: Scan the following QR code (or enter the secret "
 "key) into your <a href=\"#two_factor_apps\"data-toggle=\"modal\" style="
 "\"text-decoration:underline;\">two-factor application</a>:"
 msgstr ""
+"ステップ1：以下のQRコードをスキャンして（または秘密の鍵を入力して）、2ファク"
+"タアプリに入力します。"
 
 #: settings.php:104
 msgid "Secret key:"
-msgstr ""
+msgstr "秘密鍵:"
 
 #: settings.php:106
+#, fuzzy
 msgid ""
 "<strong>Step 2</strong>: Use your <a href=\"#two_factor_apps\"data-toggle="
 "\"modal\" style=\"text-decoration:underline;\">two-factor application</a> to "
 "generate an OTP code, then paste it below:"
 msgstr ""
+"ステップ2：2ファクタアプリケーションを使用してOTPコードを生成し、以下に貼り付"
+"けます。"
 
 #: settings.php:107
+#, fuzzy
 msgid "OTP code, eg. 123456"
-msgstr ""
+msgstr "OTPコード、例：123456"
 
 #: settings.php:108
+#, fuzzy
 msgid "Confirm and enable two-factor authentication"
-msgstr ""
+msgstr "二要素認証の確認と有効化"
 
 #: settings.php:120
+#, fuzzy
 msgid "Two-factor authentication applications"
-msgstr ""
+msgstr "二要素認証の応用"
 
 #: settings.php:123
+#, fuzzy
 msgid ""
 "There are many 'Two-factor authentication' mobile apps available in the "
 "market for free that can be used with services that supports 2FA like "
@@ -4359,80 +5475,102 @@ msgid ""
 "Authenticator'. The following are links to Google Authenticator app for both "
 "iOS and Android:"
 msgstr ""
+"Amazon、Gmail、Dropbox、Facebookなどの2FAに対応したサービスで利用できる「二要"
+"素認証」のモバイルアプリが無料で提供されている。最も一般的なのは「Google "
+"Authenticator」です。以下はiOSとAndroidの両方に対応したGoogle Authenticatorア"
+"プリへのリンクです。"
 
 #: settings.php:124
 msgid "Google Authenticator"
-msgstr ""
+msgstr "Google認証システム"
 
 #: settings.php:128
 msgid "iOS"
-msgstr ""
+msgstr "iOS"
 
 #: settings.php:129
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: settings.php:210
+#, fuzzy
 msgid "OTP is correct, but unable to save."
-msgstr ""
+msgstr "OTPは正しいのですが、保存できません。"
 
 #: settings.php:212
+#, fuzzy
 msgid "OTP code is incorrect. Please try again."
-msgstr ""
+msgstr "OTPコードが正しくありません。もう一度お試しください。"
 
 #: settings.php:214
+#, fuzzy
 msgid "Please enter a valid, numeric OTP code."
-msgstr ""
+msgstr "有効な数値のOTPコードを入力してください。"
 
 #: settings.php:229
 msgid "Select your timezone"
-msgstr ""
+msgstr "タイムゾーンを選択してください"
 
 #: settings.php:237
+#, fuzzy
 msgid "Select your language"
-msgstr ""
+msgstr "言語を選択してください"
 
 #: settings.php:268
+#, fuzzy
 msgid "Amazon Web Services Credentials"
-msgstr ""
+msgstr "アマゾンウェブサービスの資格情報"
 
 #: settings.php:272
+#, fuzzy
 msgid ""
 "Please see Step 5 of the Get Started Guide on how to create a set of IAM "
 "credentials to hook up your Amazon SES account with your Sendy installation"
 msgstr ""
+"Amazon SESアカウントをSendyインストールに接続するためのIAM認証情報セットの作"
+"成方法については、Get Started Guideのステップ5を参照してください。"
 
 #: settings.php:273 settings.php:276
+#, fuzzy
 msgid "AWS Access Key ID"
-msgstr ""
+msgstr "AWSアクセスキーID"
 
 #: settings.php:280
+#, fuzzy
 msgid "AWS Secret Access Key"
-msgstr ""
+msgstr "AWSシークレットアクセスキー"
 
 #: settings.php:283
+#, fuzzy
 msgid "AWS Secret Acesss Key"
-msgstr ""
+msgstr "AWSシークレットAcesssキー"
 
 #: settings.php:292
+#, fuzzy
 msgid "Amazon SES region"
-msgstr ""
+msgstr "アマゾンＳＥＳ地域"
 
 #: settings.php:296
+#, fuzzy
 msgid ""
 "Please select the same region as what's set in your Amazon SES console in "
 "the region selection drop down menu at the top right."
 msgstr ""
+"右上のリージョン選択ドロップダウンメニューで、Amazon SESコンソールに設定され"
+"ているものと同じリージョンを選択してください。"
 
 #: settings.php:297
+#, fuzzy
 msgid "Your Amazon SES region"
-msgstr ""
+msgstr "お使いのAmazon SESの地域"
 
 #: settings.php:332
+#, fuzzy
 msgid "Sending rate"
-msgstr ""
+msgstr "送信レート"
 
 #: settings.php:336
+#, fuzzy
 msgid ""
 "Sendy sends bulks of emails in parallel per second according to your Amazon "
 "SES send rate. Depending on the capability of your server, your server may "
@@ -4440,24 +5578,31 @@ msgid ""
 "rate is very high. Lowering your send rate may yield better sending speed "
 "and stability."
 msgstr ""
+"Sendyは、Amazon SESの送信レートに応じて、1秒間に大量のメールを並列に送信しま"
+"す。お使いのサーバーの能力にもよりますが、SESの送信レートが非常に高い場合、大"
+"量のメールを効率的に処理することができない場合があります。送信レートを下げる"
+"ことで、送信速度と安定性が向上する場合があります。"
 
 #: settings.php:337
+#, fuzzy
 msgid "Adjust sending rate"
-msgstr ""
+msgstr "送信速度の調整"
 
 #: settings.php:337
 msgid "Max"
-msgstr ""
+msgstr "最大"
 
 #: settings.php:340
+#, fuzzy
 msgid "emails per second"
-msgstr ""
+msgstr "秒速メール"
 
 #: settings.php:352
 msgid "PayPal account"
-msgstr ""
+msgstr "ペイパルに振り込む"
 
 #: settings.php:356
+#, fuzzy
 msgid ""
 "If you charge your client(s) a fee for sending newsletters, they'll pay to "
 "this PayPal account. Also, don't forget to turn <strong>Auto Return</strong> "
@@ -4466,28 +5611,40 @@ msgid ""
 "directed to the sending script after payment. Just use your website's URL "
 "for the <strong>Return URL</strong> to be able to save."
 msgstr ""
+"あなたのクライアントにニュースレターの送信料金を請求する場合、クライアントは"
+"このPayPalアカウントに支払います。また、あなたのクライアントが自動的に支払い"
+"後に送信スクリプトにリダイレクトされるように、プロフィール > 私の販売ツール "
+"> ウェブサイトの設定の下にあるPayPalアカウントで自動リターンをオンにすること"
+"を忘れないでください。ちょうど保存することができるようにするために、リターン"
+"のURLにあなたのウェブサイトのURLを使用しています。"
 
 #: settings.php:357
+#, fuzzy
 msgid "PayPal email address"
-msgstr ""
+msgstr "PayPalのメールアドレス"
 
 #: settings.php:360
+#, fuzzy
 msgid "PayPal account email address"
-msgstr ""
+msgstr "PayPalアカウントのメールアドレス"
 
 #: settings.php:375
+#, fuzzy
 msgid "No. of brands to show per page"
-msgstr ""
+msgstr "1ページあたりの表示ブランド数"
 
 #: settings.php:378
+#, fuzzy
 msgid "brands per page"
-msgstr ""
+msgstr "ページあたりのブランド"
 
 #: settings.php:399
+#, fuzzy
 msgid "Sending preferences"
-msgstr ""
+msgstr "プリファレンスの送信"
 
 #: settings.php:439
+#, fuzzy
 msgid ""
 "The <a href=\"https://www.eugdpr.org/the-regulation.html\" target=\"_blank\" "
 "style=\"text-decoration: underline;\">General Data Protection Regulation "
@@ -4497,62 +5654,89 @@ msgid ""
 "collect and process data of EU users, these GDPR features will be useful to "
 "you."
 msgstr ""
+"一般データ保護規則（GDPR）とは、欧州連合（EU）内のすべての個人のデータ保護と"
+"プライバシーに関するEU法の規則です。GDPR規則は、EUユーザーの個人データを収集"
+"し、処理する世界中の誰にでも影響を与えます。EUユーザーのデータを収集して処理"
+"している場合、これらのGDPRの機能はあなたに役立つでしょう。"
 
 #: settings.php:456
+#, fuzzy
 msgid ""
 "Subscribers who signup through the provided 'Ready-to-use subscribe form' or "
 "the embeddable 'Subscribe form HTML code' with 'gdpr' parameter set to "
 "'true' will be tagged with 'GDPR'. By enabling this option, your future "
 "Campaigns will only send to subscribers tagged with 'GDPR'."
 msgstr ""
+"Gdpr' パラメータを 'true' に設定して、提供された 'すぐに使える購読フォーム' "
+"または埋め込み可能な '購読フォーム HTML コード' を介してサインアップした購読"
+"者には、'GDPR' タグが付与されます。このオプションを有効にすることで、今後の"
+"キャンペーンは「GDPR」とタグ付けされた購読者にのみ送信されます。"
 
 #: settings.php:462
+#, fuzzy
 msgid ""
 "Subscribers who signup through the provided 'Ready-to-use subscribe form' or "
 "the embeddable 'Subscribe form HTML code' with 'gdpr' parameter set to "
 "'true' will be tagged with 'GDPR'. By enabling this option, your future "
 "Autoresponders will only send to subscribers tagged with 'GDPR'."
 msgstr ""
+"Gdpr' パラメータを 'true' に設定した、提供された「すぐに使える購読フォーム」"
+"または埋め込み可能な「購読フォーム HTML コード」を介してサインアップした購読"
+"者には、「GDPR」のタグが付けられます。このオプションを有効にすると、将来の自"
+"動返信メールは「GDPR」とタグ付けされた購読者にのみ送信されます。"
 
 #: settings.php:573
+#, fuzzy
 msgid "Your license key"
-msgstr ""
+msgstr "ライセンスキー"
 
 #: settings.php:576
+#, fuzzy
 msgid "You'll need this license key to"
-msgstr ""
+msgstr "このライセンスキーが必要なのは"
 
 #: settings.php:576
+#, fuzzy
 msgid "download the latest version of Sendy on our website"
-msgstr ""
+msgstr "最新版のSendyをウェブサイトからダウンロードする"
 
 #: settings.php:581
+#, fuzzy
 msgid "Your API key"
-msgstr ""
+msgstr "あなたのAPIキー"
 
 #: settings.php:586
+#, fuzzy
 msgid "Regenerate API key?"
-msgstr ""
+msgstr "APIキーの再生成？"
 
 #: settings.php:596
+#, fuzzy
 msgid ""
 "If you're currently using Sendy's API with this API key, it'll no longer "
 "work. Are you sure you want to regenerate your API key?"
 msgstr ""
+"このAPIキーで現在SendyのAPIを使用している場合は、もう機能しません。本当にAPI"
+"キーを再生成しますか？"
 
 #: settings.php:603
+#, fuzzy
 msgid "Your API key has been regenerated!"
-msgstr ""
+msgstr "APIキーが再生成されました"
 
 #: settings.php:605
+#, fuzzy
 msgid "Sorry, unable to regenerate API key. Please try again later!"
 msgstr ""
+"申し訳ありませんが、APIキーを再生成できません。後ほどもう一度お試しください。"
 
 #: settings.php:616
+#, fuzzy
 msgid "Zapier integration"
-msgstr ""
+msgstr "Zapier の統合"
 
 #: settings.php:617
+#, fuzzy
 msgid ""
 "<a href=\"https://zapier.com\" target=\"_blank\" style=\"text-decoration:"
 "underline\">Zapier</a>'s integration with <a href=\"https://zapier.com/"
@@ -4566,163 +5750,207 @@ msgid ""
 "zapier.com/app/signup\" target=\"_blank\" style=\"text-decoration:underline"
 "\">signup for a free Zapier account</a> if you don't have one."
 msgstr ""
+"Zapier と Sendy の統合により、自動化の世界が広がります!Zapier のアプリディレ"
+"クトリで利用可能な 1,000 以上のアプリと Sendy を統合することができます。以下"
+"に、すぐに使える「Zaps」をいくつか紹介します。あるいは、Zapier にアクセスし"
+"て、独自の \"Zaps\" を作成して、Sendy を他のアプリと統合することもできます。"
+"アカウントを持っていない場合は、無料の Zapier アカウントにサインアップするよ"
+"うに促されます。"
 
 #: settings.php:653
+#, fuzzy
 msgid "Your company name is required"
-msgstr ""
+msgstr "会社名は必須です。"
 
 #: settings.php:654
+#, fuzzy
 msgid "Your name is required"
-msgstr ""
+msgstr "お名前は必須です"
 
 #: settings.php:655
 msgid "A valid email is required"
-msgstr ""
+msgstr "有効なメール アドレスが必要です"
 
 #: subscribe.php:143
+#, fuzzy
 msgid "IP address is invalid."
-msgstr ""
+msgstr "IPアドレスが無効です。"
 
 #: subscribe.php:159
+#, fuzzy
 msgid "Country must be a valid 2 letter country code"
-msgstr ""
+msgstr "国は有効な2文字の国コードでなければなりません。"
 
 #: subscribe.php:175
+#, fuzzy
 msgid "Referrer is not a valid URL"
-msgstr ""
+msgstr "参照元が有効な URL ではありません"
 
 #: subscribe.php:231 subscribe.php:485 subscribe.php:828 unsubscribe.php:143
 #: unsubscribe.php:225
+#, fuzzy
 msgid "Some fields are missing."
-msgstr ""
+msgstr "一部のフィールドが欠落しています。"
 
 #: subscribe.php:262 subscribe.php:485 subscribe.php:828
+#, fuzzy
 msgid "Email address is bounced."
-msgstr ""
+msgstr "メールアドレスがバウンスされています。"
 
 #: subscribe.php:373 subscribe.php:485 subscribe.php:828
+#, fuzzy
 msgid "Failed reCAPTCHA test."
-msgstr ""
+msgstr "ReCAPTCHAテストに失敗しました。"
 
 #: subscribe.php:383 subscribe.php:485 subscribe.php:828
+#, fuzzy
 msgid "Invalid secret key."
-msgstr ""
+msgstr "無効な秘密鍵です。"
 
 #: subscribe.php:430 subscribe.php:485 subscribe.php:828
+#, fuzzy
 msgid "Consent not given."
-msgstr ""
+msgstr "同意は与えられていない"
 
 #: subscribe.php:466 subscribe.php:485 subscribe.php:828
+#, fuzzy
 msgid "API key not passed"
-msgstr ""
+msgstr "API キーが渡されていない"
 
 #: subscribe.php:479 subscribe.php:485 subscribe.php:828
 msgid "Invalid API key"
-msgstr ""
+msgstr "無効な API キー"
 
 #: subscribe.php:595 subscribe.php:651
+#, fuzzy
 msgid "Thank you, a confirmation email has been sent to you."
-msgstr ""
+msgstr "ありがとうございます、確認メールが送信されました。"
 
 #: subscribe.php:597 subscribe.php:612
+#, fuzzy
 msgid "A confirmation email had already been sent to you."
-msgstr ""
+msgstr "すでに確認のメールが送信されていました。"
 
 #: subscribe.php:616
+#, fuzzy
 msgid "You're already subscribed!"
-msgstr ""
+msgstr "すでに購読されています!"
 
 #: subscribe.php:746
+#, fuzzy
 msgid "Confirm your subscription to"
-msgstr ""
+msgstr "加入を確認する"
 
 #: subscribe.php:759
 msgid "Confirm your subscription"
-msgstr ""
+msgstr "定期購入を確認する"
 
 #: subscribe.php:762
+#, fuzzy
 msgid "Thanks for subscribing to our email list."
-msgstr ""
+msgstr "メールリストにご登録いただきありがとうございます。"
 
 #: subscribe.php:763
+#, fuzzy
 msgid "Please confirm your subscription by clicking the link below"
-msgstr ""
+msgstr "下記のリンクをクリックして購読を確認してください。"
 
 #: subscribe.php:767
 msgid "Thank you"
-msgstr ""
+msgstr "ありがとうございます"
 
 #: subscribers.php:79
+#, fuzzy
 msgid "Add subscribers"
-msgstr ""
+msgstr "加入者の追加"
 
 #: subscribers.php:80
+#, fuzzy
 msgid "Delete subscribers"
-msgstr ""
+msgstr "購読者の削除"
 
 #: subscribers.php:81
+#, fuzzy
 msgid "Mass unsubscribe"
-msgstr ""
+msgstr "大量の配信停止"
 
 #: subscribers.php:88
+#, fuzzy
 msgid "all subscribers"
-msgstr ""
+msgstr "全加入者"
 
 #: subscribers.php:94
+#, fuzzy
 msgid "active subscribers"
-msgstr ""
+msgstr "アクティブ加入者"
 
 #: subscribers.php:100
+#, fuzzy
 msgid "unconfirmed subscribers"
-msgstr ""
+msgstr "未確認加入者"
 
 #: subscribers.php:106
+#, fuzzy
 msgid "unsubscribers"
-msgstr ""
+msgstr "未購読者"
 
 #: subscribers.php:112
+#, fuzzy
 msgid "bounced subscribers"
-msgstr ""
+msgstr "バウンドした加入者"
 
 #: subscribers.php:118
+#, fuzzy
 msgid "subscribers who marked your email as spam"
-msgstr ""
+msgstr "あなたのメールをスパムとしてマークした購読者"
 
 #: subscribers.php:124
+#, fuzzy
 msgid "GDPR subscribers"
-msgstr ""
+msgstr "GDPR加入者"
 
 #: subscribers.php:152 subscribers.php:205
+#, fuzzy
 msgid "Subscribe form"
-msgstr ""
+msgstr "登録フォーム"
 
 #: subscribers.php:211
+#, fuzzy
 msgid ""
 "The following is a 'ready-to-use' subscription form URL you can immediately "
 "use to collect sign ups to this list"
 msgstr ""
+"以下は、このリストへのサインアップを集めるためにすぐに使える「すぐに使える」"
+"購読フォームのURLです。"
 
 #: subscribers.php:223
+#, fuzzy
 msgid "The following is an embeddable subscribe form HTML code for this list"
 msgstr ""
+"以下は、このリストのための埋め込み可能な購読フォームの HTML コードです。"
 
 #: subscribers.php:249
+#, fuzzy
 msgid "You can setup reCAPTCHA in the brand settings."
-msgstr ""
+msgstr "ブランド設定でreCAPTCHAを設定することができます。"
 
 #: subscribers.php:249
+#, fuzzy
 msgid "You can setup reCAPTCHA in the main settings."
-msgstr ""
+msgstr "メインの設定でreCAPTCHAの設定ができます。"
 
 #: subscribers.php:249
+#, fuzzy
 msgid "To subscribe users programmatically, use the API"
-msgstr ""
+msgstr "プログラムでユーザーをサブスクライブするには、APIを使用します。"
 
 #: subscribers.php:256
+#, fuzzy
 msgid "Enable GDPR fields"
-msgstr ""
+msgstr "GDPRフィールドを有効にする"
 
 #: subscribers.php:260
+#, fuzzy
 msgid ""
 "The <a href=\"https://www.eugdpr.org/the-regulation.html\" target=\"_blank\" "
 "style=\"text-decoration: underline;\">General Data Protection Regulation "
@@ -4731,8 +5959,13 @@ msgid ""
 "the world who collect and process the personal data of EU users. If you "
 "collect and process data of EU users, consider enabling GDPR fields."
 msgstr ""
+"一般データ保護規則（GDPR）とは、欧州連合（EU）内のすべての個人のデータ保護と"
+"プライバシーに関するEU法の規則です。GDPR規則は、EUユーザーの個人データを収集"
+"し、処理する世界中のすべての人に影響を与えます。EUユーザーのデータを収集して"
+"処理する場合は、GDPRのフィールドを有効にすることを検討してください。"
 
 #: subscribers.php:262
+#, fuzzy
 msgid ""
 "GDPR fields are supported in both the 'Ready-to-use subscribe form' and the "
 "embeddable 'Subscribe form HTML code' as seen on the left. When GDPR fields "
@@ -4741,52 +5974,71 @@ msgid ""
 "they are signing up for and what you’re going to do with the information "
 "they submit. Users are required to check the checkbox in order to subscribe."
 msgstr ""
+"GDPRフィールドは、左図のように「すぐに使える購読フォーム」と埋め込み可能な"
+"「購読フォームのHTMLコード」の両方でサポートされています。GDPRフィールドが有"
+"効になっていると、購読フォームの下に「マーケティングの許可」と「期待するこ"
+"と」のテキストとともに、チェックボックスが表示され、ユーザーが何のためにサイ"
+"ンアップするのか、ユーザーが送信した情報をどうするのかが説明されます。ユー"
+"ザーは、購読するためにチェックボックスにチェックを入れる必要があります。"
 
 #: subscribers.php:266 subscription.php:206
+#, fuzzy
 msgid "Marketing permission"
-msgstr ""
+msgstr "マーケティング許可"
 
 #: subscribers.php:268 subscription.php:208
+#, fuzzy
 msgid "What to expect"
-msgstr ""
+msgstr "期待すること"
 
 #: subscribers.php:388
+#, fuzzy
 msgid "Subscribers activity chart"
-msgstr ""
+msgstr "加入者活動表"
 
 #: subscribers.php:388
+#, fuzzy
 msgid "Click to learn more"
-msgstr ""
+msgstr "詳細はこちらをクリックしてください。"
 
 #: subscribers.php:404
+#, fuzzy
 msgid "emails were skipped from your last import"
-msgstr ""
+msgstr "前回のインポートからメールがスキップされました"
 
 #: subscribers.php:404
+#, fuzzy
 msgid "To see the list and reasons, export the CSV."
-msgstr ""
+msgstr "一覧と理由を確認するには、CSVをエクスポートします。"
 
 #: subscribers.php:404
+#, fuzzy
 msgid "Export skipped email addresses from your last import"
-msgstr ""
+msgstr "前回のインポートからスキップされたメールアドレスをエクスポート"
 
 #: subscribers.php:407
+#, fuzzy
 msgid "Dismiss this notice (CSV will no longer be available for download)"
-msgstr ""
+msgstr "この通知を解除する（CSVがダウンロードできなくなります"
 
 #: subscribers.php:407
 msgid "Dismiss"
-msgstr ""
+msgstr "非表示"
 
 #: subscribers.php:718
+#, fuzzy
 msgid "What changes a subscriber's 'Last activity' timestamp?"
-msgstr ""
+msgstr "購読者の「最後の活動」のタイムスタンプを変更するには？"
 
 #: subscribers.php:721
+#, fuzzy
 msgid "A subscriber's 'Last activity' timestamp is updated when the user:"
 msgstr ""
+"購読者の'Last activity'のタイムスタンプは、ユーザーが更新されると更新されま"
+"す。"
 
 #: subscribers.php:722
+#, fuzzy
 msgid ""
 "• opened a campaign or autoresponder\n"
 "• clicked a link in a campaign or autoresponder\n"
@@ -4796,192 +6048,263 @@ msgid ""
 "• marked as spam\n"
 "• confirmed a double opt-in subscription"
 msgstr ""
+"- 開通\n"
+"- キャンペーンやオートレスポンダーのリンクをクリックした\n"
+"- 購読\n"
+"- 退会\n"
+"- 跳ね返った\n"
+"- スパムマーク\n"
+"- ダブルオプトイン購読を確認"
 
 #: subscribers.php:730
+#, fuzzy
 msgid ""
 "Subscribers are sorted by 'Last activity' in the list. Therefore, "
 "subscribers who did any of the above activity will float to the top of the "
 "subscriber list. You will also see changes in the 'Subscribers activity "
 "chart'."
 msgstr ""
+"購読者はリスト内の「最後の活動」でソートされます。そのため、上記の活動のいず"
+"れかを行った加入者は、加入者リストの一番上に浮かんできます。また、「加入者活"
+"動チャート」にも変化が表示されます。"
 
 #: subscribers.php:749
+#, fuzzy
 msgid "To activate autoresponders, add a"
-msgstr ""
+msgstr "オートレスポンダを有効にするには"
 
 #: subscribers.php:754
+#, fuzzy
 msgid ""
 "This command needs to be run every minute in order to check the database for "
 "any autoresponder emails to send."
 msgstr ""
+"このコマンドは、送信する自動返信メールのデータベースをチェックするために、毎"
+"分実行する必要があります。"
 
 #: subscribers.php:754
+#, fuzzy
 msgid ""
 "Note that adding cron jobs vary from hosts to hosts, most offer a UI to add "
 "a cron job easily. Check your hosting control panel or consult your host if "
 "unsure."
 msgstr ""
+"Cron ジョブの追加はホストによって異なりますが、ほとんどの場合、簡単に cron "
+"ジョブを追加するための UI を提供しています。不明な場合は、ホストのコントロー"
+"ルパネルを確認するか、ホストに相談してください。"
 
 #: subscribers.php:755
+#, fuzzy
 msgid ""
 "Once added, wait one minute. If your cron job is functioning correctly, "
 "you'll see the autoresponder options instead of this modal window when you "
 "click on the \"Autoresponders\" button."
 msgstr ""
+"追加したら、1分待ちます。Cronジョブが正常に機能している場"
+"合、\"Autoresponders \"ボタンをクリックすると、このモーダルウィンドウの代わり"
+"にオートレスポンダのオプションが表示されます。"
 
 #: subscription.php:121 subscription.php:131
+#, fuzzy
 msgid "Join our mailing list"
-msgstr ""
+msgstr "メーリングリストに参加する"
 
 #: subscription.php:216
+#, fuzzy
 msgid "Subscribe to list"
-msgstr ""
+msgstr "リストに登録する"
 
 #: templates.php:39
+#, fuzzy
 msgid "Create a new template"
-msgstr ""
+msgstr "新規テンプレートの作成"
 
 #: templates.php:50
 msgid "Use"
-msgstr ""
+msgstr "使用"
 
 #: templates.php:88
+#, fuzzy
 msgid "Create a new campaign with this template"
-msgstr ""
+msgstr "このテンプレートで新規キャンペーンを作成する"
 
 #: templates.php:96
+#, fuzzy
 msgid "This template will be permanently deleted. Confirm delete"
-msgstr ""
+msgstr "このテンプレートは永久に削除されます。削除の確認"
 
 #: templates.php:123
+#, fuzzy
 msgid "No templates have been created yet"
-msgstr ""
+msgstr "テンプレートはまだ作成されていません"
 
 #: templates.php:123
+#, fuzzy
 msgid "Create one"
-msgstr ""
+msgstr "1つを作成します。"
 
 #: two-factor.php:56
+#, fuzzy
 msgid "Two Factor Authentication"
-msgstr ""
+msgstr "二要素認証"
 
 #: two-factor.php:57
+#, fuzzy
 msgid "OTP Code"
-msgstr ""
+msgstr "OTPコード"
 
 #: two-factor.php:59
+#, fuzzy
 msgid "Verify and login"
-msgstr ""
+msgstr "確認とログイン"
 
 #: two-factor.php:60
+#, fuzzy
 msgid "Unable to authenticate?"
-msgstr ""
+msgstr "認証できませんか？"
 
 #: two-factor.php:68 two-factor.php:92
+#, fuzzy
 msgid "I have trouble logging in with two-factor authentication"
-msgstr ""
+msgstr "二要素認証でログインできない"
 
 #: unsubscribe-from-list.php:80
+#, fuzzy
 msgid "Mass unsubscribe via CSV file"
-msgstr ""
+msgstr "CSVファイルによる大量配信停止"
 
 #: unsubscribe-from-list.php:121
+#, fuzzy
 msgid "Unsubscribe email per line"
-msgstr ""
+msgstr "1行あたりのメール配信停止"
 
 #: unsubscribe-from-list.php:131
+#, fuzzy
 msgid "Email to unsubscribe"
-msgstr ""
+msgstr "配信停止のためのメール"
 
 #: unsubscribe-success.php:107
+#, fuzzy
 msgid "Your unsubscribe tag<br/>is working"
-msgstr ""
+msgstr "配信停止タグが機能しています"
 
 #: unsubscribe-success.php:109
+#, fuzzy
 msgid ""
 "Your unsubscribe tag will be converted to a real unsubscribe link when you "
 "send out your campaign."
 msgstr ""
+"あなたの配信停止タグは、キャンペーンを発信すると、本当の配信停止リンクに変換"
+"されます。"
 
 #: unsubscribe.php:192 unsubscribe.php:228 unsubscribe.php:360
 #: unsubscribe.php:412
+#, fuzzy
 msgid "Confirm unsubscribe?"
-msgstr ""
+msgstr "配信停止を確認しますか？"
 
 #: unsubscribe.php:288 unsubscribe.php:410
+#, fuzzy
 msgid "You're unsubscribed."
-msgstr ""
+msgstr "登録を解除しました。"
 
 #: unsubscribe.php:413
+#, fuzzy
 msgid "Yes. Unsubscribe me."
-msgstr ""
+msgstr "いいわよ退会させてくれ"
 
 #: unsubscribe.php:415
+#, fuzzy
 msgid "Re-subscribe?"
-msgstr ""
+msgstr "再購読しますか？"
 
 #: update-list.php:83
+#, fuzzy
 msgid ""
 "Number of columns in CSV does not match CSV format example (as shown below)."
-msgstr ""
+msgstr "CSVの列数がCSV形式の例と一致しない(以下のように)"
 
 #: update-list.php:102
+#, fuzzy
 msgid ""
 "Could not upload file. Please make sure permissions in /uploads/ folder is "
 "set to 777. Then remove the /csvs/ folder in the /uploads/ folder and try "
 "again."
 msgstr ""
+"ファイルをアップロードできませんでした。Uploads/フォルダ内のパーミッションが"
+"777になっていることを確認してください。その後、/uploads/フォルダ内の/csvs/"
+"フォルダを削除して、再度お試しください。"
 
 #: update-list.php:108
+#, fuzzy
 msgid ""
 "Format your CSV the same way as the example below (without the first title "
 "row)"
 msgstr ""
+"以下の例と同じようにCSVをフォーマットします（最初のタイトル行を除く）。"
 
 #: update-list.php:110
+#, fuzzy
 msgid ""
 "The number of columns in your CSV should be the same as the example below"
-msgstr ""
+msgstr "CSVのカラム数は以下の例と同じにしてください。"
 
 #: update-list.php:111
+#, fuzzy
 msgid "If you want to import more than just name & email"
-msgstr ""
+msgstr "名前＆メール以外にもインポートしたい場合"
 
 #: update-list.php:111
+#, fuzzy
 msgid "create custom fields first"
-msgstr ""
+msgstr "カスタムフィールドを最初に作成する"
 
 #: update-list.php:214 update-list.php:285
+#, fuzzy
 msgid ""
 "Apply <span class=\"label label-warning\">GDPR</span> tag to imported "
 "subscribers?"
-msgstr ""
+msgstr "インポートした購読者にGDPRタグを適用しますか？"
 
 #: update-list.php:214 update-list.php:285
+#, fuzzy
 msgid ""
 "If your data includes EU subscribers that were collected in a GDPR compliant "
 "manner, check this box to apply a 'GDPR' tag to all of them. In your brand "
 "settings, you can turn on the 'GDPR' safe switch' so that Campaigns and "
 "Autoresponders will only always send to subscribers tagged with 'GDPR'."
 msgstr ""
+"お客様のデータの中に、GDPRに準拠した方法で収集されたEUの購読者が含まれている"
+"場合は、このボックスにチェックを入れて、すべての購読者に「GDPR」タグを適用し"
+"てください。ブランド設定で「GDPR」セーフスイッチをオンにすると、キャンペーン"
+"やオートレスポンダーは常に「GDPR」タグが付けられた購読者にのみ送信されるよう"
+"になります。"
 
 #: update-list.php:228
+#, fuzzy
 msgid "If your CSV is huge and your server constantly timeout"
-msgstr ""
+msgstr "CSVが巨大でサーバーが常にタイムアウトしている場合"
 
 #: update-list.php:228
+#, fuzzy
 msgid ""
 "By setting up a cron job, your CSV will continue to import without needing "
 "your window to be opened and timeouts will automatically be handled as well."
 msgstr ""
+"クロンジョブを設定することで、ウィンドウを開くことなくCSVのインポートが継続さ"
+"れ、タイムアウトも自動的に処理されます。"
 
 #: update-list.php:236
+#, fuzzy
 msgid ""
 "To import large CSVs more reliably and have Sendy handle server timeouts, "
 "add a"
 msgstr ""
+"大きなCSVをより確実にインポートし、Sendyがサーバーのタイムアウトを処理できる"
+"ようにするには"
 
 #: update-list.php:242
+#, fuzzy
 msgid ""
 "The above cron job runs every 1 minute. You can set it at 5 minutes (eg. "
 "*/5) or any interval you want. The shorter the interval, the faster your CSV "
@@ -4989,35 +6312,45 @@ msgid ""
 "your cron job is functioning correctly, the blue informational message will "
 "disappear and future CSV imports will be done via cron."
 msgstr ""
+"上記のcronジョブは1分毎に実行されます。5分（例：*/5）または任意の間隔で設定す"
+"ることができます。間隔が短いほど、CSVのインポートが早く開始されます。追加した"
+"ら、cronジョブの実行を待ちます。Cronジョブが正常に機能していれば、青い情報"
+"メッセージは消え、今後のCSVのインポートはcron経由で行われるようになります。"
 
 #: update-list.php:262
+#, fuzzy
 msgid "Add name and email per line"
-msgstr ""
+msgstr "行ごとに名前とメールアドレスを追加"
 
 #: update-list.php:272
 msgid "Name and email"
-msgstr ""
+msgstr "チャット要求に名前とメールアドレスを必須とする"
 
 #: update-list.php:272
+#, fuzzy
 msgid "to import more than just name and email, import via CSV"
-msgstr ""
+msgstr "を使用すると、名前とメール以外にもCSVでインポートすることができます。"
 
 #: verification-status.php:49
+#, fuzzy
 msgid "Verification success"
-msgstr ""
+msgstr "検証成功"
 
 #: verification-status.php:49
 msgid "Verification failed"
-msgstr ""
+msgstr "検証に失敗しました"
 
 #: verification-status.php:99
+#, fuzzy
 msgid "Your email has been verified!"
-msgstr ""
+msgstr "あなたのメールは確認されました!"
 
 #: verification-status.php:102
+#, fuzzy
 msgid "Verification failed."
-msgstr ""
+msgstr "検証に失敗しました。"
 
 #: w.php:196
+#, fuzzy
 msgid "Web version no longer exists"
-msgstr ""
+msgstr "ウェブ版は存在しなくなりました"
