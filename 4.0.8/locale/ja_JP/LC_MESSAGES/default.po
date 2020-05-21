@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sendy\n"
 "POT-Creation-Date: 2020-05-05 21:13+0800\n"
-"PO-Revision-Date: 2020-05-21 13:08+0900\n"
+"PO-Revision-Date: 2020-05-21 18:15+0900\n"
 "Last-Translator: Sendy <hello@sendy.co>\n"
 "Language-Team: eSolia <rick.cogley@esolia.co.jp>\n"
 "Language: ja_JP\n"
@@ -50,7 +50,7 @@ msgstr "ブランド設定の編集"
 
 #: app.php:54 includes/sidebar.php:8
 msgid "All campaigns"
-msgstr "すべてのキャンペーン"
+msgstr "全キャンペーン"
 
 #: app.php:57 app.php:60
 msgid "Create & send new campaign"
@@ -2842,9 +2842,8 @@ msgid "Only this list"
 msgstr "このリストだけ"
 
 #: edit-list.php:375
-#, fuzzy
 msgid "All lists"
-msgstr "すべてのリスト"
+msgstr "全送り先リスト"
 
 #: edit-list.php:402
 #, fuzzy
@@ -3830,7 +3829,7 @@ msgstr "テンプレート"
 
 #: includes/sidebar.php:16 templates.php:37
 msgid "All templates"
-msgstr "全てのテンプレート"
+msgstr "全テンプレート"
 
 #: includes/sidebar.php:22
 #, fuzzy
@@ -3838,9 +3837,8 @@ msgid "Lists & subscribers"
 msgstr "リストと加入者"
 
 #: includes/sidebar.php:23
-#, fuzzy
 msgid "View all lists"
-msgstr "すべてのリストを表示"
+msgstr "全受信者リスト"
 
 #: includes/sidebar.php:31
 msgid "Reports"
