@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sendy\n"
 "POT-Creation-Date: 2020-05-05 21:13+0800\n"
-"PO-Revision-Date: 2020-05-21 19:56+0900\n"
+"PO-Revision-Date: 2020-05-22 17:08+0900\n"
 "Last-Translator: Sendy <hello@sendy.co>\n"
 "Language-Team: eSolia <rick.cogley@esolia.co.jp>\n"
 "Language: ja_JP\n"
@@ -133,7 +133,7 @@ msgstr "キャンペーン"
 #: report.php:211 reports.php:57 scheduled.php:794 send-to.php:588
 #: send-to.php:617 send-to.php:641
 msgid "Recipients"
-msgstr "受信者"
+msgstr "登録者"
 
 #: app.php:122 app.php:365 app.php:563 app.php:565
 #: autoresponders-emails.php:122 reports.php:58
@@ -174,7 +174,7 @@ msgstr "下書き"
 #: app.php:189 reports.php:156
 #, fuzzy
 msgid "Define recipients & send"
-msgstr "受信者の定義と送信"
+msgstr "登録者の定義と送信"
 
 #: app.php:195
 msgid "Scheduled"
@@ -213,7 +213,7 @@ msgstr "キャンペーンの送信先"
 #: app.php:271 app.php:396 includes/create/send-now.php:736
 #: includes/create/send-now.php:752 scheduled.php:775 scheduled.php:791
 msgid "recipients"
-msgstr "メール受信者"
+msgstr "メール登録者"
 
 #: app.php:275
 #, fuzzy
@@ -463,7 +463,7 @@ msgstr "後"
 #: autoresponders-create.php:142 autoresponders-edit.php:229
 #, fuzzy
 msgid "each subscriber's"
-msgstr "各加入者の"
+msgstr "各登録者の"
 
 #: autoresponders-create.php:157 autoresponders-edit.php:244 create.php:112
 #: edit.php:119 report.php:283 send-to.php:967
@@ -850,7 +850,7 @@ msgid ""
 "Create a sequence of emails that automatically sends to subscribers after "
 "they sign up."
 msgstr ""
-"購読者がサインアップした後に自動的に送信される一連のメールを作成します。"
+"登録者がサインアップした後に自動的に送信される一連のメールを作成します。"
 
 #: autoresponders-list.php:178
 #, fuzzy
@@ -881,7 +881,7 @@ msgstr "毎年送る"
 msgid ""
 "Create emails that automatically sends annually to subscribers, eg. "
 "anniversaries or birthdays."
-msgstr "記念日や誕生日など、毎年自動的に購読者に送信されるメールを作成します。"
+msgstr "記念日や誕生日など、毎年自動的に登録者に送信されるメールを作成します。"
 
 #: autoresponders-list.php:224 autoresponders-list.php:260
 #, fuzzy
@@ -1019,7 +1019,7 @@ msgstr "送達"
 #: autoresponders-report.php:195 report.php:284
 #, fuzzy
 msgid "subscribers"
-msgstr "加入者"
+msgstr "登録者"
 
 #: autoresponders-report.php:210 report.php:303
 msgid "unique"
@@ -1065,7 +1065,7 @@ msgstr "リンク活動"
 #: autoresponders-report.php:231
 #, fuzzy
 msgid "Export subscribers who clicked"
-msgstr "クリックした購読者をエクスポート"
+msgstr "クリックした登録者をエクスポート"
 
 #: autoresponders-report.php:240 report.php:343
 #, fuzzy
@@ -1088,7 +1088,7 @@ msgstr "最後の10個が開いた"
 #: autoresponders-report.php:304
 #, fuzzy
 msgid "Export subscribers who opened"
-msgstr "オープンした加入者をエクスポートする"
+msgstr "オープンした登録者をエクスポートする"
 
 #: autoresponders-report.php:313 autoresponders-report.php:435
 #: autoresponders-report.php:517 autoresponders-report.php:598 confirm.php:223
@@ -1143,7 +1143,7 @@ msgstr "過去10回の配信停止"
 #: autoresponders-report.php:427
 #, fuzzy
 msgid "Export subscribers who unsubscribed"
-msgstr "購読を解除した購読者をエクスポートする"
+msgstr "購読を解除した登録者をエクスポートする"
 
 #: autoresponders-report.php:439 autoresponders-report.php:521
 #: autoresponders-report.php:602 custom-fields.php:71 custom-fields.php:137
@@ -1164,7 +1164,7 @@ msgstr "過去10回のバウンスメール"
 #: autoresponders-report.php:509
 #, fuzzy
 msgid "Export subscribers who bounced"
-msgstr "バウンスした加入者をエクスポート"
+msgstr "バウンスした登録者をエクスポート"
 
 #: autoresponders-report.php:570
 #, fuzzy
@@ -1179,7 +1179,7 @@ msgstr "スパムとマークされた最後の10"
 #: autoresponders-report.php:590
 #, fuzzy
 msgid "Export subscribers who marked your email as spam"
-msgstr "メールをスパムとしてマークした購読者をエクスポート"
+msgstr "メールをスパムとしてマークした登録者をエクスポート"
 
 #: autoresponders-report.php:651 report.php:814
 #, fuzzy
@@ -1213,7 +1213,7 @@ msgstr "エクスポート"
 #: autoresponders-report.php:739
 #, fuzzy
 msgid "Export subscribers from"
-msgstr "から加入者をエクスポートします。"
+msgstr "から登録者をエクスポートします。"
 
 #: autoresponders-report.php:760 report.php:932
 #, fuzzy
@@ -1244,7 +1244,7 @@ msgid ""
 "Oops, there was an error getting the subscriber's info. Please try again "
 "later."
 msgstr ""
-"おっと、購読者情報の取得にエラーが発生しました。後でもう一度試してみてくださ"
+"おっと、登録者情報の取得にエラーが発生しました。後でもう一度試してみてくださ"
 "い。"
 
 #: blacklist-blocked-domains.php:48 blacklist-suppression.php:48
@@ -1570,7 +1570,7 @@ msgstr "はい、キューテーブルをクリアします。"
 #: confirm.php:218 subscribe.php:685
 #, fuzzy
 msgid "You have a new subscriber!"
-msgstr "新しい購読者を獲得しました"
+msgstr "新しい登録者を獲得しました"
 
 #: confirm.php:221 subscribe.php:688
 #, fuzzy
@@ -2092,7 +2092,7 @@ msgstr "GDPR安全スイッチ"
 msgid ""
 "Only send Campaigns to subscribers with <span class=\"label label-warning"
 "\">GDPR</span> tag"
-msgstr "GDPRタグが付いた購読者にのみキャンペーンを送信する"
+msgstr "GDPRタグが付いた登録者にのみキャンペーンを送信する"
 
 #: edit-brand.php:447 new-brand.php:362
 #, fuzzy
@@ -2104,16 +2104,16 @@ msgid ""
 msgstr ""
 "Sendyの「すぐに使えるサブスクライブフォーム」、埋め込み可能な「サブスクライブ"
 "フォームのHTMLコード」、または「sgpr」パラメータを「true」に設定した「サブス"
-"クライブ」APIからサインアップした購読者には、「GDPR」のタグが付けられます。こ"
+"クライブ」APIからサインアップした登録者には、「GDPR」のタグが付けられます。こ"
 "のオプションを有効にすることで、将来のキャンペーンは「GDPR」とタグ付けされた"
-"購読者にのみ送信されます。"
+"登録者にのみ送信されます。"
 
 #: edit-brand.php:453 new-brand.php:368 settings.php:462
 #, fuzzy
 msgid ""
 "Only send Autoresponders to subscribers with <span class=\"label label-"
 "warning\">GDPR</span> tag"
-msgstr "GDPRタグが付いた購読者にのみオートレスポンダを送信する"
+msgstr "GDPRタグが付いた登録者にのみオートレスポンダを送信する"
 
 #: edit-brand.php:453 new-brand.php:368
 #, fuzzy
@@ -2125,9 +2125,9 @@ msgid ""
 msgstr ""
 "Sendy の「すぐに使える subscribe フォーム」、埋め込み可能な「Subscribe フォー"
 "ム HTML コード」、または「sgpr」パラメータを「true」に設定した「subscribe」"
-"API を介してサインアップした購読者には、「GDPR」タグが付けられます。このオプ"
-"ションを有効にすることで、将来のオートレスポンダは「GDPR」とタグ付けされた購"
-"読者にのみ送信されます。"
+"API を介してサインアップした登録者には、「GDPR」タグが付けられます。このオプ"
+"ションを有効にすることで、将来のオートレスポンダは「GDPR」とタグ付けされた登"
+"録者にのみ送信されます。"
 
 #: edit-brand.php:464 new-brand.php:379 settings.php:473
 #, fuzzy
@@ -2300,7 +2300,7 @@ msgid ""
 "to your client so that they can login to manage lists, subscribers and send "
 "newsletters."
 msgstr ""
-"をクライアントに提供することで、リスト、購読者の管理、ニュースレターの送信に"
+"をクライアントに提供することで、リスト、登録者の管理、ニュースレターの送信に"
 "ログインできるようになります。"
 
 #: edit-brand.php:622 new-brand.php:535
@@ -2394,7 +2394,7 @@ msgid ""
 "You can however adjust these privileges below."
 msgstr ""
 "デフォルトでは、クライアントは自分のブランドに完全にアクセスできるようになっ"
-"ており、自分のリスト、購読者、キャンペーン、テンプレート、レポートを管理する"
+"ており、自分のリスト、登録者、キャンペーン、テンプレート、レポートを管理する"
 "ことができます。ただし、これらの権限は以下のように調整することができます。"
 
 #: edit-brand.php:727 new-brand.php:597
@@ -2410,7 +2410,7 @@ msgstr "クライアントはテンプレートにアクセスすることがで
 #: edit-brand.php:733 new-brand.php:603
 #, fuzzy
 msgid "Client can access lists and subscribers"
-msgstr "クライアントはリストや購読者にアクセスすることができます"
+msgstr "クライアントはリストや登録者にアクセスすることができます"
 
 #: edit-brand.php:736 new-brand.php:606
 #, fuzzy
@@ -2458,7 +2458,7 @@ msgstr "配送料"
 #: edit-brand.php:819 new-brand.php:680
 #, fuzzy
 msgid "Cost per recipient"
-msgstr "受信者あたりのコスト"
+msgstr "登録者あたりのコスト"
 
 #: edit-brand.php:833 index.php:108 new-brand.php:694 search-all-brands.php:27
 #, fuzzy
@@ -2613,7 +2613,7 @@ msgstr "例"
 #: edit-list.php:195 edit-list.php:218
 #, fuzzy
 msgid "<code>%n</code> will be converted into the subscriber's name"
-msgstr "n は加入者名に変換されます。"
+msgstr "n は登録者名に変換されます。"
 
 #: edit-list.php:196 edit-list.php:219 edit-list.php:416
 #, fuzzy, php-format
@@ -2930,13 +2930,13 @@ msgstr "ハウスキーピング"
 #: housekeeping-unconfirmed.php:63
 #, fuzzy
 msgid "Unconfirmed subscribers"
-msgstr "未確認の購読者"
+msgstr "未確認の登録者"
 
 #: housekeeping-inactive.php:50 housekeeping-inactive.php:63
 #: housekeeping-unconfirmed.php:50
 #, fuzzy
 msgid "Inactive subscribers"
-msgstr "活動休止中の購読者"
+msgstr "活動休止中の登録者"
 
 #: housekeeping-inactive.php:54
 #, fuzzy
@@ -2945,8 +2945,8 @@ msgid ""
 "subscribers who did not open or click any campaigns that you have ever sent "
 "to them."
 msgstr ""
-"アクティブでない購読者」のためのハウスキーピングでは、これまでに送信された"
-"キャンペーンを開かなかったりクリックしなかった購読者を一括して削除することが"
+"アクティブでない登録者」のためのハウスキーピングでは、これまでに送信された"
+"キャンペーンを開かなかったりクリックしなかった登録者を一括して削除することが"
 "できます。"
 
 #: housekeeping-inactive.php:112
@@ -2966,7 +2966,7 @@ msgstr "非アクティブ"
 #: housekeeping-inactive.php:161
 #, fuzzy
 msgid "Remove subscribers who did not open any campaign ever sent to them?"
-msgstr "今までに送られてきたキャンペーンを開かなかった購読者を削除しますか？"
+msgstr "今までに送られてきたキャンペーンを開かなかった登録者を削除しますか？"
 
 #: housekeeping-inactive.php:163 housekeeping-inactive.php:198
 #: housekeeping-unconfirmed.php:85 housekeeping-unconfirmed.php:151
@@ -2974,7 +2974,7 @@ msgstr "今までに送られてきたキャンペーンを開かなかった購
 #: housekeeping-unconfirmed.php:214
 #, fuzzy
 msgid "Confirm permanently remove subscribers?"
-msgstr "購読者の永久削除を確認しますか？"
+msgstr "登録者の永久削除を確認しますか？"
 
 #: housekeeping-inactive.php:171 housekeeping-inactive.php:206
 #: housekeeping-unconfirmed.php:101 housekeeping-unconfirmed.php:166
@@ -2983,7 +2983,7 @@ msgstr "購読者の永久削除を確認しますか？"
 #, fuzzy
 msgid "Sorry, unable to remove subscribers. Please try again later!"
 msgstr ""
-"申し訳ありませんが、購読者を削除することができません。後でもう一度試してみて"
+"申し訳ありませんが、登録者を削除することができません。後でもう一度試してみて"
 "ください"
 
 #: housekeeping-inactive.php:196
@@ -2992,7 +2992,7 @@ msgid ""
 "Remove subscribers who did not click any links from any campaign ever sent "
 "to them?"
 msgstr ""
-"これまでに送られたキャンペーンからリンクをクリックしなかった購読者を削除しま"
+"これまでに送られたキャンペーンからリンクをクリックしなかった登録者を削除しま"
 "すか？"
 
 #: housekeeping-inactive.php:235
@@ -3011,8 +3011,8 @@ msgid ""
 "subscribers who signed up to double opt-in lists but did not click the "
 "confirmation link to confirm their subscription."
 msgstr ""
-"未確認の購読者」のためのハウスキーピングでは、二重のオプトインリストにサイン"
-"アップしたにもかかわらず、確認リンクをクリックして購読を確認しなかった購読者"
+"未確認の登録者」のためのハウスキーピングでは、二重のオプトインリストにサイン"
+"アップしたにもかかわらず、確認リンクをクリックして購読を確認しなかった登録者"
 "を一括削除できます。"
 
 #: housekeeping-unconfirmed.php:76
@@ -3020,7 +3020,7 @@ msgstr ""
 msgid ""
 "Remove subscribers from all lists who did not confirm their subscription for "
 "1 week?"
-msgstr "1週間購読を確認しなかったすべてのリストから購読者を削除しますか？"
+msgstr "1週間購読を確認しなかったすべてのリストから登録者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:76
 msgid "1 week"
@@ -3031,7 +3031,7 @@ msgstr "1週間"
 msgid ""
 "Remove subscribers from all lists who did not confirm their subscription for "
 "more than 1 week?"
-msgstr "1週間以上購読を確認していない購読者をすべてのリストから削除しますか？"
+msgstr "1週間以上購読を確認していない登録者をすべてのリストから削除しますか？"
 
 #: housekeeping-unconfirmed.php:77
 #, fuzzy
@@ -3043,7 +3043,7 @@ msgstr "> 1週間"
 msgid ""
 "Remove subscribers from all lists who did not confirm their subscription for "
 "more than 2 weeks?"
-msgstr "2週間以上購読を確認しなかったすべてのリストから購読者を削除しますか？"
+msgstr "2週間以上購読を確認しなかったすべてのリストから登録者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:78
 #, fuzzy
@@ -3054,7 +3054,7 @@ msgstr "> 2週間"
 #, fuzzy
 msgid ""
 "Remove subscribers from all lists who did not confirm their subscription?"
-msgstr "購読を確認していないすべてのリストから購読者を削除しますか？"
+msgstr "購読を確認していないすべてのリストから登録者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:79 subscribers.php:429
 msgid "All"
@@ -3063,26 +3063,26 @@ msgstr "すべて"
 #: housekeeping-unconfirmed.php:129
 #, fuzzy
 msgid "Remove subscribers who did not confirm their subscription for 1 week?"
-msgstr "1週間購読を確認しなかった購読者を削除しますか？"
+msgstr "1週間購読を確認しなかった登録者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:130
 #, fuzzy
 msgid ""
 "Remove subscribers who did not confirm their subscription for more than 1 "
 "week?"
-msgstr "1週間以上購読を確認しなかった購読者を削除しますか？"
+msgstr "1週間以上購読を確認しなかった登録者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:131
 #, fuzzy
 msgid ""
 "Remove subscribers who did not confirm their subscription for more than 2 "
 "weeks?"
-msgstr "2週間以上購読を確認しなかった購読者を削除しますか？"
+msgstr "2週間以上購読を確認しなかった登録者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:132
 #, fuzzy
 msgid "Remove ALL subscribers who did not confirm their subscription?"
-msgstr "購読を確認していないすべての購読者を削除しますか？"
+msgstr "購読を確認していないすべての登録者を削除しますか？"
 
 #: housekeeping-unconfirmed.php:142 includes/subscribers/subscriber-info.php:65
 #: search-all-lists.php:87 search-all-lists.php:156 subscribers.php:436
@@ -3458,10 +3458,10 @@ msgid ""
 "Campaigns and Autoresponders will only be sent to subscribers tagged with "
 "<span class=\"label label-warning\">GDPR</span>."
 msgstr ""
-"購読者に今後のキャンペーンへの再同意を求める際に、このタグを再同意リンクとし"
-"て使用することができます。このリンクをクリックすると、購読者にはGDPRのタグが"
+"登録者に今後のキャンペーンへの再同意を求める際に、このタグを再同意リンクとし"
+"て使用することができます。このリンクをクリックすると、登録者にはGDPRのタグが"
 "付けられます。ブランド設定で「GDPR セーフスイッチ」をオンにすると、今後のキャ"
-"ンペーンやオートレスポンダーは GDPR タグが付けられた購読者にのみ送信されま"
+"ンペーンやオートレスポンダーは GDPR タグが付けられた登録者にのみ送信されま"
 "す。"
 
 #: includes/helpers/personalization.tags.php:25
@@ -3517,7 +3517,7 @@ msgid ""
 "To manage or get a reference of tags from custom fields, go to any "
 "subscriber list. Then click 'Custom fields' button at the top right."
 msgstr ""
-"カスタムフィールドからタグの参照を管理または取得するには、任意の購読者リスト"
+"カスタムフィールドからタグの参照を管理または取得するには、任意の登録者リスト"
 "にアクセスします。そして、右上の「カスタムフィールド」ボタンをクリックしま"
 "す。"
 
@@ -3807,12 +3807,12 @@ msgstr ""
 #: includes/segments/segmentate.php:67
 #, fuzzy
 msgid "Error: Can't delete all subscribers from segment. "
-msgstr "エラーが発生しました。セグメントからすべての加入者を削除できません。"
+msgstr "エラーが発生しました。セグメントからすべての登録者を削除できません。"
 
 #: includes/segments/segmentate.php:81 includes/segments/segmentate.php:204
 #, fuzzy
 msgid "Error: Can't insert subscriber into segment."
-msgstr "エラーが発生しました。セグメントに加入者を挿入できません。"
+msgstr "エラーが発生しました。セグメントに登録者を挿入できません。"
 
 #: includes/segments/segmentate.php:318
 #, fuzzy
@@ -3833,11 +3833,11 @@ msgstr "全テンプレート"
 
 #: includes/sidebar.php:22
 msgid "Lists & subscribers"
-msgstr "リストと加入者"
+msgstr "リストと登録者"
 
 #: includes/sidebar.php:23
 msgid "View all lists"
-msgstr "全受信者リスト"
+msgstr "全登録者リスト"
 
 #: includes/sidebar.php:31
 msgid "Reports"
@@ -3906,7 +3906,7 @@ msgstr "ノート"
 #: includes/subscribers/subscriber-info.php:368
 #, fuzzy
 msgid "Click to add a note for this subscriber."
-msgstr "この購読者のメモを追加するにはクリックしてください。"
+msgstr "この登録者のメモを追加するにはクリックしてください。"
 
 #: includes/subscribers/subscriber-info.php:350
 #, fuzzy
@@ -4026,7 +4026,7 @@ msgstr "使用済み"
 #, fuzzy
 msgid ""
 "All campaigns, lists, subscribers will be permanently deleted. Confirm delete"
-msgstr "すべてのキャンペーン、リスト、購読者は永久に削除されます。削除の確認"
+msgstr "すべてのキャンペーン、リスト、登録者は永久に削除されます。削除の確認"
 
 #: index.php:236
 #, fuzzy
@@ -4061,7 +4061,7 @@ msgid ""
 "segmentation etc in each brand you've created."
 msgstr ""
 "ブランドを作成したら、作成したブランドごとに、メールキャンペーン、テンプレー"
-"ト、リスト、購読者やブラックリストのインポート、オートレスポンダーの設定、リ"
+"ト、リスト、登録者やブラックリストのインポート、オートレスポンダーの設定、リ"
 "ストのセグメンテーションなどを行うことができます。"
 
 #: index.php:240
@@ -4140,7 +4140,7 @@ msgstr "リスト名は必須"
 #: list.php:70 subscribers.php:77
 #, fuzzy
 msgid "Subscriber lists"
-msgstr "購読者リスト"
+msgstr "登録者リスト"
 
 #: list.php:73 new-list.php:37
 #, fuzzy
@@ -4181,7 +4181,7 @@ msgid ""
 "All subscribers, custom fields and autoresponders in this list will also be "
 "permanently deleted. Confirm delete"
 msgstr ""
-"このリスト内のすべての購読者、カスタムフィールド、およびオートレスポンダーも"
+"このリスト内のすべての登録者、カスタムフィールド、およびオートレスポンダーも"
 "永久に削除されます。削除の確認"
 
 #: list.php:229
@@ -4372,8 +4372,8 @@ msgid ""
 "Export a CSV of ALL subscribers who did not open this email (includes "
 "subscribers newly added to the lists after this campaign was sent)"
 msgstr ""
-"このメールを開いていないすべての購読者のCSVをエクスポートします（このキャン"
-"ペーンの送信後に新たにリストに追加された購読者も含まれます）。"
+"このメールを開いていないすべての登録者のCSVをエクスポートします（このキャン"
+"ペーンの送信後に新たにリストに追加された登録者も含まれます）。"
 
 #: report.php:311
 #, fuzzy
@@ -4383,22 +4383,22 @@ msgstr "ユニーククリック"
 #: report.php:333
 #, fuzzy
 msgid "Export a CSV of ALL subscribers who clicked"
-msgstr "クリックしたすべての購読者のCSVをエクスポートする"
+msgstr "クリックしたすべての登録者のCSVをエクスポートする"
 
 #: report.php:387
 #, fuzzy
 msgid "Export a CSV of ALL subscribers who clicked this link"
-msgstr "このリンクをクリックしたすべての購読者のCSVをエクスポートする"
+msgstr "このリンクをクリックしたすべての登録者のCSVをエクスポートする"
 
 #: report.php:421
 #, fuzzy
 msgid "Export a CSV of ALL subscribers who opened"
-msgstr "オープンしたすべての購読者のCSVをエクスポートする"
+msgstr "オープンしたすべての登録者のCSVをエクスポートする"
 
 #: report.php:554
 #, fuzzy
 msgid "Export a CSV of ALL subscribers who unsubscribed"
-msgstr "購読を解除したすべての購読者のCSVをエクスポートする"
+msgstr "購読を解除したすべての登録者のCSVをエクスポートする"
 
 #: report.php:626
 #, fuzzy
@@ -4408,7 +4408,7 @@ msgstr "このキャンペーンでは誰も退会していません!"
 #: report.php:647
 #, fuzzy
 msgid "Export a CSV of ALL subscribers who bounced"
-msgstr "バウンスしたすべての購読者のCSVをエクスポートする"
+msgstr "バウンスしたすべての登録者のCSVをエクスポートする"
 
 #: report.php:719
 #, fuzzy
@@ -4419,12 +4419,12 @@ msgstr "このキャンペーンからのバウンスメールはありません
 #, fuzzy
 msgid "Export a CSV of ALL subscribers who marked your email as spam"
 msgstr ""
-"あなたのメールをスパムとマークしたすべての購読者のCSVをエクスポートします。"
+"あなたのメールをスパムとマークしたすべての登録者のCSVをエクスポートします。"
 
 #: report.php:909
 #, fuzzy
 msgid "Export a CSV of ALL subscribers from"
-msgstr "から全加入者のCSVをエクスポートします。"
+msgstr "から全登録者のCSVをエクスポートします。"
 
 #: reports.php:51
 #, fuzzy
@@ -4507,12 +4507,12 @@ msgstr ""
 #: search-all-lists.php:180 subscribers.php:623
 #, fuzzy
 msgid "No subscribers found."
-msgstr "購読者は見つかりませんでした。"
+msgstr "登録者は見つかりませんでした。"
 
 #: search-all-lists.php:201 subscribers.php:644
 #, fuzzy
 msgid "Delete subscriber"
-msgstr "購読者の削除"
+msgstr "登録者の削除"
 
 #: search-all-lists.php:204 subscribers.php:647
 #, fuzzy
@@ -4669,7 +4669,7 @@ msgstr "申し訳ありませんが、セグメントを保存できません。
 #: segment.php:829
 #, fuzzy
 msgid "subscribers found for this segment"
-msgstr "このセグメントの加入者数"
+msgstr "このセグメントの登録者数"
 
 #: segment.php:830
 #, fuzzy
@@ -4679,7 +4679,7 @@ msgstr "以下に10件までのレコードのプレビューを表示"
 #: segment.php:830
 #, fuzzy
 msgid "your conditions does not match any subscribers"
-msgstr "あなたの条件が購読者と一致しない"
+msgstr "あなたの条件が登録者と一致しない"
 
 #: segment.php:831
 #, fuzzy
@@ -4697,7 +4697,7 @@ msgid ""
 "When subscribers are added or removed from the list, the segmentation "
 "results will not update automatically unless you click the refresh button "
 msgstr ""
-"購読者がリストに追加または削除された場合、更新ボタンをクリックしない限り、セ"
+"登録者がリストに追加または削除された場合、更新ボタンをクリックしない限り、セ"
 "グメンテーション結果は自動的に更新されません。"
 
 #: segment.php:922
@@ -4775,11 +4775,11 @@ msgid ""
 "addition to lists. You can even choose segments to 'exclude' from your sends."
 msgstr ""
 "セグメントとは、あなたが定義した特定の条件に基づいてリストからフィルタリング"
-"された購読者のことです。調査によると、ターゲットを絞ったセグメントにメールを"
+"された登録者のことです。調査によると、ターゲットを絞ったセグメントにメールを"
 "送信することで、開封率やクリックスルー率が向上するだけでなく、収益が25%以上増"
 "加することがわかっています。Sendyでは、どんなリストに対してもダイナミックなセ"
 "グメントを作成することができます。名前」や「メールアドレス」などのデフォルト"
-"フィールド、またはカスタムフィールドを使用して、定義した条件に基づいて購読者"
+"フィールド、またはカスタムフィールドを使用して、定義した条件に基づいて登録者"
 "のセグメントをターゲットにすることができます。複数の条件を作成し、セグメント"
 "ごとに「AND」や「OR」を使ってグループ化することができます。セグメントを作成し"
 "たら、リストに加えて、これらのセグメントにターゲットを絞ったキャンペーンを送"
@@ -4798,7 +4798,7 @@ msgstr "セグメント"
 
 #: segments-list.php:66
 msgid "Subscribers"
-msgstr "購読者"
+msgstr "登録者"
 
 #: segments-list.php:67
 msgid "Update"
@@ -4920,7 +4920,7 @@ msgstr "カンマで区切られたメールアドレス"
 #: send-to.php:290
 #, fuzzy
 msgid "Define recipients"
-msgstr "受信者の定義"
+msgstr "登録者の定義"
 
 #: send-to.php:301
 #, fuzzy
@@ -4995,7 +4995,7 @@ msgstr "キャンペーンの送信が完了すると、メールでお知らせ
 #: send-to.php:620
 #, fuzzy
 msgid "Fee per recipient"
-msgstr "受信者ごとの料金"
+msgstr "登録者ごとの料金"
 
 #: send-to.php:621
 msgid "Grand total"
@@ -5102,8 +5102,8 @@ msgid ""
 "If you try to send newsletters to emails NOT verified in your SES console, "
 "your recipient will not receive the newsletter."
 msgstr ""
-"SESコンソールで検証されていないメールにニュースレターを送信しようとすると、受"
-"信者はニュースレターを受け取ることができません。"
+"SESコンソールで検証されていないメールにニュースレターを送信しようとすると、登"
+"録者はニュースレターを受け取ることができません。"
 
 #: send-to.php:786
 #, fuzzy
@@ -5304,7 +5304,7 @@ msgid ""
 "your emails as spam. This may lead to Amazon suspending your AWS account."
 msgstr ""
 "バウンスや苦情が登録されていないということは、バウンスしたメールやスパムとし"
-"てマークした受信者に今後もキャンペーンが配信されることになります。これによ"
+"てマークした登録者に今後もキャンペーンが配信されることになります。これによ"
 "り、AmazonがAWSアカウントを停止する可能性があります。"
 
 #: send-to.php:1142
@@ -5664,9 +5664,9 @@ msgid ""
 "Campaigns will only send to subscribers tagged with 'GDPR'."
 msgstr ""
 "Gdpr' パラメータを 'true' に設定して、提供された 'すぐに使える購読フォーム' "
-"または埋め込み可能な '購読フォーム HTML コード' を介してサインアップした購読"
+"または埋め込み可能な '購読フォーム HTML コード' を介してサインアップした登録"
 "者には、'GDPR' タグが付与されます。このオプションを有効にすることで、今後の"
-"キャンペーンは「GDPR」とタグ付けされた購読者にのみ送信されます。"
+"キャンペーンは「GDPR」とタグ付けされた登録者にのみ送信されます。"
 
 #: settings.php:462
 #, fuzzy
@@ -5677,9 +5677,9 @@ msgid ""
 "Autoresponders will only send to subscribers tagged with 'GDPR'."
 msgstr ""
 "Gdpr' パラメータを 'true' に設定した、提供された「すぐに使える購読フォーム」"
-"または埋め込み可能な「購読フォーム HTML コード」を介してサインアップした購読"
+"または埋め込み可能な「購読フォーム HTML コード」を介してサインアップした登録"
 "者には、「GDPR」のタグが付けられます。このオプションを有効にすると、将来の自"
-"動返信メールは「GDPR」とタグ付けされた購読者にのみ送信されます。"
+"動返信メールは「GDPR」とタグ付けされた登録者にのみ送信されます。"
 
 #: settings.php:573
 #, fuzzy
@@ -5858,12 +5858,12 @@ msgstr "ありがとうございます"
 #: subscribers.php:79
 #, fuzzy
 msgid "Add subscribers"
-msgstr "加入者の追加"
+msgstr "登録者の追加"
 
 #: subscribers.php:80
 #, fuzzy
 msgid "Delete subscribers"
-msgstr "購読者の削除"
+msgstr "登録者の削除"
 
 #: subscribers.php:81
 #, fuzzy
@@ -5873,37 +5873,37 @@ msgstr "大量の配信停止"
 #: subscribers.php:88
 #, fuzzy
 msgid "all subscribers"
-msgstr "全加入者"
+msgstr "全登録者"
 
 #: subscribers.php:94
 #, fuzzy
 msgid "active subscribers"
-msgstr "アクティブ加入者"
+msgstr "アクティブ登録者"
 
 #: subscribers.php:100
 #, fuzzy
 msgid "unconfirmed subscribers"
-msgstr "未確認加入者"
+msgstr "未確認登録者"
 
 #: subscribers.php:106
 #, fuzzy
 msgid "unsubscribers"
-msgstr "未購読者"
+msgstr "未登録者"
 
 #: subscribers.php:112
 #, fuzzy
 msgid "bounced subscribers"
-msgstr "バウンドした加入者"
+msgstr "バウンドした登録者"
 
 #: subscribers.php:118
 #, fuzzy
 msgid "subscribers who marked your email as spam"
-msgstr "あなたのメールをスパムとしてマークした購読者"
+msgstr "あなたのメールをスパムとしてマークした登録者"
 
 #: subscribers.php:124
 #, fuzzy
 msgid "GDPR subscribers"
-msgstr "GDPR加入者"
+msgstr "GDPR登録者"
 
 #: subscribers.php:152 subscribers.php:205
 #, fuzzy
@@ -5990,7 +5990,7 @@ msgstr "期待すること"
 #: subscribers.php:388
 #, fuzzy
 msgid "Subscribers activity chart"
-msgstr "加入者活動表"
+msgstr "登録者活動表"
 
 #: subscribers.php:388
 #, fuzzy
@@ -6024,13 +6024,13 @@ msgstr "非表示"
 #: subscribers.php:718
 #, fuzzy
 msgid "What changes a subscriber's 'Last activity' timestamp?"
-msgstr "購読者の「最後の活動」のタイムスタンプを変更するには？"
+msgstr "登録者の「最後の活動」のタイムスタンプを変更するには？"
 
 #: subscribers.php:721
 #, fuzzy
 msgid "A subscriber's 'Last activity' timestamp is updated when the user:"
 msgstr ""
-"購読者の'Last activity'のタイムスタンプは、ユーザーが更新されると更新されま"
+"登録者の'Last activity'のタイムスタンプは、ユーザーが更新されると更新されま"
 "す。"
 
 #: subscribers.php:722
@@ -6060,8 +6060,8 @@ msgid ""
 "subscriber list. You will also see changes in the 'Subscribers activity "
 "chart'."
 msgstr ""
-"購読者はリスト内の「最後の活動」でソートされます。そのため、上記の活動のいず"
-"れかを行った加入者は、加入者リストの一番上に浮かんできます。また、「加入者活"
+"登録者はリスト内の「最後の活動」でソートされます。そのため、上記の活動のいず"
+"れかを行った登録者は、登録者リストの一番上に浮かんできます。また、「登録者活"
 "動チャート」にも変化が表示されます。"
 
 #: subscribers.php:749
@@ -6260,7 +6260,7 @@ msgstr "カスタムフィールドを最初に作成する"
 msgid ""
 "Apply <span class=\"label label-warning\">GDPR</span> tag to imported "
 "subscribers?"
-msgstr "インポートした購読者にGDPRタグを適用しますか？"
+msgstr "インポートした登録者にGDPRタグを適用しますか？"
 
 #: update-list.php:214 update-list.php:285
 #, fuzzy
@@ -6270,10 +6270,10 @@ msgid ""
 "settings, you can turn on the 'GDPR' safe switch' so that Campaigns and "
 "Autoresponders will only always send to subscribers tagged with 'GDPR'."
 msgstr ""
-"お客様のデータの中に、GDPRに準拠した方法で収集されたEUの購読者が含まれている"
-"場合は、このボックスにチェックを入れて、すべての購読者に「GDPR」タグを適用し"
+"お客様のデータの中に、GDPRに準拠した方法で収集されたEUの登録者が含まれている"
+"場合は、このボックスにチェックを入れて、すべての登録者に「GDPR」タグを適用し"
 "てください。ブランド設定で「GDPR」セーフスイッチをオンにすると、キャンペーン"
-"やオートレスポンダーは常に「GDPR」タグが付けられた購読者にのみ送信されるよう"
+"やオートレスポンダーは常に「GDPR」タグが付けられた登録者にのみ送信されるよう"
 "になります。"
 
 #: update-list.php:228
